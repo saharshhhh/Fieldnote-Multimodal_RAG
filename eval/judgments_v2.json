@@ -1,0 +1,410 @@
+{
+ "caption_baseline|q01": {
+  "correct": true,
+  "reason": "Matches gold answer: about four hours"
+ },
+ "caption_baseline|q02": {
+  "correct": true,
+  "reason": "Matches gold: >6% below rating requires replacement."
+ },
+ "caption_baseline|q03": {
+  "correct": true,
+  "reason": "Matches gold answer: about every 90 minutes."
+ },
+ "caption_baseline|q04": {
+  "correct": true,
+  "reason": "Matches gold answer: set thermostat to O."
+ },
+ "caption_baseline|q05": {
+  "correct": true,
+  "reason": "Matches gold answer: fine abrasive pad, not sandpaper."
+ },
+ "caption_baseline|q06": {
+  "correct": true,
+  "reason": "States never to jumper/jump pressure switch, matches gold answer."
+ },
+ "caption_baseline|q07": {
+  "correct": true,
+  "reason": "Matches gold answer: use add-a-wire kit or new cable."
+ },
+ "caption_baseline|q08": {
+  "correct": true,
+  "reason": "Matches gold answer: replace every 12 months"
+ },
+ "caption_baseline|q09": {
+  "correct": true,
+  "reason": "Matches gold answer: about 30% indoor humidity."
+ },
+ "caption_baseline|q10": {
+  "correct": false,
+  "reason": "System says no sources provide answer, but gold answer gives 1000 ppm."
+ },
+ "caption_baseline|q16": {
+  "correct": true,
+  "reason": "Matches gold answer: up to two full points"
+ },
+ "caption_baseline|q17": {
+  "correct": true,
+  "reason": "States 95% of particles 1.0–3.0 microns are trapped."
+ },
+ "caption_baseline|q18": {
+  "correct": true,
+  "reason": "States monthly interval matches gold answer."
+ },
+ "caption_baseline|q19": {
+  "correct": true,
+  "reason": "Matches gold answer: 37MPRA and 37MGHA"
+ },
+ "caption_baseline|q20": {
+  "correct": true,
+  "reason": "States 12 inches (305 mm) clearance, matching gold answer."
+ },
+ "caption_baseline|q21": {
+  "correct": true,
+  "reason": "Matches gold answer: service life 15 years."
+ },
+ "caption_baseline|q22": {
+  "correct": true,
+  "reason": "Matches gold answer: up to 70% heat recovery efficiency."
+ },
+ "caption_baseline|q23": {
+  "correct": true,
+  "reason": "States two heat exchangers, matches gold answer."
+ },
+ "caption_baseline|q24": {
+  "correct": true,
+  "reason": "Matches gold answer: 98.5% AFUE rating."
+ },
+ "caption_baseline|q25": {
+  "correct": false,
+  "reason": "System says no info; gold answer says 30 minutes."
+ },
+ "caption_baseline|q26": {
+  "correct": true,
+  "reason": "States three-minute protection, matches gold answer."
+ },
+ "caption_baseline|q27": {
+  "correct": false,
+  "reason": "States 35.1 instead of correct 22.0"
+ },
+ "caption_baseline|q28": {
+  "correct": true,
+  "reason": "Matches gold answer: 24.0 SEER2"
+ },
+ "caption_baseline|q29": {
+  "correct": true,
+  "reason": "Matches gold answer: FCC Part 15 compliance"
+ },
+ "caption_baseline|q30": {
+  "correct": true,
+  "reason": "Matches gold answer: 26 ft. (8 m)"
+ },
+ "caption_baseline|q31": {
+  "correct": false,
+  "reason": "Says sources lack info, not stating rating plate location."
+ },
+ "caption_baseline|q32": {
+  "correct": true,
+  "reason": "..."
+ },
+ "caption_baseline|q33": {
+  "correct": true,
+  "reason": "Matches gold answer with correct filter sizes."
+ },
+ "caption_baseline|q34": {
+  "correct": true,
+  "reason": "States four cable ties are included, matching gold answer."
+ },
+ "caption_baseline|q35": {
+  "correct": true,
+  "reason": "States run until unit dries completely, matches gold answer."
+ },
+ "caption_baseline|q36": {
+  "correct": true,
+  "reason": "States to remove batteries to prevent leakage."
+ },
+ "caption_baseline|q37": {
+  "correct": false,
+  "reason": "Missing check for damaged wires and leaks"
+ },
+ "caption_baseline|q39": {
+  "correct": true,
+  "reason": "Matches gold: indicator lights when remote sends signal."
+ },
+ "caption_baseline|q40": {
+  "correct": true,
+  "reason": "States 2 flare nuts, matches gold answer."
+ },
+ "fieldnote_routed|q01": {
+  "correct": true,
+  "reason": "States about 4 hours, matches gold answer."
+ },
+ "fieldnote_routed|q02": {
+  "correct": true,
+  "reason": "Matches gold answer: replace if >6% below rated."
+ },
+ "fieldnote_routed|q03": {
+  "correct": true,
+  "reason": "Matches gold: defrost about every 90 minutes of runtime."
+ },
+ "fieldnote_routed|q04": {
+  "correct": true,
+  "reason": "Matches gold answer: set thermostat to O."
+ },
+ "fieldnote_routed|q05": {
+  "correct": true,
+  "reason": "Matches gold answer: fine abrasive pad, light touch, not sandpaper."
+ },
+ "fieldnote_routed|q06": {
+  "correct": true,
+  "reason": "States never to jumper/jump pressure switch, matching gold answer."
+ },
+ "fieldnote_routed|q07": {
+  "correct": true,
+  "reason": "Matches gold answer: use add-a-wire kit or run new cable."
+ },
+ "fieldnote_routed|q08": {
+  "correct": true,
+  "reason": "Matches gold answer: replace every 12 months"
+ },
+ "fieldnote_routed|q09": {
+  "correct": true,
+  "reason": "Matches gold answer: indoor humidity near 30% at 20°C outdoors."
+ },
+ "fieldnote_routed|q10": {
+  "correct": false,
+  "reason": "System says no answer, but gold answer gives threshold."
+ },
+ "fieldnote_routed|q16": {
+  "correct": true,
+  "reason": "Matches gold answer: up to two SEER2 points"
+ },
+ "fieldnote_routed|q17": {
+  "correct": true,
+  "reason": "States 95% of particles 1.0-3.0 microns trapped."
+ },
+ "fieldnote_routed|q18": {
+  "correct": true,
+  "reason": "States monthly interval matches gold answer."
+ },
+ "fieldnote_routed|q19": {
+  "correct": false,
+  "reason": "States sources lack compatibility info, not the answer"
+ },
+ "fieldnote_routed|q20": {
+  "correct": true,
+  "reason": "States 12\" (305 mm) minimum clearance, matching gold answer."
+ },
+ "fieldnote_routed|q21": {
+  "correct": true,
+  "reason": "Matches gold answer: service life 15 years"
+ },
+ "fieldnote_routed|q22": {
+  "correct": false,
+  "reason": "States sources lack specific efficiency; does not provide 70%."
+ },
+ "fieldnote_routed|q23": {
+  "correct": true,
+  "reason": "States two heat exchangers, matches gold answer."
+ },
+ "fieldnote_routed|q24": {
+  "correct": true,
+  "reason": "Matches gold answer: AFUE rating 98.5%"
+ },
+ "fieldnote_routed|q25": {
+  "correct": false,
+  "reason": "States model lacks forced cool, contradicts gold answer."
+ },
+ "fieldnote_routed|q27": {
+  "correct": true,
+  "reason": "Matches gold answer: maximum SEER2 rating is 22.0"
+ },
+ "fieldnote_routed|q28": {
+  "correct": true,
+  "reason": "States up to 24.0 SEER2, matching gold answer."
+ },
+ "fieldnote_routed|q29": {
+  "correct": true,
+  "reason": "Matches FCC Part 15 compliance"
+ },
+ "fieldnote_routed|q30": {
+  "correct": true,
+  "reason": "States 26 ft (8 m) as max distance."
+ },
+ "fieldnote_routed|q31": {
+  "correct": true,
+  "reason": "States rating plate is on blower door."
+ },
+ "fieldnote_routed|q32": {
+  "correct": true,
+  "reason": "..."
+ },
+ "fieldnote_routed|q33": {
+  "correct": true,
+  "reason": "Provides both filter sizes matching gold answer."
+ },
+ "fieldnote_routed|q34": {
+  "correct": true,
+  "reason": "States 4 cable ties are included, matching gold answer."
+ },
+ "fieldnote_routed|q36": {
+  "correct": true,
+  "reason": "States batteries should be removed to prevent damage."
+ },
+ "fieldnote_routed|q37": {
+  "correct": true,
+  "reason": "Matches gold answer's three checks"
+ },
+ "fieldnote_routed|q38": {
+  "correct": true,
+  "reason": "Correctly identifies air filter as monthly indoor maintenance item."
+ },
+ "fieldnote_routed|q39": {
+  "correct": true,
+  "reason": "Matches gold: indicator lights when remote sends signal."
+ },
+ "fieldnote_routed|q40": {
+  "correct": true,
+  "reason": "Answer states 2 flare nuts, matching gold answer."
+ },
+ "caption_baseline|q38": {
+  "correct": false,
+  "reason": "Answer not found in sources"
+ },
+ "fieldnote_routed|q26": {
+  "correct": true,
+  "reason": "States three minutes as minimum restart time."
+ },
+ "fieldnote_routed|q35": {
+  "correct": true,
+  "reason": "States run until unit dries completely, matches gold answer."
+ },
+ "fieldnote_fast|q01": {
+  "correct": true,
+  "reason": "Matches gold answer: about four hours"
+ },
+ "fieldnote_fast|q02": {
+  "correct": true,
+  "reason": "Matches gold answer: replace if >6% below rated."
+ },
+ "fieldnote_fast|q03": {
+  "correct": true,
+  "reason": "Matches gold: about every 90 minutes of runtime."
+ },
+ "fieldnote_fast|q04": {
+  "correct": true,
+  "reason": "Matches gold answer: thermostat set to O."
+ },
+ "fieldnote_fast|q05": {
+  "correct": true,
+  "reason": "Matches gold answer: fine abrasive pad, not sandpaper."
+ },
+ "fieldnote_fast|q06": {
+  "correct": true,
+  "reason": "States never to jumper/jump pressure switch, matching gold answer."
+ },
+ "fieldnote_fast|q07": {
+  "correct": true,
+  "reason": "Matches gold answer: use add-a-wire kit or new cable."
+ },
+ "fieldnote_fast|q08": {
+  "correct": true,
+  "reason": "Matches gold answer: replace every 12 months"
+ },
+ "fieldnote_fast|q09": {
+  "correct": true,
+  "reason": "Matches gold answer: indoor humidity about 30%"
+ },
+ "fieldnote_fast|q10": {
+  "correct": false,
+  "reason": "System output says no source gives threshold, contradicting gold answer."
+ },
+ "fieldnote_fast|q16": {
+  "correct": true,
+  "reason": "States up to two SEER2 points, matches gold answer."
+ },
+ "fieldnote_fast|q17": {
+  "correct": true,
+  "reason": "States 95% of particles 1.0–3.0 microns trapped."
+ },
+ "fieldnote_fast|q18": {
+  "correct": true,
+  "reason": "States monthly interval for clearing debris near unit."
+ },
+ "fieldnote_fast|q19": {
+  "correct": false,
+  "reason": "Lists incorrect models; gold answer is 37MPRA and 37MGHA"
+ },
+ "fieldnote_fast|q20": {
+  "correct": true,
+  "reason": "States minimum clearance is 12 inches (305 mm), matching gold answer."
+ },
+ "fieldnote_fast|q21": {
+  "correct": true,
+  "reason": "Matches gold answer: 15 years service life."
+ },
+ "fieldnote_fast|q22": {
+  "correct": true,
+  "reason": "States up to 70% heat recovery, matches gold answer."
+ },
+ "fieldnote_fast|q23": {
+  "correct": true,
+  "reason": "States two heat exchangers, matches gold answer."
+ },
+ "fieldnote_fast|q24": {
+  "correct": true,
+  "reason": "States AFUE is up to 98.5%, matches gold answer."
+ },
+ "fieldnote_fast|q25": {
+  "correct": false,
+  "reason": "System says no info; gold answer says 30 minutes."
+ },
+ "fieldnote_fast|q27": {
+  "correct": false,
+  "reason": "States 35.1, not 22.0"
+ },
+ "fieldnote_fast|q29": {
+  "correct": true,
+  "reason": "Matches gold answer: Part 15 of the FCC Rules"
+ },
+ "fieldnote_fast|q30": {
+  "correct": true,
+  "reason": "Matches gold answer: 26 ft. (8 m)"
+ },
+ "fieldnote_fast|q31": {
+  "correct": false,
+  "reason": "Says front of furnace, not blower door"
+ },
+ "fieldnote_fast|q32": {
+  "correct": true,
+  "reason": "Identifies capacitor/power choke as part labeled \"(if used)\"."
+ },
+ "fieldnote_fast|q33": {
+  "correct": true,
+  "reason": "Matches gold answer with correct filter sizes."
+ },
+ "fieldnote_fast|q34": {
+  "correct": true,
+  "reason": "States 4 cable ties, matches gold answer."
+ },
+ "fieldnote_fast|q35": {
+  "correct": true,
+  "reason": "States run until unit dries completely, matching gold answer."
+ },
+ "fieldnote_fast|q36": {
+  "correct": true,
+  "reason": "States to remove batteries, matching gold answer."
+ },
+ "fieldnote_fast|q38": {
+  "correct": true,
+  "reason": "Matches gold answer: monthly air filter inspection/cleaning."
+ },
+ "fieldnote_fast|q39": {
+  "correct": true,
+  "reason": "..."
+ },
+ "fieldnote_fast|q40": {
+  "correct": true,
+  "reason": "States two flare nuts are included, matching gold answer."
+ }
+}

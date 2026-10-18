@@ -1,0 +1,355 @@
+[
+  {
+    "id": "d001",
+    "keep": true,
+    "type": "text",
+    "question": "By how many SEER2 points can a Carrier Fan Coil improve system efficiency?",
+    "gold_answer": "Two full points",
+    "source": "01-811-20530-01.pdf",
+    "page": 9,
+    "image_path": null,
+    "evidence": "Improve SEER2 Ratings by up to Two Full Points with a Carrier Fan Coil. Puron® refrigerant – chlorine- free and non-ozone depleting. Foil-faced insulation – helps isolate sound, reduces bacterial  growth and features an easy-to- clean surface. ECM variable-speed motor and  easy-select board – increa"
+  },
+  {
+    "id": "d002",
+    "keep": true,
+    "type": "text",
+    "question": "What percentage of particles (1.0-3.0 microns) does the Infinity air purifier trap?",
+    "gold_answer": "95%",
+    "source": "01-IAQ-122-01.pdf",
+    "page": 3,
+    "image_path": null,
+    "evidence": "OUR BEST DEFENSE  Indoor air circulates through a home’s return air ducts, into the heating/cooling system,  then back into the home’s living areas. It is full of tiny airborne pollutants such as pollen,  dust, and pet dander. The largest of these particles settle on interior surfaces and appear  as"
+  },
+  {
+    "id": "d003",
+    "keep": true,
+    "type": "text",
+    "question": "What is the recommended interval for clearing debris and vegetation near the Infinity® Variable Speed Air Conditioner?",
+    "gold_answer": "Monthly",
+    "source": "OMVSAC-C454-01.pdf",
+    "page": 3,
+    "image_path": null,
+    "evidence": "Infinity® Variable Speed Air Conditioner: Owner’s Manual Manufacturer reserves the right to change, at any time, specifications and designs without notice and without obligations. 3 * Monthly maintenance items and outdoor unit rinsing may be performed by the consumer. All other maintenance items and"
+  },
+  {
+    "id": "d004",
+    "keep": true,
+    "type": "text",
+    "question": "Which Infinity heat pumps are compatible with the 45MPHA indoor unit?",
+    "gold_answer": "37MPRA and 37MGHA",
+    "source": "01-DLS-059-CA-01.pdf",
+    "page": 4,
+    "image_path": null,
+    "evidence": "jurisdictions where warranty  benefits cannot be conditioned upon registration. Please see warranty certificate for further details and restrictions.  Wi-Fi® is a registered trademark of Wi-Fi Alliance. ENERGY STAR® is a registered trademark of the U.S. EPA. 01-DLS-059-CA-01 | 06/2026 Scan to see re"
+  },
+  {
+    "id": "d005",
+    "keep": true,
+    "type": "text",
+    "question": "What minimum clearance should be maintained between the outdoor unit of the Infinity® Variable Speed Air Conditioner and tall grass, vines, shrubs, etc.?",
+    "gold_answer": "12\" (305 mm)",
+    "source": "OMVSAC-C454-01.pdf",
+    "page": 2,
+    "image_path": null,
+    "evidence": "Infinity® Variable Speed Air Conditioner: Owner’s Manual Manufacturer reserves the right to change, at any time, specifications and designs without notice and without obligations. 2 ROUTINE MAINTENANCE The following simple, routine maintenance will enhance your air conditioning system’s ability to o"
+  },
+  {
+    "id": "d007",
+    "keep": true,
+    "type": "text",
+    "question": "What is the service life of the refrigerant sensor in the LEAK DETECTION SYSTEM?",
+    "gold_answer": "15 years",
+    "source": "45MBCAQ-01OM.pdf",
+    "page": 3,
+    "image_path": null,
+    "evidence": "that foreign matter (oil, water, etc) does not enter  the piping. Also, when storing the piping, securely seal the  opening by pinching, taping, etc.  –Appliance shall be stored in a well ventilated area where the room size corresponds to the room area as specific for operation. –Joints shall be tes"
+  },
+  {
+    "id": "d008",
+    "keep": true,
+    "type": "text",
+    "question": "What is the maximum heat recovery efficiency of the ERVCRNVA Carrier whole-home ventilator?",
+    "gold_answer": "Up to 70%",
+    "source": "01-IAQ-122-01.pdf",
+    "page": 4,
+    "image_path": null,
+    "evidence": "ERVCRNVA CARRIER WHOLE-HOME VENTILATORS Carrier fresh air ventilation offers a controlled solution for bringing fresh outdoor air into your home.  It’s efficient because it  ventilates without the energy loss you would experience through an open window or screen door. Whole-home ventilation  is more"
+  },
+  {
+    "id": "d009",
+    "keep": false,
+    "type": "text",
+    "question": "What demonstrated effectiveness does the Infinity® air purifier have against murine coronavirus?",
+    "gold_answer": ">99% inactivation",
+    "source": "01-811-20530-01.pdf",
+    "page": 3,
+    "image_path": null,
+    "evidence": "n \u0007 \u0007The outdoor unit, an air conditioner or heat pump, is  matched with a furnace or fan coil for year-round comfort. 3 n \u0007 \u0007The Infinity® System by Carrier is our most advanced  system, connecting the best components for the ultimate  home comfort control. n \u0007 \u0007Air quality is greatly enhanced with"
+  },
+  {
+    "id": "d010",
+    "keep": true,
+    "type": "text",
+    "question": "How many heat exchangers does the Infinity 98 furnace use?",
+    "gold_answer": "Two",
+    "source": "01-811-20530-01.pdf",
+    "page": 11,
+    "image_path": null,
+    "evidence": "extract heat from the gas used. The Infinity 98 uses two heat exchangers to optimize efficiency. Our primary heat exchanger does most of the work.  Then, our secondary heat exchanger pulls additional heating energy from operation to maximize efficiency and provide soothing comfort. Infinity® 98 Maxi",
+    "also": [
+      {
+        "source": "01-811-20530-01.pdf",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "d011",
+    "keep": true,
+    "type": "text",
+    "question": "What is the AFUE rating of the Infinity® 98 gas furnace?",
+    "gold_answer": "98.5%",
+    "source": "01-811-20530-01.pdf",
+    "page": 4,
+    "image_path": null,
+    "evidence": "THINGS TO CONSIDER BEFORE YOU BUY A HEATING AND COOLING SYSTEM 1. EFFICIENCY Efficiency ratings are like gas mileage – the higher the  rating, the more efficient the product. All products are  given the following ratings, so you’ll know exactly what  to expect from your investment. AFUE (Annual Fuel",
+    "also": [
+      {
+        "source": "01-811-20530-01.pdf",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "d012",
+    "keep": true,
+    "type": "text",
+    "question": "How long does the 45MBAAQ run in FORCED COOL mode before switching to AUTO?",
+    "gold_answer": "30 minutes",
+    "source": "45MBAAQ-01OM.pdf",
+    "page": 20,
+    "image_path": null,
+    "evidence": "45MBAAQ: Owner’s Manual Manufacturer reserves the right to change, at any time, specifications and designs without notice and without obligations. 20 OPERATION INSTRUCTIONS NOTES: • Different models have different front panel and display window. Not all the indicators describing below are available "
+  },
+  {
+    "id": "d013",
+    "keep": true,
+    "type": "text",
+    "question": "What is the minimum time before the 45MBCAQ can be restarted after being turned off?",
+    "gold_answer": "Three minutes",
+    "source": "45MBCAQ-01OM.pdf",
+    "page": 17,
+    "image_path": null,
+    "evidence": "45MBCAQ: Owner’s Manual Manufacturer reserves the right to change, at any time, specifications and designs without notice and without obligations. 17 TROUBLESHOOTING Table 4 — Common Issues NOTE: If problem persists, contact a local dealer or your nearest customer service center. Provide them with a"
+  },
+  {
+    "id": "d014",
+    "keep": true,
+    "type": "text",
+    "question": "What is the maximum SEER2 rating for the Carrier Infinity® Heat Pumps?",
+    "gold_answer": "22.0 SEER2",
+    "source": "01-811-20530-01.pdf",
+    "page": 10,
+    "image_path": null,
+    "evidence": "® CARRIER HYBRID 10 Carrier Infinity® Heat Pumps Designed  for Tomorrow’s Needs Today. Puron® refrigerant – chlorine- free and non-ozone depleting. Compressor – the heart of the  heat pump, the compressor  pumps refrigerant through  the system. Inverter-driven variable-speed operation – delivers unp"
+  },
+  {
+    "id": "d015",
+    "keep": true,
+    "type": "text",
+    "question": "What cooling efficiency rating does the Carrier Infinity 24VNA6 air conditioner achieve?",
+    "gold_answer": "24.0 SEER2",
+    "source": "01-811-20530-01.pdf",
+    "page": 6,
+    "image_path": null,
+    "evidence": "include: a. Silencer top  b. \u0007Integrated fan motor and  forward-swept fan blade  c. \u0007Compressor vibration  isolator plate d. Two sound hoods  e.  \u0007Split-post compressor grommets Infinity® 24VNA6 Carrier Infinity® Air Conditioners:  Innovation, Advanced Technology  and Lasting Comfort. 1 1 3 2 3 5 5a"
+  },
+  {
+    "id": "d016",
+    "keep": false,
+    "type": "text",
+    "question": "What temperature range is displayed on the wireless remote control for the 45MBAAQ unit?",
+    "gold_answer": "82 F/20-28 C",
+    "source": "45MBAAQ-01OM.pdf",
+    "page": 12,
+    "image_path": null,
+    "evidence": "45MBAAQ: Owner’s Manual Manufacturer reserves the right to change, at any time, specifications and designs without notice and without obligations. 12 Wireless Remote Control LCD Screen Indicators Information appears when the remote controller is powered up. Fig. 6 —Wireless Remote Control Indicators"
+  },
+  {
+    "id": "d017",
+    "keep": true,
+    "type": "text",
+    "question": "What regulatory standard does the 45MBCAQ comply with?",
+    "gold_answer": "Part 15 of the FCC Rules",
+    "source": "45MBCAQ-01OM.pdf",
+    "page": 6,
+    "image_path": null,
+    "evidence": "45MBCAQ: Owner’s Manual Manufacturer reserves the right to change, at any time, specifications and designs without notice and without obligations. 6 FCC This device complies with part 15 of the FCC Rules. Operation is subject  to the following two conditions: (1) This device may not cause harmful  i"
+  },
+  {
+    "id": "d018",
+    "keep": false,
+    "type": "text",
+    "question": "What is the AFUE rating of the Carrier Infinity® 98 gas furnace?",
+    "gold_answer": "up to 98.5% AFUE",
+    "source": "01-811-20530-01.pdf",
+    "page": 11,
+    "image_path": null,
+    "evidence": "efficiency and provide soothing comfort. Infinity® 98 Maximize Your Comfort with a Carrier Infinity® Gas Furnace with Greenspeed® Intelligence.  2 1 1 4 2 3 4 5 5 6 6 3 • \u0007Performance™ 96 high energy efficiency  – up to 96.5% AFUE • \u0007Performance™ 80 high energy efficiency  – 80% AFUE • \u0007Two-stage he"
+  },
+  {
+    "id": "d019",
+    "keep": true,
+    "type": "text",
+    "question": "What is the maximum operating distance of the remote control for the 45MBAAQ unit?",
+    "gold_answer": "26 ft. (8 m)",
+    "source": "45MBAAQ-01OM.pdf",
+    "page": 13,
+    "image_path": null,
+    "evidence": "45MBAAQ: Owner’s Manual Manufacturer reserves the right to change, at any time, specifications and designs without notice and without obligations. 13 REMOTE CONTROL NOTE: All features may not be available. This remote is  shared across other indoor units. IMPORTANT: The remote control can operate th"
+  },
+  {
+    "id": "d020",
+    "keep": false,
+    "type": "text",
+    "question": "What FCC rule does the 45MBAAQ device comply with?",
+    "gold_answer": "Part 15 of the FCC Rules.",
+    "source": "45MBAAQ-01OM.pdf",
+    "page": 3,
+    "image_path": null,
+    "evidence": "45MBAAQ: Owner’s Manual Manufacturer reserves the right to change, at any time, specifications and designs without notice and without obligations. 3 FCC This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) This device may not cause harmful int"
+  },
+  {
+    "id": "d021",
+    "keep": false,
+    "type": "visual",
+    "question": "What type of furnace is indicated in the Carrier product literature image?",
+    "gold_answer": "Condensing Gas Furnace",
+    "source": "OM9GFRC-02.pdf",
+    "page": 1,
+    "image_path": "data/pages/OM9GFRC-02_p1_f0.png",
+    "evidence": "CONDENSING GAS FURNACE OWNER’S MANUAL . WARNING ! NOTE: Read the entire instruction manual before starting the installation. Our products are designed, tested and built in accordance with DOE standard"
+  },
+  {
+    "id": "d022",
+    "keep": true,
+    "type": "visual",
+    "question": "Where is the rating plate located on the Carrier OM9GFRC condensing gas furnace?",
+    "gold_answer": "On the blower door",
+    "source": "OM9GFRC-02.pdf",
+    "page": 2,
+    "image_path": "data/pages/OM9GFRC-02_p2_f2.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d023",
+    "keep": true,
+    "type": "visual",
+    "question": "Which part next to the blower and motor on the Carrier OM9GFRC condensing gas furnace is labeled '(if used)'?",
+    "gold_answer": "The capacitor/power choke",
+    "source": "OM9GFRC-02.pdf",
+    "page": 2,
+    "image_path": "data/pages/OM9GFRC-02_p2_f2.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d024",
+    "keep": true,
+    "type": "visual",
+    "question": "What filter size does the Carrier OM9GFRC condensing gas furnace use with a 20 inch (508 mm) filter cabinet height?",
+    "gold_answer": "20 x 25 x 3/4 in (508 x 635 x 19 mm), or 20 x 25 x 4-5/16 in (508 x 635 x 110 mm)",
+    "source": "OM9GFRC-02.pdf",
+    "page": 8,
+    "image_path": "data/pages/OM9GFRC-02_p8_f6.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d025",
+    "keep": true,
+    "type": "visual",
+    "question": "How many cable ties are included in the accessories supplied with the 45MBAAQ?",
+    "gold_answer": "4",
+    "source": "45MBAAQ-01OM.pdf",
+    "page": 8,
+    "image_path": "data/pages/45MBAAQ-01OM_p8_f1.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d026",
+    "keep": false,
+    "type": "visual",
+    "question": "What does error code EC07 mean on the 45MBCAQ?",
+    "gold_answer": "ODU fan speed out of control",
+    "source": "45MBCAQ-01OM.pdf",
+    "page": 19,
+    "image_path": "data/pages/45MBCAQ-01OM_p19_f0.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d027",
+    "keep": true,
+    "type": "visual",
+    "question": "Before a long period of non-use, how long should the 45MBCAQ be run in FAN function?",
+    "gold_answer": "Until the unit dries out completely",
+    "source": "45MBCAQ-01OM.pdf",
+    "page": 16,
+    "image_path": "data/pages/45MBCAQ-01OM_p16_f0.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d028",
+    "keep": true,
+    "type": "visual",
+    "question": "What should be done with the remote control batteries before a long period of non-use of the 45MBAAQ?",
+    "gold_answer": "Remove the batteries from the remote control",
+    "source": "45MBAAQ-01OM.pdf",
+    "page": 22,
+    "image_path": "data/pages/45MBAAQ-01OM_p22_f0.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d029",
+    "keep": true,
+    "type": "visual",
+    "question": "What three checks does the 45MBCAQ owner's manual list in its pre-season maintenance steps?",
+    "gold_answer": "Check for damaged wires, clean all filters, and check for leaks",
+    "source": "45MBCAQ-01OM.pdf",
+    "page": 16,
+    "image_path": "data/pages/45MBCAQ-01OM_p16_f1.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d030",
+    "keep": true,
+    "type": "visual",
+    "question": "In the maintenance checklist of the Infinity Variable Speed Air Conditioner owner's manual, which indoor item is due monthly?",
+    "gold_answer": "Inspect, clean, or replace the air filter if dirty",
+    "source": "OMVSAC-C454-01.pdf",
+    "page": 3,
+    "image_path": "data/pages/OMVSAC-C454-01_p3_f0.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d031",
+    "keep": true,
+    "type": "visual",
+    "question": "What does the transmission indicator on the 45MBAAQ remote control display show?",
+    "gold_answer": "It lights up when the remote sends a signal to the indoor unit",
+    "source": "45MBAAQ-01OM.pdf",
+    "page": 12,
+    "image_path": "data/pages/45MBAAQ-01OM_p12_f0.png",
+    "evidence": "hand-written, verified against the image"
+  },
+  {
+    "id": "d032",
+    "keep": true,
+    "type": "visual",
+    "question": "How many flare nuts are included in the accessories supplied with the 45MBAAQ?",
+    "gold_answer": "2",
+    "source": "45MBAAQ-01OM.pdf",
+    "page": 8,
+    "image_path": "data/pages/45MBAAQ-01OM_p8_f1.png",
+    "evidence": "hand-written, verified against the image"
+  }
+]

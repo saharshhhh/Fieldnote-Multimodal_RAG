@@ -1,0 +1,410 @@
+{
+ "caption_baseline|q01": {
+  "correct": true,
+  "reason": "Matches gold answer: about 4 hours from source [1]"
+ },
+ "caption_baseline|q02": {
+  "correct": true,
+  "reason": "States >6% below rating, matches gold answer."
+ },
+ "caption_baseline|q03": {
+  "correct": true,
+  "reason": "Source [1] confirms defrost starts about every 90 minutes of runtime."
+ },
+ "caption_baseline|q04": {
+  "correct": true,
+  "reason": "Answer O matches source [1] stating energized in cooling uses setting O."
+ },
+ "caption_baseline|q05": {
+  "correct": true,
+  "reason": "Matches source [1]: fine abrasive pad, not sandpaper."
+ },
+ "caption_baseline|q06": {
+  "correct": true,
+  "reason": "Answer matches source: never jump the pressure switch."
+ },
+ "caption_baseline|q07": {
+  "correct": true,
+  "reason": "Matches source: use add-a-wire kit or new cable; do not jump R to C."
+ },
+ "caption_baseline|q09": {
+  "correct": true,
+  "reason": "Matches gold answer: 30% indoor humidity at 20°F."
+ },
+ "caption_baseline|q10": {
+  "correct": false,
+  "reason": "Did not provide the CO2 level fact"
+ },
+ "caption_baseline|q16": {
+  "correct": true,
+  "reason": "Matches source: up to two SEER2 points [1]"
+ },
+ "caption_baseline|q17": {
+  "correct": true,
+  "reason": "System answer matches gold answer: 95%."
+ },
+ "caption_baseline|q18": {
+  "correct": true,
+  "reason": "Answer matches source: Monthly per Maintenance Checklist."
+ },
+ "caption_baseline|q19": {
+  "correct": true,
+  "reason": "Source [2] explicitly lists 37MPRA and 37MGHA as compatible."
+ },
+ "caption_baseline|q20": {
+  "correct": true,
+  "reason": "Provides the exact minimum clearance of 12\" (305 mm) as per the source."
+ },
+ "caption_baseline|q21": {
+  "correct": true,
+  "reason": "Sources confirm refrigerant sensor service life is 15 years."
+ },
+ "caption_baseline|q22": {
+  "correct": true,
+  "reason": "Source confirms up to 70% heat recovery efficiency for ERVCRNVA."
+ },
+ "caption_baseline|q23": {
+  "correct": true,
+  "reason": "Source [1] p.11 states the Infinity 98 uses two heat exchangers."
+ },
+ "caption_baseline|q24": {
+  "correct": true,
+  "reason": "All sources confirm Infinity® 98 gas furnace has up to 98.5% AFUE."
+ },
+ "caption_baseline|q25": {
+  "correct": false,
+  "reason": "Source only mentions FORCED COOL for 45MBCAQ, not 45MBAAQ."
+ },
+ "caption_baseline|q26": {
+  "correct": true,
+  "reason": "Matches gold answer: 3-minute protection prevents restart."
+ },
+ "caption_baseline|q27": {
+  "correct": true,
+  "reason": "Source 4 explicitly states up to 22.0 SEER2 for Carrier Infinity Heat Pumps."
+ },
+ "caption_baseline|q28": {
+  "correct": true,
+  "reason": "Source confirms Carrier Infinity 24VNA6 achieves up to 24.0 SEER2."
+ },
+ "caption_baseline|q29": {
+  "correct": false,
+  "reason": "System answer incomplete; does not state the regulatory standard."
+ },
+ "caption_baseline|q30": {
+  "correct": true,
+  "reason": "Source 1 directly states 26 ft. (8 m) maximum operating distance."
+ },
+ "caption_baseline|q31": {
+  "correct": false,
+  "reason": "System answer doesn't state rating plate location."
+ },
+ "caption_baseline|q32": {
+  "correct": true,
+  "reason": "Capacitor/power choke is labeled \"(if used)\" next to blower and motor."
+ },
+ "caption_baseline|q33": {
+  "correct": true,
+  "reason": "Matches gold answer with both filter sizes."
+ },
+ "caption_baseline|q34": {
+  "correct": true,
+  "reason": "Table 4 in 45MBAAQ manual lists 4 cable ties as accessories."
+ },
+ "caption_baseline|q35": {
+  "correct": false,
+  "reason": "Says sources don't contain answer, but gold answer is \"until unit dries out completely\""
+ },
+ "caption_baseline|q36": {
+  "correct": true,
+  "reason": "Matches source: remove batteries before long non-use."
+ },
+ "caption_baseline|q37": {
+  "correct": false,
+  "reason": "Manual lists more than three checks; answer omits some."
+ },
+ "caption_baseline|q38": {
+  "correct": false,
+  "reason": "System answer does not identify the specific indoor monthly task."
+ },
+ "caption_baseline|q39": {
+  "correct": true,
+  "reason": "Matches source: indicator lights when remote sends signal to indoor unit."
+ },
+ "fieldnote_routed|q01": {
+  "correct": true,
+  "reason": "Matches gold answer: about four hours."
+ },
+ "fieldnote_routed|q02": {
+  "correct": true,
+  "reason": "States the 6% below rating replacement rule."
+ },
+ "fieldnote_routed|q03": {
+  "correct": true,
+  "reason": "Source 1 explicitly states defrost starts about every 90 minutes of runtime."
+ },
+ "fieldnote_routed|q04": {
+  "correct": true,
+  "reason": "Matches gold answer: set thermostat to O."
+ },
+ "fieldnote_routed|q05": {
+  "correct": true,
+  "reason": "Source 1 explicitly says use a fine abrasive pad, not sandpaper."
+ },
+ "fieldnote_routed|q06": {
+  "correct": true,
+  "reason": "Both state never jumper/jump the pressure switch."
+ },
+ "fieldnote_routed|q07": {
+  "correct": true,
+  "reason": "Matches gold answer: use add-a-wire kit or new cable."
+ },
+ "fieldnote_routed|q08": {
+  "correct": true,
+  "reason": "Matches gold answer exactly."
+ },
+ "fieldnote_routed|q09": {
+  "correct": true,
+  "reason": "Matches gold answer: 30% indoor humidity at 20°C outdoors."
+ },
+ "fieldnote_routed|q10": {
+  "correct": false,
+  "reason": "System answer says no info, but gold answer gives threshold."
+ },
+ "fieldnote_routed|q16": {
+  "correct": true,
+  "reason": "Matches gold answer: up to two SEER2 points."
+ },
+ "fieldnote_routed|q17": {
+  "correct": true,
+  "reason": "System answer matches gold answer: 95% particles 1.0-3.0 microns."
+ },
+ "fieldnote_routed|q18": {
+  "correct": true,
+  "reason": "System answer correctly states monthly interval per source."
+ },
+ "fieldnote_routed|q19": {
+  "correct": false,
+  "reason": "System says no info, but gold answer provides specific compatible models."
+ },
+ "fieldnote_routed|q20": {
+  "correct": true,
+  "reason": "Source [1] explicitly states a 12\" (305 mm) minimum clearance."
+ },
+ "fieldnote_routed|q21": {
+  "correct": true,
+  "reason": "Matches gold answer: service life 15 years."
+ },
+ "fieldnote_routed|q22": {
+  "correct": false,
+  "reason": "System says sources lack model-specific efficiency, but gold answer provides it."
+ },
+ "fieldnote_routed|q23": {
+  "correct": true,
+  "reason": "System answer correctly states two heat exchangers."
+ },
+ "fieldnote_routed|q24": {
+  "correct": true,
+  "reason": "Matches gold answer: up to 98.5% AFUE."
+ },
+ "fieldnote_routed|q25": {
+  "correct": true,
+  "reason": "System clarifies model lacks forced cool, matching gold."
+ },
+ "fieldnote_routed|q26": {
+  "correct": true,
+  "reason": "Matches gold answer: three minutes minimum restart time."
+ },
+ "fieldnote_routed|q27": {
+  "correct": true,
+  "reason": "Matches gold answer: maximum SEER2 rating is 22.0."
+ },
+ "fieldnote_routed|q28": {
+  "correct": true,
+  "reason": "Matches gold answer: 24.0 SEER2"
+ },
+ "fieldnote_routed|q29": {
+  "correct": true,
+  "reason": "States FCC Part 15 compliance as required."
+ },
+ "fieldnote_routed|q30": {
+  "correct": true,
+  "reason": "States maximum distance 26 ft (8 m) as gold answer."
+ },
+ "fieldnote_routed|q31": {
+  "correct": true,
+  "reason": "Matches gold answer: rating plate on blower door."
+ },
+ "fieldnote_routed|q32": {
+  "correct": true,
+  "reason": "Identifies capacitor/power choke as the part labeled \"(if used)\"."
+ },
+ "fieldnote_routed|q33": {
+  "correct": true,
+  "reason": "Matches gold answer with both filter options."
+ },
+ "fieldnote_routed|q34": {
+  "correct": true,
+  "reason": "Table 4 lists 4 cable ties as accessories for 45MBAAQ."
+ },
+ "fieldnote_routed|q35": {
+  "correct": false,
+  "reason": "System answer doesn't cite source and doesn't match gold answer's specific instruction."
+ },
+ "fieldnote_routed|q36": {
+  "correct": true,
+  "reason": "Matches gold answer: remove batteries before long non-use."
+ },
+ "fieldnote_routed|q38": {
+  "correct": false,
+  "reason": "System answer does not identify the monthly indoor item."
+ },
+ "fieldnote_routed|q39": {
+  "correct": true,
+  "reason": "Matches gold answer: lights up when remote sends signal."
+ },
+ "fieldnote_routed|q40": {
+  "correct": true,
+  "reason": "States 2 flare nuts, matches gold answer."
+ },
+ "fieldnote_lean|q01": {
+  "correct": true,
+  "reason": "States coil thaws in about 4 hours, matching gold answer."
+ },
+ "fieldnote_lean|q02": {
+  "correct": true,
+  "reason": "System answer matches source: >6% below rating requires replacement."
+ },
+ "fieldnote_lean|q03": {
+  "correct": true,
+  "reason": "States defrost starts about every 90 minutes of runtime."
+ },
+ "fieldnote_lean|q04": {
+  "correct": true,
+  "reason": "Matches gold answer: set thermostat to O."
+ },
+ "fieldnote_lean|q05": {
+  "correct": false,
+  "reason": "System answer incomplete; does not state cleaning method."
+ },
+ "fieldnote_lean|q06": {
+  "correct": true,
+  "reason": "Matches gold answer: never jumper pressure switch."
+ },
+ "fieldnote_lean|q07": {
+  "correct": false,
+  "reason": "System answer is incomplete; does not state solution."
+ },
+ "fieldnote_lean|q08": {
+  "correct": false,
+  "reason": "System answer provides images, not the replacement frequency."
+ },
+ "fieldnote_lean|q09": {
+  "correct": false,
+  "reason": "System answer doesn't cite source or match gold answer."
+ },
+ "fieldnote_lean|q10": {
+  "correct": false,
+  "reason": "Sources do not contain CO2 threshold; answer not supported."
+ },
+ "fieldnote_lean|q16": {
+  "correct": true,
+  "reason": "Source 1 explicitly states \"up to Two Full Points\"."
+ },
+ "fieldnote_lean|q17": {
+  "correct": true,
+  "reason": "Matches gold answer: 95% trapped."
+ },
+ "fieldnote_lean|q18": {
+  "correct": true,
+  "reason": "System answer correctly identifies monthly interval for clearing debris."
+ },
+ "fieldnote_lean|q19": {
+  "correct": false,
+  "reason": "System says no info, but gold answer lists compatible models."
+ },
+ "fieldnote_lean|q20": {
+  "correct": true,
+  "reason": "Both sources state a 12\" (305 mm) minimum clearance."
+ },
+ "fieldnote_lean|q21": {
+  "correct": true,
+  "reason": "Matches gold answer: 15 years [1]"
+ },
+ "fieldnote_lean|q22": {
+  "correct": false,
+  "reason": "System says no data, but gold answer provides 70%"
+ },
+ "fieldnote_lean|q23": {
+  "correct": true,
+  "reason": "Sources explicitly state Infinity 98 uses two heat exchangers."
+ },
+ "fieldnote_lean|q24": {
+  "correct": true,
+  "reason": "States AFUE rating up to 98.5%, matches gold answer."
+ },
+ "fieldnote_lean|q25": {
+  "correct": false,
+  "reason": "Sources do not contain answer for 45MBAAQ FORCED COOL duration"
+ },
+ "fieldnote_lean|q26": {
+  "correct": true,
+  "reason": "Matches gold answer: 3 minutes minimum restart time."
+ },
+ "fieldnote_lean|q27": {
+  "correct": true,
+  "reason": "Source [3] states Carrier Infinity Heat Pumps achieve up to 22.0 SEER2."
+ },
+ "fieldnote_lean|q28": {
+  "correct": true,
+  "reason": "Matches gold answer: 24.0 SEER2"
+ },
+ "fieldnote_lean|q29": {
+  "correct": true,
+  "reason": "System answer correctly states FCC Part 15 compliance."
+ },
+ "fieldnote_lean|q30": {
+  "correct": true,
+  "reason": "Source [1] explicitly states 26 ft. (8 m) operating distance."
+ },
+ "fieldnote_lean|q31": {
+  "correct": false,
+  "reason": "System says no info, but gold answer gives location."
+ },
+ "fieldnote_lean|q32": {
+  "correct": true,
+  "reason": "Identifies capacitor/power choke labeled \"(if used)\" next to blower and motor."
+ },
+ "fieldnote_lean|q33": {
+  "correct": false,
+  "reason": "System says no answer found, but gold answer provides specific filter sizes."
+ },
+ "fieldnote_lean|q34": {
+  "correct": true,
+  "reason": "System answer confirms 4 cable ties, matching gold answer."
+ },
+ "fieldnote_lean|q35": {
+  "correct": true,
+  "reason": "Matches gold: run until unit dries completely."
+ },
+ "fieldnote_lean|q36": {
+  "correct": false,
+  "reason": "System answer is empty, does not address the question."
+ },
+ "fieldnote_lean|q37": {
+  "correct": true,
+  "reason": "Matches gold answer: clean filters, damaged wires, leaks"
+ },
+ "fieldnote_lean|q38": {
+  "correct": false,
+  "reason": "System answer doesn't identify the monthly indoor item."
+ },
+ "fieldnote_lean|q39": {
+  "correct": true,
+  "reason": "Matches gold answer: indicator lights when remote sends signal."
+ },
+ "fieldnote_lean|q40": {
+  "correct": true,
+  "reason": "Source confirms 2 flare nuts included with 45MBAAQ."
+ }
+}

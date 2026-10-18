@@ -1,0 +1,26 @@
+# Fieldnote: multimodal RAG for HVAC field technicians
+# Tested with Python 3.10 on Windows. Versions below are minimums; for an exact
+# reproducible environment run:  pip freeze > requirements-lock.txt
+#
+# CPU-only PyTorch (smaller download) can be installed first with:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# --- models and embeddings ---
+torch>=2.2
+transformers>=4.40            # SigLIP image/text encoder
+sentence-transformers>=3.0    # bge-small embeddings + cross-encoder reranker
+sentencepiece>=0.2            # SigLIP tokenizer
+protobuf>=4.25                # SigLIP tokenizer dependency
+pillow>=10.0                  # image loading, contact sheets, downscaling
+
+# --- ingestion ---
+pymupdf>=1.24.3               # PDF text, page renders, figure detection (`import pymupdf`)
+faster-whisper>=1.0           # speech-to-text for support calls
+edge-tts>=6.1                 # synthetic support-call audio (needs internet)
+requests>=2.31                # Wikimedia Commons photo download
+
+# --- vector store ---
+qdrant-client>=1.10           # local mode, query_points API
+
+# --- answer synthesis, captions, drafting, judging ---
+cohere>=5.11                  # ClientV2 chat API with image input

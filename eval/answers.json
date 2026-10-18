@@ -1,0 +1,2102 @@
+{
+ "caption_baseline|q01": {
+  "system": "caption_baseline",
+  "qid": "q01",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"How long should a frozen indoor coil thaw with the compressor off?\" They want answer from numbered sources. We need to find the answer in the provided sources. Let's search.\n\nSource [1] is a call transcript about frozen indoor coil. It says: \"Replace the filter, then shut the compressor off and let the coil fog completely. That usually takes about 4 hours.\" So answer: about 4 hours.\n\nCheck other sources for any other mention. [2] is about heat pump defrost, not indoor coil. [3-8] are manuals about remote control, etc. No mention of thaw time. So answer is from [1].\n\nThus answer: about 4 hours. Cite [1].\n\nWe must be brief. Provide answer and citation.About 4 hours. [1]",
+  "retrieve_ms": 42.69349999958649,
+  "llm_ms": 1761.7459000030067,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_01_ac_frozen_coil.mp3 @0s",
+   "[2] call_03_heat_pump_defrost.mp3 @0s",
+   "[3] 45MBCAQ-01OM.pdf p.13",
+   "[4] 45MBAAQ-01OM.pdf p.16",
+   "[5] 45MBCAQ-01OM.pdf p.18",
+   "[6] 45MBAAQ-01OM.pdf p.24",
+   "[7] 45MBCAQ-01OM.pdf p.17",
+   "[8] 45MBAAQ-01OM.pdf p.20"
+  ]
+ },
+ "caption_baseline|q02": {
+  "system": "caption_baseline",
+  "qid": "q02",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"How far below its rating can a run capacitor measure before replacement?\" They want answer from numbered sources. We need to find relevant source. Source [1] is a call transcript about dual-run capacitor. It says: \"If the measured value is more than 6% below rated, replace it.\" So answer: more than 6% below rating. Provide citation [1]. Possibly also mention that if measured is more than 6% below rated, replace. So answer: more than 6% below rating. Cite [1].A run capacitor should be replaced if its measured capacitance is **more than 6 % below its rated value** [1].",
+  "retrieve_ms": 45.09929999767337,
+  "llm_ms": 1525.9671999956481,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_02_ac_capacitor.mp3 @0s",
+   "[2] OM9GFRC-02.pdf p.7",
+   "[3] 45MBAAQ-01OM.pdf p.5",
+   "[4] 45MBCAQ-01OM.pdf p.3",
+   "[5] 45MBCAQ-01OM.pdf p.3",
+   "[6] 45MBCAQ-01OM.pdf p.7",
+   "[7] 45MBCAQ-01OM.pdf p.5",
+   "[8] 45MBAAQ-01OM.pdf p.25"
+  ]
+ },
+ "caption_baseline|q03": {
+  "system": "caption_baseline",
+  "qid": "q03",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"How often should a heat pump enter defrost?\" We need to answer based only on the numbered sources provided. We must read values directly from charts, tables, diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\n\nWe have multiple sources. Let's examine each:\n\n[1] call_03_heat_pump_defrost.mp3 @0s: This is a transcript of a technical support call. It says: \"The control board should start a defrost cycle about every 90 minutes of runtime when the coil sensor is below 32 degrees.\" So that gives a frequency: about every 90 minutes of runtime, when coil sensor below 32°F. Also says defrost cycle lasts up to 10 minutes. So answer: about every 90 minutes of runtime when coil sensor below 32°F.\n\n[2] 01-825-118-01.pdf p.2: This seems to be a warranty document. Not relevant.\n\n[3] 45MBCAQ-01OM.pdf p.17: This is a manual page. It mentions a 3-minutes protection feature, but not defrost frequency.\n\n[4] call_08_air_purifier_service.mp3 @0s: Not relevant.\n\n[5] 45MBCAQ-01OM.pdf p.18: Not relevant.\n\n[6] 45MBAAQ-01OM.pdf p.24: Not relevant.\n\n[7] 01-DLS-059-CA-01.pdf p.2: Warranty info.\n\n[8] call_04_heat_pump_thermostat_ob.mp3 @0s: Not relevant.\n\nThus the answer is in [1]. The question: \"How often should a heat pump enter defrost?\" The answer: about every 90 minutes of runtime when the coil sensor is below 32°F. We should cite [1].\n\nWe need to be brief. Provide answer and citation.\n\nThus final answer: The control board should start a defrost cycle about every 90 minutes of runtime when the coil sensor is below 32°F [1].The control board should start a defrost cycle about every 90 minutes of runtime when the coil sensor is below 32 °F [1].",
+  "retrieve_ms": 41.730299999471754,
+  "llm_ms": 2439.9391999904765,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_03_heat_pump_defrost.mp3 @0s",
+   "[2] 01-825-118-01.pdf p.2",
+   "[3] 45MBCAQ-01OM.pdf p.17",
+   "[4] call_08_air_purifier_service.mp3 @0s",
+   "[5] 45MBCAQ-01OM.pdf p.18",
+   "[6] 45MBAAQ-01OM.pdf p.24",
+   "[7] 01-DLS-059-CA-01.pdf p.2",
+   "[8] call_04_heat_pump_thermostat_ob.mp3 @0s"
+  ]
+ },
+ "caption_baseline|q04": {
+  "system": "caption_baseline",
+  "qid": "q04",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"Which reversing valve setting is used if the valve energizes in cooling?\" They want answer from numbered sources. We need to find the answer in the provided sources.\n\nWe have source [1] call_04_heat_pump_thermostat_ob.mp3 @0s. It says: \"The label says energized in cooling. Then set O.\" So the reversing valve setting is O (letter O). The question: \"Which reversing valve setting is used if the valve energizes in cooling?\" Answer: O.\n\nWe need to cite source [1] as the answer. Provide brief answer. According to instructions: Answer ONLY from numbered sources. Cite sources as [n]. Be brief. If sources don't contain answer, say so. So answer: O [1].\n\nThus final answer: O [1].O [1]",
+  "retrieve_ms": 42.69149999890942,
+  "llm_ms": 1897.2970000031637,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_04_heat_pump_thermostat_ob.mp3 @0s",
+   "[2] 01-811-20530-01.pdf p.9",
+   "[3] 01-811-20530-01.pdf p.7",
+   "[4] 45MBCAQ-01OM.pdf p.14",
+   "[5] 45MBCAQ-01OM.pdf p.17",
+   "[6] 01-811-20530-01.pdf p.9",
+   "[7] 01-811-20530-01.pdf p.9",
+   "[8] 45MBAAQ-01OM.pdf p.23"
+  ]
+ },
+ "caption_baseline|q05": {
+  "system": "caption_baseline",
+  "qid": "q05",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"What should you clean a furnace flame sensor with?\" They provided sources. We need to answer only from numbered sources, reading values directly from charts, tables, diagrams when relevant. Cite sources as [n]. Be brief. If sources don't contain answer, say so.\n\nWe need to find answer in sources. Source [1] is a transcript of a call about furnace flame sensor. It says: \"Use a fine abrasive pad with a light touch. Then check the flame signal. You want at least one microamp, and below 0.5 microamps the board will lock out. Fine pad, no sandpaper, and at least one microamp.\" So answer: fine abrasive pad, not sandpaper.\n\nCheck other sources for any mention of cleaning flame sensor. Source [2] is a page about gaps etc., not relevant. Source [3] is about starting furnace, not cleaning sensor. Source [4] is a checklist, not specific. Source [5] is about filter, not sensor. Source [6] is about combustion air, not sensor. Source [7] is a checklist, not sensor. Source [8] is a page description, not sensor.\n\nThus answer from [1] only. Provide citation [1]. Be brief.\n\nThus answer: Use a fine abrasive pad (not sandpaper). Cite [1].\n\nWe should answer: \"Use a fine abrasive pad with a light touch (do not use sandpaper).\" Cite [1].\n\nWe must answer only from numbered sources. So we can say: According to [1], use a fine abrasive pad with a light touch; do not use sandpaper. That's it.\n\nWe should not add extra info. Provide citation.Use a fine abrasive pad with a light touch; do not use sandpaper. [1]",
+  "retrieve_ms": 42.98830000334419,
+  "llm_ms": 2167.6655000046594,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_05_furnace_flame_sensor.mp3 @0s",
+   "[2] OM9GFRC-02.pdf p.4",
+   "[3] OM9GFRC-02.pdf p.12",
+   "[4] OM9GFRC-02.pdf p.7",
+   "[5] OM9GFRC-02.pdf p.4",
+   "[6] OM9GFRC-02.pdf p.10",
+   "[7] OM9GFRC-02.pdf p.4",
+   "[8] OM9GFRC-02.pdf p.4"
+  ]
+ },
+ "caption_baseline|q06": {
+  "system": "caption_baseline",
+  "qid": "q06",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"What should you never do when a furnace pressure switch will not close?\" They want answer from numbered sources. We need to find relevant source. The question is about furnace pressure switch not closing. In source [3] call_06_furnace_pressure_switch.mp3 @0s, Marcus says: \"And never jump or the pressure switch to get the furnace running.\" So answer: never jump the pressure switch. Also maybe never bypass or jump the switch. So answer: never jump or bypass the pressure switch. Cite source [3]. Provide brief answer.Never jump or bypass the pressure switch to get the furnace running. [3]",
+  "retrieve_ms": 42.144099992583506,
+  "llm_ms": 1437.4974999955157,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.11",
+   "[2] OM9GFRC-02.pdf p.4",
+   "[3] call_06_furnace_pressure_switch.mp3 @0s",
+   "[4] OM9GFRC-02.pdf p.11",
+   "[5] OM9GFRC-02.pdf p.9",
+   "[6] OM9GFRC-02.pdf p.10",
+   "[7] OM9GFRC-02.pdf p.7",
+   "[8] OM9GFRC-02.pdf p.2"
+  ]
+ },
+ "caption_baseline|q07": {
+  "system": "caption_baseline",
+  "qid": "q07",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"What should you do for a thermostat with no spare wire for C?\" They provided sources. We need to answer based only on the numbered sources. The relevant source is [1] call_07_thermostat_no_c_wire.mp3. It says: \"Most likely there is no common wire. Look for a spare conductor in the cable and connect it to see at both the thermostat and the furnace control board. The cable has four wires and all four are already in use. Then use the add a wire adapter kit or run a new cable. Do not jump or R to C because that can blow the transformer fuse. Adapter kit, no jumper from R to C.\"\n\nThus answer: Use an add-a-wire adapter kit or run a new cable; do not jump R to C. Also look for spare conductor; if none, use adapter kit or new cable. Provide citation [1].\n\nWe must be brief, answer only from sources, cite. So answer: Use an add-a-wire adapter kit or run a new cable; do not jump R to C. [1]Use an add‑a‑wire adapter kit or run a new cable; do not jump R to C. [1]",
+  "retrieve_ms": 42.72149999451358,
+  "llm_ms": 1613.3480999997118,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_07_thermostat_no_c_wire.mp3 @0s",
+   "[2] 45MBAAQ-01OM.pdf p.19",
+   "[3] 45MBAAQ-01OM.pdf p.19",
+   "[4] 45MBAAQ-01OM.pdf p.18",
+   "[5] OMVSAC-C454-01.pdf p.3",
+   "[6] OMVSAC-C454-01.pdf p.3",
+   "[7] OM9GFRC-02.pdf p.4",
+   "[8] OG-ACR454GEN-02.pdf p.2"
+  ]
+ },
+ "caption_baseline|q08": {
+  "system": "caption_baseline",
+  "qid": "q08",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"How often should the air purifier filter cartridge be replaced?\" We need to answer based only on the numbered sources. We must read values directly from charts, tables, diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\n\nWe need to find the answer in the sources. Let's examine each source:\n\n[1] call_08_air_purifier_service.mp3 @0s: Technical support, Mark is speaking. A customer asks how often to service their whole home air purifier. Replace the filter cartridge every 12 months and the ultraviolet lamp every 24 months. Is there anything else that affects performance? Yes. Make sure the cabinet door is sealed. A cracked gasket lets unfiltered air bypass the purifier. Cartridge yearly lamp every two years and check the door seal.\n\nSo [1] says replace filter cartridge every 12 months.\n\n[2] photo_119.jpg: White cylindrical air purifier on hardwood floor. Front has blue label with \"Washable pre-filter\" and \"Replace filter every 6-12 months\". Below label is rectangular button slot. Lower half features dense triangular perforation pattern. Black power cord extends right. No visible damage, rust, ice, or burn marks. Background includes sofa, coffee table, TV, and striped rug.\n\nSo [2] says replace filter every 6-12 months (washable pre-filter). But the question is about \"air purifier filter cartridge\". The label says \"Washable pre-filter\". That might be a pre-filter, not the main filter cartridge. But the question is generic: \"How often should the air purifier filter cartridge be replaced?\" The answer could be from [1] which explicitly says filter cartridge every 12 months. [2] mentions a pre-filter, not a cartridge. So [1] is more relevant.\n\n[3] OM9GFRC-02.pdf p.7: This is about furnace filter. It says replace disposable media filter at least once a year. But that's for furnace, not air purifier. The question is about air purifier filter cartridge. So not directly relevant.\n\n[4] 45MBCAQ-01OM.pdf p.15: Owner's manual for some unit. It says cleaning instructions for air filter. It doesn't specify replacement frequency. It says inspect and clean or replace as required. Not a specific schedule.\n\n[5] photo_113.jpg: Image of air purifier with washable pre-filter. Label says \"Replace filter every 6-12 months\". Again pre-filter.\n\n[6] 45MBAAQ-01OM.pdf p.22: Owner's manual for some unit. It says inspect and clean or replace air filter each month or as required. That's for AC unit, not air purifier.\n\n[7] 45MBCAQ-01OM.pdf p.15: Same as [4] but includes cleaning instructions. No replacement schedule.\n\n[8] 45MBAAQ-01OM.pdf p.21: This page includes a note: \"Inspect and clean or replace air filter each month or as required.\" That's for AC unit.\n\nThus the only source that directly answers the question about air purifier filter cartridge replacement frequency is [1] which says every 12 months. Also [2] and [5] mention pre-filter replacement every 6-12 months, but those are pre-filters, not cartridges. The question specifically says \"filter cartridge\". So answer:",
+  "retrieve_ms": 36.92719999526162,
+  "llm_ms": 2796.431199996732,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_08_air_purifier_service.mp3 @0s",
+   "[2] photo_119.jpg",
+   "[3] OM9GFRC-02.pdf p.7",
+   "[4] 45MBCAQ-01OM.pdf p.15",
+   "[5] photo_113.jpg",
+   "[6] 45MBAAQ-01OM.pdf p.22",
+   "[7] 45MBCAQ-01OM.pdf p.15",
+   "[8] 45MBAAQ-01OM.pdf p.21"
+  ]
+ },
+ "caption_baseline|q09": {
+  "system": "caption_baseline",
+  "qid": "q09",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"What indoor humidity target is right when it is twenty degrees outdoors?\" We need to answer based on the numbered sources. The sources include a transcript of a call (source [1]) where Dana says: \"At 20 degrees outdoors, keep indoor humidity near 30%.\" Also source [2] mentions \"keep room humidity below 80% to avoid condensation.\" But the specific question is about the right indoor humidity target when it's twenty degrees outdoors. The call transcript directly gives the answer: 30% at 20°C outdoors. So answer: 30% indoor humidity target. Cite source [1].The indoor humidity target should be set to **30 %** when the outdoor temperature is 20 °F. [1]",
+  "retrieve_ms": 46.09450000862125,
+  "llm_ms": 1653.562099992996,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_09_iaq_humidifier_setpoint.mp3 @0s",
+   "[2] 45MBAAQ-01OM.pdf p.9",
+   "[3] OMVSAC-C454-01.pdf p.2",
+   "[4] 45MBAAQ-01OM.pdf p.9",
+   "[5] 01-811-20530-01.pdf p.5",
+   "[6] 01-IAQ-087-03.pdf p.8",
+   "[7] 45MBCAQ-01OM.pdf p.17",
+   "[8] 45MBAAQ-01OM.pdf p.9"
+  ]
+ },
+ "caption_baseline|q10": {
+  "system": "caption_baseline",
+  "qid": "q10",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>I need to find information about carbon dioxide (CO2) levels for indoor air from the provided sources. Let me go through each source:\n\n[1] 45MBCAQ-01OM.pdf p.7 - This contains room height requirements and refrigerant charge information, but no CO2 levels.\n\n[2] 45MBAAQ-01OM.pdf p.9 - This contains energy usage tips, temperature ranges, and operating conditions, but no CO2 levels.\n\n[3] 01-IAQ-122-01.pdf p.3 - This is about an Infinity air purifier that traps 95% of particles 1.0-3.0 microns, but no CO2 levels.\n\n[4] call_09_iaq_humidifier_setpoint.mp3 - This is about humidity settings, not CO2.\n\n[5] 45MBAAQ-01OM.pdf p.9 - Same as [2], no CO2 information.\n\n[6] 01-IAQ-087-03.pdf p.4 - This mentions air quality measurements including PM2.5, TVOCs, Temperature, and Humidity, but no CO2 levels.\n\n[7] OMVSAC-C454-01.pdf p.2 - This is about condensate drainage and low ambient cooling, no CO2 information.\n\n[8] 45MBAAQ-01OM.pdf p.9 - Same as [2] and [5], no CO2 information.\n\nNone of the provided sources contain information about recommended carbon dioxide levels for indoor air. The sources cover various HVAC topics like room dimensions, refrigerant charges, temperature ranges, humidity settings, air purification, and maintenance, but none mention CO2 levels or guidelines.\n\nSince the sources don't contain the answer, I should indicate that.The provided sources do not contain information about recommended carbon dioxide levels for indoor air. The documents cover room dimensions, refrigerant charges, temperature ranges, humidity settings, air purification, and maintenance guidelines, but none specify CO2 level requirements.",
+  "retrieve_ms": 39.104600000428036,
+  "llm_ms": 2444.325500007835,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.7",
+   "[2] 45MBAAQ-01OM.pdf p.9",
+   "[3] 01-IAQ-122-01.pdf p.3",
+   "[4] call_09_iaq_humidifier_setpoint.mp3 @0s",
+   "[5] 45MBAAQ-01OM.pdf p.9",
+   "[6] 01-IAQ-087-03.pdf p.4",
+   "[7] OMVSAC-C454-01.pdf p.2",
+   "[8] 45MBAAQ-01OM.pdf p.9"
+  ]
+ },
+ "caption_baseline|q16": {
+  "system": "caption_baseline",
+  "qid": "q16",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"By how many SEER2 points can a Carrier Fan Coil improve system efficiency?\" We need to answer based on the provided sources. The sources include a product brochure page for Carrier Fan Coils (source [1] and [2] and [3] which are the same page). The text says: \"Improve SEER2 Ratings by up to Two Full Points with a Carrier Fan Coil.\" Also later: \"Variable-speed model offers: – Maximum energy efficiency enhances cooling efficiency up to two SEER2 points\". So the answer is \"up to two SEER2 points\". We need to cite the source. The source is [1] (or [2] or [3] but they are the same page). We should cite [1] as the source. The answer should be brief. So: \"Up to two SEER2 points [1]\".Up to two SEER2 points [1].",
+  "retrieve_ms": 40.43910000473261,
+  "llm_ms": 1389.943599991966,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.9",
+   "[2] 01-811-20530-01.pdf p.9",
+   "[3] 01-811-20530-01.pdf p.9",
+   "[4] 01-811-20530-01.pdf p.8",
+   "[5] 01-825-118-01.pdf p.2",
+   "[6] 01-811-20530-01.pdf p.8",
+   "[7] 01-811-20530-01.pdf p.10",
+   "[8] 01-811-20530-01.pdf p.6"
+  ]
+ },
+ "caption_baseline|q17": {
+  "system": "caption_baseline",
+  "qid": "q17",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What percentage of particles (1.0-3.0 microns) does the Infinity air purifier trap?\" We need to answer based only on the numbered sources. The sources are PDFs with pages. We need to find the answer in the sources. The answer is likely in source [1] and [5] which are the same page (p.8) of 01-IAQ-122-01.pdf. The text says: \"The Infinity air purifier achieves a MERV 15 rating based on third-party testing (2012) showing 95% of particles size 1.0 to 3.0 microns captured and 85% of particles size 0.3 to 1.0 microns captured.\" So the answer is 95%. Also source [2] p.3 says \"Infinity air purifier operates silently in-line with your HVAC system, minimizing airborne pollutants in your home trapping 95% of particles (1.0-3.0 microns)\". Source [6] also says \"Infinity Air Purifier ... Text states it traps 95% of particles 1.0-3.0 microns.\" So the answer is 95%. We need to cite the source(s). The question: \"What percentage of particles (1.0-3.0 microns) does the Infinity air purifier trap?\" Answer: 95%. Cite source [1] or [5] (both same page). Could also cite [2] or [6] but the primary is [1] and [5]. The instruction: \"Answer ONLY from the numbered sources. Read values directly from charts, tables and diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\" So we need to answer with the percentage and citation. Possibly multiple citations. But we should be brief. So answer: \"95%\" and cite [1] (or [5]). Could also include [2] and [6] but not necessary. The instruction: \"Answer ONLY from the numbered sources.\" So we can include multiple citations. But we need to be brief. So maybe: \"95% [1]\" or \"95% [5]\". Since [1] and [5] are the same page, we can cite either. But to be safe, we can cite both [1] and [5] as they both contain the same info. However, the instruction says \"Cite sources as [n].\" It doesn't say we can't cite multiple. But we should be brief. So maybe \"95% [1,5]\". But the format might be ambiguous. Usually we list each citation separated by commas. So \"95% [1,5]\". Or \"95% [1]\" is enough. But to be thorough, we can include [1] and [5] as they are the same page. But the user might want the source. I think it's safe to answer \"95% [1]\" because that is the primary source. However, the user might want to see that multiple sources confirm it. But the instruction says \"Answer ONLY from the numbered sources.\" So we can include multiple citations. But we need to be brief. So \"95% [1,5]\" is brief. Or \"95% [1]\" is also brief. I'll answer \"95% [1]\" and maybe also mention [2] and [6] as supporting. But",
+  "retrieve_ms": 53.6839999986114,
+  "llm_ms": 4873.131599990302,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-IAQ-122-01.pdf p.8",
+   "[2] 01-IAQ-122-01.pdf p.3",
+   "[3] 01-811-20530-01.pdf p.3",
+   "[4] 01-811-20530-01.pdf p.13",
+   "[5] 01-IAQ-122-01.pdf p.8",
+   "[6] 01-IAQ-122-01.pdf p.3",
+   "[7] 01-811-20530-01.pdf p.3",
+   "[8] 01-811-20530-01.pdf p.3"
+  ]
+ },
+ "caption_baseline|q18": {
+  "system": "caption_baseline",
+  "qid": "q18",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What is the recommended interval for clearing debris and vegetation near the Infinity® Variable Speed Air Conditioner?\" We need to answer based on the provided sources. The sources include a Maintenance Checklist table on page 3 of OMVSAC-C454-01.pdf. In that table, under \"Outdoor unit specific:\" and the task \"Clear away debris and vegetation near unit.\" there is an \"X\" under the \"Monthly\" column. So the recommended interval is Monthly.\n\nWe should cite the source as [1] because that's the page with the Maintenance Checklist table. The answer should be brief and directly from the source.\n\nThus: The recommended interval is Monthly, as indicated by the \"X\" under the Monthly column for that task in the Maintenance Checklist table on page 3 of OMVSAC-C454-01.pdf [1].The recommended interval for clearing debris and vegetation near the unit is **Monthly**, as indicated by the \"X\" under the Monthly column for that task in the Maintenance Checklist table on page 3 of OMVSAC-C454-01.pdf [1].",
+  "retrieve_ms": 44.23379999934696,
+  "llm_ms": 2067.079400003422,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.3",
+   "[2] OMVSAC-C454-01.pdf p.2",
+   "[3] OMVSAC-C454-01.pdf p.2",
+   "[4] OMVSAC-C454-01.pdf p.3",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] OMVSAC-C454-01.pdf p.1",
+   "[7] 01-811-20530-01.pdf p.5",
+   "[8] 01-811-20530-01.pdf p.9"
+  ]
+ },
+ "caption_baseline|q19": {
+  "system": "caption_baseline",
+  "qid": "q19",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"Which Infinity heat pumps are compatible with the 45MPHA indoor unit?\" We need to answer based only on the provided numbered sources. We must read values directly from charts, tables, diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\n\nWe need to find which Infinity heat pumps are compatible with the 45MPHA indoor unit. Look at the sources.\n\nSource [1] is a PDF page 1 of Infinity System Ductless Heat Pumps. It lists models: 37MPRAQ, 37MAHAQ, 37MBHAQ, 37MGHAQ. But not directly about 45MPHA.\n\nSource [2] is page 4 of the same PDF, showing compatible indoor units for ductless systems. It includes a note that 45MPHA is compatible with Infinity heat pumps 37MPRA and 37MGHA. So that gives the answer: 37MPRA and 37MGHA. However, note that the note says \"Infinity heat pumps 37MPRA and 37MGHA\". The models in [1] are 37MPRAQ, 37MAHAQ, 37MBHAQ, 37MGHAQ. The note uses 37MPRA and 37MGHA (without Q). Possibly the Q denotes a specific variant, but the note explicitly says 37MPRA and 37MGHA. So answer: 37MPRA and 37MGHA.\n\nCheck other sources for any additional compatibility info. Source [3] is about Carrier Hybrid, not relevant. Source [4] is page 2 of the same PDF, about comfort and features, not about compatibility. Source [5] is a heat pump selection table, not about indoor units. Source [6] is page 3 of the same PDF, about Infinity Advantage, not about compatibility. Source [7] is an advertisement, not about compatibility. Source [8] is page 5 of the same PDF, about adaptable speed technology, not about compatibility.\n\nThus the answer is in [2] page 4: \"note that 45MPHA is compatible with Infinity heat pumps 37MPRA and 37MGHA.\"\n\nThus we answer: The 45MPHA indoor unit is compatible with Infinity heat pumps 37MPRA and 37MGHA [2].\n\nWe need to be brief, cite source. Possibly also mention that the models listed in [1] include 37MPRAQ and 37MGHAQ, but the note uses 37MPRA and 37MGHA. However, the question asks \"Which Infinity heat pumps are compatible with the 45MPHA indoor unit?\" The answer from the source is 37MPRA and 37MGHA. We can cite [2].\n\nThus final answer: 37MPRA and 37MGHA [2].\n\nWe should not add extra info beyond the source. So answer: The 45MPHA indoor unit is compatible with Infinity heat pumps 37MPRA and 37MGHA [2].The 45MPHA indoor unit is compatible with Infinity heat pumps 37MPRA and 37MGHA [2].",
+  "retrieve_ms": 38.977099990006536,
+  "llm_ms": 4601.5365999919595,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-DLS-059-CA-01.pdf p.1",
+   "[2] 01-DLS-059-CA-01.pdf p.4",
+   "[3] 01-811-20530-01.pdf p.10",
+   "[4] 01-DLS-059-CA-01.pdf p.2",
+   "[5] 01-825-118-01.pdf p.2",
+   "[6] 01-DLS-059-CA-01.pdf p.3",
+   "[7] 01-DLS-059-CA-01.pdf p.3",
+   "[8] 01-811-20530-01.pdf p.5"
+  ]
+ },
+ "caption_baseline|q20": {
+  "system": "caption_baseline",
+  "qid": "q20",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What minimum clearance should be maintained between the outdoor unit of the Infinity® Variable Speed Air Conditioner and tall grass, vines, shrubs, etc.?\" We need to answer based on the provided sources. The sources include OMVSAC-C454-01.pdf pages 2 and 3, OG-ACR454GEN-02.pdf page 1, and others. The relevant text appears in OMVSAC-C454-01.pdf p.2: \"Maintain a 12” (305 mm) minimum clearance between the outdoor unit and tall grass, vines, shrubs, etc.\" Also OG-ACR454GEN-02.pdf p.1 says \"maintain a 12” (304.8 mm) minimum clearance\". The question asks for the minimum clearance. The first source gives 12 inches (305 mm). The second gives 12 inches (304.8 mm). Both are essentially the same. We should cite the source that directly answers. The first source is OMVSAC-C454-01.pdf p.2. So answer: 12 inches (305 mm). Cite [1] as the source.The minimum clearance required is **12 inches (305 mm)** between the outdoor unit and tall grass, vines, shrubs, etc. [1]",
+  "retrieve_ms": 49.095799986389466,
+  "llm_ms": 1415.9166000026744,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.2",
+   "[2] OMVSAC-C454-01.pdf p.2",
+   "[3] OG-ACR454GEN-02.pdf p.1",
+   "[4] OMVSAC-C454-01.pdf p.3",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] OMVSAC-C454-01.pdf p.1",
+   "[7] OMVSAC-C454-01.pdf p.3",
+   "[8] 01-811-20530-01.pdf p.5"
+  ]
+ },
+ "caption_baseline|q21": {
+  "system": "caption_baseline",
+  "qid": "q21",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What is the service life of the refrigerant sensor in the LEAK DETECTION SYSTEM?\" We need to answer only from the numbered sources, reading values directly from charts, tables, diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\n\nWe need to find the service life of the refrigerant sensor in the LEAK DETECTION SYSTEM. The sources are PDFs: 45MBAAQ-01OM.pdf, 45MBCAQ-01OM.pdf. The user provided excerpts from these PDFs. We need to locate the relevant information.\n\nFrom the provided excerpts:\n\n- In source [1] 45MBAAQ-01OM.pdf p.23: \"the service life of the refrigerant sensor is 15 years.\"\n- In source [2] 45MBCAQ-01OM.pdf p.17: same text: \"the service life of the refrigerant sensor is 15 years.\"\n- In source [3] 45MBCAQ-01OM.pdf p.3: same text: \"the service life of the refrigerant sensor is 15 years.\"\n- In source [8] 45MBAAQ-01OM.pdf p.21: This page is about Sleep Operation and error codes, not about sensor life.\n\nThus, the service life is 15 years. We need to cite the source(s). The question is about the LEAK DETECTION SYSTEM. The sensor is part of that system. The service life is 15 years. We can cite any of the sources that mention it. The best is to cite [1] or [2] or [3]. Since the question is about the LEAK DETECTION SYSTEM, we can cite [1] which is from 45MBAAQ-01OM.pdf p.23. Or we can cite multiple sources. The instruction: \"Answer ONLY from the numbered sources. Read values directly from charts, tables and diagrams when relevant. Cite sources as [n]. Be brief.\" So we can answer: \"The service life of the refrigerant sensor is 15 years [1].\" Or we can include multiple citations: \"[1][2][3]\". But we need to be brief. Probably one citation is enough.\n\nThus answer: \"15 years [1].\"\n\nBut we need to ensure we are answering from the sources. Yes.\n\nThus final answer: \"The refrigerant sensor has a service life of 15 years [1].\"\n\nWe could also mention that it's part of the LEAK DETECTION SYSTEM. But the answer is straightforward.\n\nThus final.The refrigerant sensor has a service life of 15 years [1].",
+  "retrieve_ms": 44.01670000515878,
+  "llm_ms": 3396.4438999973936,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.23",
+   "[2] 45MBCAQ-01OM.pdf p.17",
+   "[3] 45MBCAQ-01OM.pdf p.3",
+   "[4] 45MBAAQ-01OM.pdf p.6",
+   "[5] 45MBCAQ-01OM.pdf p.4",
+   "[6] 45MBCAQ-01OM.pdf p.3",
+   "[7] 45MBCAQ-01OM.pdf p.14",
+   "[8] 45MBAAQ-01OM.pdf p.21"
+  ]
+ },
+ "caption_baseline|q22": {
+  "system": "caption_baseline",
+  "qid": "q22",
+  "type": "text",
+  "answer": "<EOS_TOKEN>We need to answer: \"What is the maximum heat recovery efficiency of the ERVCRNVA Carrier whole-home ventilator?\" We must answer only from the numbered sources. The sources are provided as [1] through [8]. We need to find the maximum heat recovery efficiency for the ERVCRNVA model. The sources include a brochure page (source [1] and [2] and [3] are essentially the same page from 01-IAQ-122-01.pdf p.4). That page describes ERV/HRV units and mentions \"Up to 70% of heat (or energy) from the indoor air is transferred to the clean, outdoor air\". That is a general statement for ERVs/HRVs. Does it specifically apply to ERVCRNVA? The page includes a compact rectangular unit labeled Model ERVCRNVA. The text says \"Up to 70% of heat (or energy) from the indoor air is transferred to the clean, outdoor air for circulation throughout your home using a heat or energy recovery core\". This is a general description for the whole-home ventilation system, likely applies to all models including ERVCRNVA. However, we need to confirm if any other source provides a specific efficiency for ERVCRNVA. The other sources are about heat pumps, dehumidifiers, etc., not about ERVCRNVA. So the only relevant source is [1] (or [2] or [3]) which states up to 70% heat recovery. The question asks for \"maximum heat recovery efficiency\". The source says \"Up to 70%\". So the maximum is 70%. We should cite the source. The source is [1] (or [2] or [3]) but we need to pick one. The instruction says \"Cite sources as [n]\". We can cite [1] as it contains the relevant text. However, [2] and [3] are also the same page. But we can just cite [1] because it's the first occurrence. The answer should be brief: \"Up to 70%\" and cite [1]. We must not add extra info. So answer: \"Up to 70% heat recovery efficiency [1]\".Up to 70% heat recovery efficiency [1]",
+  "retrieve_ms": 43.28460000397172,
+  "llm_ms": 3572.933000003104,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-IAQ-122-01.pdf p.4",
+   "[2] 01-IAQ-122-01.pdf p.4",
+   "[3] 01-IAQ-122-01.pdf p.4",
+   "[4] 01-811-20530-01.pdf p.13",
+   "[5] 01-811-20530-01.pdf p.8",
+   "[6] 01-811-20530-01.pdf p.10",
+   "[7] 01-811-20530-01.pdf p.8",
+   "[8] 01-811-20530-01.pdf p.9"
+  ]
+ },
+ "caption_baseline|q23": {
+  "system": "caption_baseline",
+  "qid": "q23",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"How many heat exchangers does the Infinity 98 furnace use?\" We need to answer based only on the provided numbered sources. The sources are excerpts from a Carrier brochure (01-811-20530-01.pdf). The question is straightforward: how many heat exchangers does the Infinity 98 furnace use?\n\nFrom the text in source [1] (p.11) and [3] (p.11) and also [4] (p.11) and [2] (p.7) and [5] (p.4) etc., we see statements like: \"The Infinity 98 uses two heat exchangers to optimize efficiency.\" Also in the cutaway diagram description in [4] and [5], the diagram numbers include \"5 two heat exchangers\". So the answer is two.\n\nWe need to cite the source(s) as [n]. The question is about the Infinity 98 furnace. The relevant source is [1] p.11, [3] p.11, [4] p.11, [2] p.7, and [5] p.4 (though [5] is a summary, not the original page). The most direct is [1] p.11: \"The Infinity 98 uses two heat exchangers to optimize efficiency.\" Also [3] p.11 repeats that. So answer: two heat exchangers. Cite [1] (or [3] as well). The instruction: \"Answer ONLY from the numbered sources. Read values directly from charts, tables and diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\"\n\nThus answer: The Infinity 98 furnace uses two heat exchangers. Cite [1] (or [3] etc). Probably include both citations? The instruction says \"Cite sources as [n]\". Could list multiple. But brief. So: Two heat exchangers [1][3]. Or just [1]. I'll include both for completeness: Two heat exchangers [1][3].The Infinity 98 furnace uses two heat exchangers [1][3].",
+  "retrieve_ms": 41.87950000050478,
+  "llm_ms": 4253.61939999857,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.11",
+   "[2] 01-811-20530-01.pdf p.7",
+   "[3] 01-811-20530-01.pdf p.11",
+   "[4] 01-811-20530-01.pdf p.11",
+   "[5] 01-811-20530-01.pdf p.4",
+   "[6] 01-811-20530-01.pdf p.7",
+   "[7] 01-811-20530-01.pdf p.11",
+   "[8] 01-811-20530-01.pdf p.10"
+  ]
+ },
+ "caption_baseline|q24": {
+  "system": "caption_baseline",
+  "qid": "q24",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What is the AFUE rating of the Infinity® 98 gas furnace?\" We need to answer based only on the numbered sources. The sources are multiple pages from the same PDF (01-811-20530-01.pdf). The relevant information appears in several pages. Let's examine each source:\n\n- [1] p.11: \"AFUE values: Infinity 98 up to 98.5%, Infinity 80 up to 80%; Performance 96 up to 96.5%, Performance 80 up to 80%; Comfort 95 up to 96.5%, Comfort 80 up to 80%.\" So Infinity 98 AFUE up to 98.5%.\n\n- [2] p.7: bullet point: \"Infinity® 98 high energy efficiency – up to 98.5% AFUE\". Also later in same page: \"Infinity 98 high energy efficiency – up to 98.5% AFUE\". So consistent.\n\n- [3] p.4: mentions AFUE for Infinity 98 gas furnace receives up to 98.5% AFUE.\n\n- [4] p.11: same as [1] essentially.\n\n- [5] p.7: same as [2] and [6] etc.\n\n- [6] p.7: \"Infinity 98 up to 98.5% AFUE\".\n\n- [7] p.11: \"Infinity 98 up to 98.5% AFUE\".\n\n- [8] p.7: \"Infinity 98 up to 98.5% AFUE\".\n\nThus all sources consistently state the AFUE rating is up to 98.5%. The question: \"What is the AFUE rating of the Infinity® 98 gas furnace?\" Answer: up to 98.5% AFUE. Cite source(s). We need to cite at least one source. Could cite [1] or any. The instruction: \"Answer ONLY from the numbered sources. Read values directly from charts, tables and diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\" So we should answer: \"The Infinity® 98 gas furnace has an AFUE rating of up to 98.5% [1].\" Or could cite multiple. But brief. Use one citation. Provide answer directly.\n\nThus final answer: \"Up to 98.5% AFUE [1].\"The Infinity® 98 gas furnace has an AFUE rating of up to 98.5% [1].",
+  "retrieve_ms": 43.76340001181234,
+  "llm_ms": 2450.9642999910284,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.11",
+   "[2] 01-811-20530-01.pdf p.7",
+   "[3] 01-811-20530-01.pdf p.4",
+   "[4] 01-811-20530-01.pdf p.11",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] 01-811-20530-01.pdf p.7",
+   "[7] 01-811-20530-01.pdf p.11",
+   "[8] 01-811-20530-01.pdf p.7"
+  ]
+ },
+ "caption_baseline|q25": {
+  "system": "caption_baseline",
+  "qid": "q25",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"How long does the 45MBAAQ run in FORCED COOL mode before switching to AUTO?\" We need to answer based on the provided sources. The sources are numbered [1] through [8]. We need to find the answer in the sources. The question is about the 45MBAAQ model, not the 45MBCAQ. The sources include both 45MBAAQ and 45MBCAQ manuals. We need to find the relevant information for the 45MBAAQ.\n\nLooking at the sources:\n\n- [1] 45MBAAQ-01OM.pdf p.15: This page shows remote control diagram and instructions, but does not mention FORCED COOL mode.\n- [2] 45MBCAQ-01OM.pdf p.14: This page mentions FORCED COOL mode for the 45MBCAQ model, not the 45MBAAQ. It says: \"FORCED COOL mode: In FORCED COOL mode, the Operation light flashes. The system will then turn to AUTO after it has cooled with a high wind speed for 30 minutes. The remote control will be disabled during this operation.\" This is for the 45MBCAQ, not the 45MBAAQ.\n- [3] 45MBAAQ-01OM.pdf p.16: This page shows UNIT OFF, UNIT ON, SLEEP Mode, COOL Mode, HEAT Mode, TURBO Mode, CLEAN Mode, LED Light, Resetting the Remote Control, Time Delay, Heating Features, Auto Defrost Operation, Auto Start. It does not mention FORCED COOL mode.\n- [4] 45MBAAQ-01OM.pdf p.16: This is a duplicate of [3] but described as an image. It also does not mention FORCED COOL mode.\n- [5] 45MBAAQ-01OM.pdf p.14: This page shows BASIC REMOTE CONTROL OPERATION, COOL Mode, HEAT Mode, AUTO Mode. It does not mention FORCED COOL mode.\n- [6] 45MBAAQ-01OM.pdf p.14: This is a duplicate of [5] but described as an image. It also does not mention FORCED COOL mode.\n- [7] 45MBCAQ-01OM.pdf p.11: This page shows HEAT Mode, AUTO Mode, DRY Mode, FAN Mode for the 45MBCAQ. It does not mention FORCED COOL mode.\n- [8] 45MBAAQ-01OM.pdf p.13: This page shows remote control user guide, battery installation, quick start. It does not mention FORCED COOL mode.\n\nNone of the sources for the 45MBAAQ mention FORCED COOL mode. The only mention of FORCED COOL mode is in source [2] for the 45MBCAQ model. The question specifically asks about the 45MBAAQ. Since the sources do not contain the answer for the 45MBAAQ, we should say so.\n\nThus, the answer is: The sources do not contain information about how long the 45MBAAQ runs in FORCED COOL mode before switching to AUTO.The provided sources do not contain information about the 45MBAAQ's FORCED COOL mode duration. The only mention of FORCED COOL is in source [2] for the 45MBCAQ model, not the 45",
+  "retrieve_ms": 40.22830000030808,
+  "llm_ms": 2797.798400002648,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.15",
+   "[2] 45MBCAQ-01OM.pdf p.14",
+   "[3] 45MBAAQ-01OM.pdf p.16",
+   "[4] 45MBAAQ-01OM.pdf p.16",
+   "[5] 45MBAAQ-01OM.pdf p.14",
+   "[6] 45MBAAQ-01OM.pdf p.14",
+   "[7] 45MBCAQ-01OM.pdf p.11",
+   "[8] 45MBAAQ-01OM.pdf p.13"
+  ]
+ },
+ "caption_baseline|q26": {
+  "system": "caption_baseline",
+  "qid": "q26",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user is asking for the minimum time before the 45MBCAQ can be restarted after being turned off.\n\nLooking at the provided sources, I need to find information about restart timing or protection features.\n\nFrom source [4] (p.17), in the TROUBLESHOOTING section, Table 4 — Common Issues, there's a note about a 3-minutes protection feature:\n\"The Unit has a 3-minutes protection feature that prevents the unit from overloading. The unit cannot be restarted within three minutes of being turned off.\"\n\nThis directly answers the question. The minimum time before the unit can be restarted is 3 minutes.\n\nI should cite this source as [4] since that's where the information is found.The minimum time before the 45MBCAQ can be restarted after being turned off is 3 minutes. This is due to the unit's 3-minute protection feature that prevents overloading. [4]",
+  "retrieve_ms": 43.5767000017222,
+  "llm_ms": 1246.8563000002177,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.13",
+   "[2] 45MBCAQ-01OM.pdf p.14",
+   "[3] 45MBCAQ-01OM.pdf p.14",
+   "[4] 45MBCAQ-01OM.pdf p.17",
+   "[5] 45MBAAQ-01OM.pdf p.16",
+   "[6] 45MBCAQ-01OM.pdf p.7",
+   "[7] 45MBCAQ-01OM.pdf p.6",
+   "[8] 45MBCAQ-01OM.pdf p.12"
+  ]
+ },
+ "caption_baseline|q27": {
+  "system": "caption_baseline",
+  "qid": "q27",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user is asking for the maximum SEER2 rating for Carrier Infinity® Heat Pumps. I need to look through the provided sources to find this information.\n\nLooking at the sources:\n\n[1] 01-825-118-01.pdf p.2 - This is a heat pump selection table with SEER2 values ranging from 23.0 to 16.5, but this seems to be for various models, not specifically Infinity® Heat Pumps.\n\n[2] 01-DLS-059-CA-01.pdf p.2 - This mentions SEER2 ratings up to 35.1 for Infinity® Systems, but this might be for ductless systems specifically.\n\n[3] 01-825-118-01.pdf p.2 - This is the same as [1].\n\n[4] 01-811-20530-01.pdf p.10 - This mentions \"unprecedented heat pump efficiency of up to 22.0 SEER2\" for Carrier Infinity® Heat Pumps.\n\n[5] 01-811-20530-01.pdf p.8 - This is the same as [4].\n\n[6] 01-DLS-059-CA-01.pdf p.2 - This is the same as [2].\n\n[7] 01-811-20530-01.pdf p.8 - This is the same as [4] and [5].\n\n[8] 01-811-20530-01.pdf p.8 - This is an advertisement showing SEER2 values: Infinity 25VNA4 up to 22.0 SEER2, Infinity 25VNA8 up to 18.5 SEER2.\n\nFrom these sources, I can see:\n\n- [4] and [5] explicitly state \"up to 22.0 SEER2\" for Carrier Infinity® Heat Pumps\n- [8] shows the same values for Infinity 25VNA4 (up to 22.0 SEER2)\n- [2] mentions SEER2 ratings up to 35.1 for Infinity® Systems, but this appears to be for ductless systems specifically\n\nThe question asks for the maximum SEER2 rating for Carrier Infinity® Heat Pumps. Based on the most specific and direct information in [4], [5], and [8], the maximum SEER2 rating is 22.0.\n\nHowever, I should note that [2] mentions 35.1 SEER2 for Infinity® Systems, but this appears to be for ductless systems specifically, not the general Infinity® Heat Pumps. The question doesn't specify ductless, so I should go with the more general information from [4], [5], and [8].\n\nActually, let me re-read the question: \"What is the maximum SEER2 rating for the Carrier Infinity® Heat Pumps?\"\n\nLooking at [4] and [5], they explicitly state \"unprecedented heat pump efficiency of up to 22.0 SEER2\" for Carrier Infinity® Heat Pumps. This seems to be the most direct answer to the question.\n\n[8] also supports this with the Infinity 25VNA4 having up to 22.0 SEER2.\n\nSo the answer is 22.0 SEER2, based on sources [4], [5], and [8].Based on the provided sources, the maximum SEER2 rating for Carrier Infinity® Heat Pumps is 22.0",
+  "retrieve_ms": 39.747800008626655,
+  "llm_ms": 3159.9524000048405,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-825-118-01.pdf p.2",
+   "[2] 01-DLS-059-CA-01.pdf p.2",
+   "[3] 01-825-118-01.pdf p.2",
+   "[4] 01-811-20530-01.pdf p.10",
+   "[5] 01-811-20530-01.pdf p.8",
+   "[6] 01-DLS-059-CA-01.pdf p.2",
+   "[7] 01-811-20530-01.pdf p.8",
+   "[8] 01-811-20530-01.pdf p.8"
+  ]
+ },
+ "caption_baseline|q28": {
+  "system": "caption_baseline",
+  "qid": "q28",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What cooling efficiency rating does the Carrier Infinity 24VNA6 air conditioner achieve?\" We need to answer based only on the numbered sources provided. The sources are PDFs and other documents. We need to find the cooling efficiency rating for the Carrier Infinity 24VNA6 air conditioner. The sources include:\n\n- [1] 01-811-20530-01.pdf p.6: This page includes a cutaway diagram and text. It mentions \"Infinity 24VNA6 high energy efficiency – up to 24.0 SEER2\". Also in the right side of the page, it says \"Infinity 24VNA6/24VNA9 up to 24.0 SEER2\". So the cooling efficiency rating is up to 24.0 SEER2.\n\n- [2] 01-811-20530-01.pdf p.6: This is the same page as [1] but maybe a different view. It also mentions \"Infinity 24VNA6 high energy efficiency – up to 24.0 SEER2\". So consistent.\n\n- [3] 01-811-20530-01.pdf p.6: This is a description of the brochure page, but it also mentions SEER2 numbers. It says \"Infinity 24VNA6/24VNA9 up to 24.0 SEER2\". So same.\n\n- [4] 01-811-20530-01.pdf p.7: This is about furnaces, not relevant.\n\n- [5] 01-811-20530-01.pdf p.11: Also about furnaces.\n\n- [6] 01-811-20530-01.pdf p.6: This is an image description of an advertisement. It says \"24VNA6 up to 24.0 SEER2\". So same.\n\n- [7] OMVSAC-C454-01.pdf p.1: Not relevant.\n\n- [8] 01-811-20530-01.pdf p.8: This is about heat pumps, not the 24VNA6.\n\nThus, the answer is that the Carrier Infinity 24VNA6 air conditioner achieves a cooling efficiency rating of up to 24.0 SEER2. We need to cite the source. The relevant source is [1] or [2] or [3] or [6]. We can cite [1] as it explicitly states the rating. The question is about cooling efficiency rating, which is SEER2. So answer: up to 24.0 SEER2, citing [1].\n\nWe need to be brief and answer only from the numbered sources. So we can say: The Carrier Infinity 24VNA6 achieves up to 24.0 SEER2 cooling efficiency [1].The Carrier Infinity 24VNA6 achieves up to 24.0 SEER2 cooling efficiency [1].",
+  "retrieve_ms": 36.38529998715967,
+  "llm_ms": 2777.7205999882426,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.6",
+   "[2] 01-811-20530-01.pdf p.6",
+   "[3] 01-811-20530-01.pdf p.6",
+   "[4] 01-811-20530-01.pdf p.7",
+   "[5] 01-811-20530-01.pdf p.11",
+   "[6] 01-811-20530-01.pdf p.6",
+   "[7] OMVSAC-C454-01.pdf p.1",
+   "[8] 01-811-20530-01.pdf p.8"
+  ]
+ },
+ "caption_baseline|q29": {
+  "system": "caption_baseline",
+  "qid": "q29",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The question asks: \"What regulatory standard does the 45MBCAQ comply with?\" We need to answer based on the provided sources. The sources include pages from the 45MBCAQ Owner's Manual and other related documents. Let's examine the relevant sources:\n\n- Source [1] is page 6 of the 45MBCAQ Owner's Manual, showing FCC compliance section for a Class B digital device. It states the device complies with Part 15 of FCC Rules.\n- Source [3] is also page 6 of the 45MBCAQ Owner's Manual, repeating the same FCC compliance information.\n- Source [4] is from a different manual (45MBAAQ) but also mentions FCC Part 15 compliance.\n- Source [5] is page 4 of the 45MBAAQ manual, showing compatibility tables and airflow information, but not directly relevant to the regulatory standard.\n- Source [6] is page 7 of the 45MBCAQ manual, discussing refrigerant charge and room area, not regulatory compliance.\n- Source [7] is page 14 of the 45MBCAQ manual, describing HVAC system features and error codes, not regulatory compliance.\n- Source [8] is page 7 of the 45MBCACQ manual, showing tables for refrigerant charge and airflow, not regulatory compliance.\n\nBased on the sources, the only regulatory standard mentioned for the 45MBCAQ is the FCC Part 15. The sources explicitly state that the device complies with Part 15 of the FCC Rules. Therefore, the answer is that the 45MBCAQ complies with FCC Part 15.\n\nWe need to cite the source as [1] or [3] since they contain the relevant information. The question asks for the regulatory standard, and the answer should be brief and directly from the sources.\n\nThus, the answer is: The 45MBCAQ complies with Part 15 of the FCC Rules [1][3].The 45MBCAQ complies with Part 15 of the FCC Rules [1][3].",
+  "retrieve_ms": 37.099499997566454,
+  "llm_ms": 2493.238499999279,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.6",
+   "[2] 45MBCAQ-01OM.pdf p.20",
+   "[3] 45MBCAQ-01OM.pdf p.6",
+   "[4] 45MBAAQ-01OM.pdf p.3",
+   "[5] 45MBAAQ-01OM.pdf p.4",
+   "[6] 45MBCAQ-01OM.pdf p.7",
+   "[7] 45MBCAQ-01OM.pdf p.14",
+   "[8] 45MBCAQ-01OM.pdf p.7"
+  ]
+ },
+ "caption_baseline|q30": {
+  "system": "caption_baseline",
+  "qid": "q30",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What is the maximum operating distance of the remote control for the 45MBAAQ unit?\" We need to answer based on the provided sources. The sources include two manuals: 45MBAAQ-01OM.pdf and 45MBCAQ-01OM.pdf. The question is specifically about the 45MBAAQ unit. We need to find the maximum operating distance of the remote control for that unit.\n\nLooking at the sources:\n\n- Source [1] is page 13 of 45MBAAQ-01OM.pdf. It mentions: \"IMPORTANT: The remote control can operate the unit from a distance of up to 26 ft. (8 m) as long as there are no obstructions.\" This is directly relevant.\n\n- Source [2] is page 10 of 45MBCAQ-01OM.pdf, which is for a different model (45MBCAQ), so not relevant.\n\n- Source [3] is page 15 of 45MBAAQ-01OM.pdf, which shows a diagram and instructions but does not mention the operating distance.\n\n- Source [4] is page 7 of 45MBCAQ-01OM.pdf, not relevant.\n\n- Source [5] is page 13 of 45MBAAQ-01OM.pdf, but it's about refrigerant charge and room area, not remote distance.\n\n- Source [6] is page 4 of 45MBAAQ-01OM.pdf, which includes a CAUTION box and mentions remote functions, but does not mention operating distance.\n\n- Source [7] is page 16 of 45MBAAQ-01OM.pdf, about remote control operation instructions, but no mention of distance.\n\n- Source [8] is page 14 of 45MBAAQ-01OM.pdf, showing diagrams for modes, but no mention of distance.\n\nThus, the answer is found in source [1]: the maximum operating distance is 26 ft. (8 m) as long as there are no obstructions.\n\nWe should cite the source as [1] and provide a brief answer.The maximum operating distance of the remote control for the 45MBAAQ unit is up to 26 ft. (8 m) when there are no obstructions. [1]",
+  "retrieve_ms": 39.15330000745598,
+  "llm_ms": 3186.2237000023015,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.13",
+   "[2] 45MBCAQ-01OM.pdf p.10",
+   "[3] 45MBAAQ-01OM.pdf p.15",
+   "[4] 45MBCAQ-01OM.pdf p.7",
+   "[5] 45MBAAQ-01OM.pdf p.13",
+   "[6] 45MBAAQ-01OM.pdf p.4",
+   "[7] 45MBAAQ-01OM.pdf p.16",
+   "[8] 45MBAAQ-01OM.pdf p.14"
+  ]
+ },
+ "caption_baseline|q31": {
+  "system": "caption_baseline",
+  "qid": "q31",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>I need to find information about where the rating plate is located on the Carrier OM9GFRC condensing gas furnace. Let me look through the provided sources to see if any of them contain this information.\n\nLooking at the sources:\n1. OM9GFRC-02.pdf p.1 - This is the owner's manual page showing title block and safety information, but no specific details about rating plate location.\n2. 01-811-20530-01.pdf p.7 - This is an advertisement showing furnace series and features, but no rating plate location info.\n3. 01-811-20530-01.pdf p.7 - Another brochure page, same as above.\n4. 01-811-20530-01.pdf p.11 - Another brochure page with furnace series info.\n5. 01-IAQ-122-01.pdf p.6 - This shows a technician with furnace and air handler, but no specific rating plate location.\n6. 01-811-20530-01.pdf p.11 - Another brochure page.\n7. OM9GFRC-02.pdf p.2 - This is the owner's manual page showing furnace components diagram and table of contents. This might contain information about rating plate location.\n8. 01-811-20530-01.pdf p.6 - This shows an air conditioner unit, not relevant.\n\nLooking more closely at source [7] OM9GFRC-02.pdf p.2, this page shows a detailed exploded-view diagram of furnace components. While it doesn't explicitly show a rating plate, it does show various components including the furnace control board, electrical junction box, etc. However, I don't see a specific rating plate labeled in this diagram.\n\nNone of the provided sources explicitly show or describe the location of the rating plate on the Carrier OM9GFRC condensing gas furnace. The sources contain various information about the furnace components, features, and safety information, but not the specific location of the rating plate.\n\nSince the sources don't contain the answer to where the rating plate is located, I should indicate that this information is not available in the provided sources.The provided sources do not contain information about the rating plate location on the Carrier OM9GFRC condensing gas furnace. Sources show owner manual pages, component diagrams, and marketing materials, but none explicitly indicate where the rating plate is located. [7]",
+  "retrieve_ms": 42.53400000743568,
+  "llm_ms": 3903.456100000767,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.1",
+   "[2] 01-811-20530-01.pdf p.7",
+   "[3] 01-811-20530-01.pdf p.7",
+   "[4] 01-811-20530-01.pdf p.11",
+   "[5] 01-IAQ-122-01.pdf p.6",
+   "[6] 01-811-20530-01.pdf p.11",
+   "[7] OM9GFRC-02.pdf p.2",
+   "[8] 01-811-20530-01.pdf p.6"
+  ]
+ },
+ "caption_baseline|q32": {
+  "system": "caption_baseline",
+  "qid": "q32",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>We need to answer: \"Which part next to the blower and motor on the Carrier OM9GFRC condensing gas furnace is labeled '(if used)'?\" We must answer only from the numbered sources, citing them. The question asks about a part next to the blower and motor that is labeled \"(if used)\". We need to find in the sources which part is labeled \"(if used)\" and is next to the blower and motor.\n\nLet's examine the sources:\n\n- Source [5] OM9GFRC-02.pdf p.2: This page shows an exploded-view diagram of a furnace in upflow position, with labeled parts. The diagram includes: Gas Burner, Hot Surface Igniter, Manual Reset Rollout Switch, Flame Sensor, Gas Valve, Main Limit Switch, Inducer Motor Assembly, Electrical Junction Box, Blower Door Safety Switch, Furnace Control Board, Media Cabinet, Blower and Motor, Capacitor/Power Choke. The description says \"Capacitor/Power Choke (if used)\". So the part labeled \"(if used)\" is the Capacitor/Power Choke. The question asks: \"Which part next to the blower and motor on the Carrier OM9GFRC condensing gas furnace is labeled '(if used)'?\" In the diagram, the \"Blower and Motor\" is listed, and next to it is \"Capacitor/Power Choke (if used)\". So the answer is Capacitor/Power Choke.\n\nWe need to confirm that the part is indeed next to the blower and motor in the diagram. The source [5] description lists \"Blower and Motor\" and then \"Capacitor/Power Choke (if used)\". It doesn't explicitly say they are next to each other, but the exploded view likely shows them adjacent. Also source [7] OM9GFRC-02.pdf p.2 is a black-and-white exploded diagram with components listed, including \"Capacitor/power choke (if used)\". It also lists \"Blower and motor\". The description says \"Visible parts include: ... Blower and motor, Capacitor/power choke (if used).\" It doesn't specify adjacency, but the exploded view likely shows them near each other.\n\nThus, the part labeled \"(if used)\" next to the blower and motor is the Capacitor/Power Choke.\n\nWe need to answer briefly, citing the source. The answer: Capacitor/Power Choke, as per OM9GFRC-02.pdf p.2 [5].\n\nWe should not add extra information beyond the sources. The answer should be concise.\n\nThus: The Capacitor/Power Choke is labeled \"(if used)\" and appears next to the blower and motor in the exploded view diagram on OM9GFRC-02.pdf p.2 [5].\n\nWe need to cite the source. The answer should be brief. Possibly just \"Capacitor/Power Choke [5]\". But the question asks \"Which part next to the blower and motor ... is labeled '(if used)'?\" So answer: Capacitor/Power Choke.\n\nWe can include the citation. The instruction: \"Answer ONLY from the numbered sources. Cite sources as [n]. Be brief.\" So we can say: Capacitor/Power Choke [5].\n\nThus final answer: Capacitor/Power Choke [5].Capacitor/Power Choke [5]",
+  "retrieve_ms": 43.4011999896029,
+  "llm_ms": 2891.13579998957,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.7",
+   "[2] OM9GFRC-02.pdf p.1",
+   "[3] 01-811-20530-01.pdf p.11",
+   "[4] 01-IAQ-122-01.pdf p.6",
+   "[5] OM9GFRC-02.pdf p.2",
+   "[6] 01-811-20530-01.pdf p.7",
+   "[7] OM9GFRC-02.pdf p.2",
+   "[8] OM9GFRC-02.pdf p.9"
+  ]
+ },
+ "caption_baseline|q33": {
+  "system": "caption_baseline",
+  "qid": "q33",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user asks: \"What filter size does the Carrier OM9GFRC condensing gas furnace use with a 20 inch (508 mm) filter cabinet height?\" We need to answer based on the provided sources. The sources include multiple pages from OM9GFRC-02.pdf. Specifically, page 8 contains Table 1 – Air Filter Located in Filter Cabinet. The table lists filter cabinet heights and corresponding filter sizes. For a 20 inch (508 mm) filter cabinet height, the table shows filter sizes: 20 x 25 x 3/4\" (508 x 635 x 19) or 20 x 25 x 4-5/16 (508 x 635 x 110). The filter type is Washable. So the answer should be the filter size(s) for a 20 inch cabinet height. The question asks \"What filter size does the Carrier OM9GFRC condensing gas furnace use with a 20 inch (508 mm) filter cabinet height?\" It might expect a specific size, but the table provides two possible sizes. We should mention both options. Also, we need to cite the source as [1] or [4] which both show the same table. The user wants a brief answer, citing sources. So we can say: The filter size for a 20 inch (508 mm) filter cabinet height is either 20 x 25 x 3/4\" (508 x 635 x 19) or 20 x 25 x 4-5/16\" (508 x 635 x 110), as shown in Table 1 on page 8 of OM9GFRC-02.pdf [1][4]. If the question expects a single answer, we can note both options. But we should be concise. Also, we should not add extra information beyond what's in the sources. So answer: 20 x 25 x 3/4\" (508 x 635 x 19) or 20 x 25 x 4-5/16\" (508 x 635 x 110) [1][4].The filter size for a 20 in (508 mm) filter cabinet height is either 20 × 25 × 3/4 in (508 × 635 × 19 mm) or 20 × 25 × 4‑5/16 in (508 × 635 × 110 mm) [1][4].",
+  "retrieve_ms": 44.373900003847666,
+  "llm_ms": 2367.9134999983944,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.8",
+   "[2] OM9GFRC-02.pdf p.8",
+   "[3] OM9GFRC-02.pdf p.7",
+   "[4] OM9GFRC-02.pdf p.8",
+   "[5] OM9GFRC-02.pdf p.12",
+   "[6] OM9GFRC-02.pdf p.7",
+   "[7] 01-811-20530-01.pdf p.11",
+   "[8] OM9GFRC-02.pdf p.1"
+  ]
+ },
+ "caption_baseline|q34": {
+  "system": "caption_baseline",
+  "qid": "q34",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user is asking a specific question about the number of cable ties included in the accessories supplied with the 45MBAAQ.\n\nLooking at the provided sources, I need to find information about accessories for the 45MBAAQ.\n\nFrom source [3] (45MBAAQ-01OM.pdf p.8), there is Table 4 listing shipped accessories. The description mentions:\n- Table 4 lists accessories with images and quantities\n- It includes \"Cable Ties\" with a quantity of 4\n\nFrom source [8] (which appears to be a duplicate or continuation of page 8), there's a list that includes:\n- \"Cable Ties\" with quantity \"4\"\n\nBoth sources consistently indicate that there are 4 cable ties included in the accessories.\n\nThe question is asking specifically about the 45MBAAQ, and both sources are from the 45MBAAQ Owner's Manual, so this is the correct source.\n\nTherefore, the answer is 4 cable ties, and I should cite source [3] (or [8] since they both contain the same information).According to Table 4 in the 45MBAAQ Owner's Manual (page 8), the accessories include 4 cable ties [3].",
+  "retrieve_ms": 40.83420000097249,
+  "llm_ms": 1412.2084000118775,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.7",
+   "[2] 45MBAAQ-01OM.pdf p.4",
+   "[3] 45MBAAQ-01OM.pdf p.8",
+   "[4] 45MBAAQ-01OM.pdf p.3",
+   "[5] 45MBAAQ-01OM.pdf p.17",
+   "[6] 01-DLS-059-CA-01.pdf p.4",
+   "[7] 45MBAAQ-01OM.pdf p.26",
+   "[8] 45MBAAQ-01OM.pdf p.8"
+  ]
+ },
+ "caption_baseline|q35": {
+  "system": "caption_baseline",
+  "qid": "q35",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>I need to find information about how long the 45MBCAQ should be run in FAN function before a long period of non-use. Let me look through the provided sources.\n\nLooking at source [2] (45MBCAQ-01OM.pdf p.16), there's a figure titled \"Maintenance - Long Periods of Non-Use\" that includes instructions. One of the steps is \"Turn on FAN function until unit dries out completely\". However, this doesn't specify a time duration.\n\nLooking at source [8] (45MBCAQ-01OM.pdf p.16), there's another figure with the same title \"Maintenance - Long Periods of Non-Use\" that lists the same steps, including \"Turn on FAN function until unit dries out completely\".\n\nNone of the sources explicitly state a specific time duration for running the FAN function. The instruction is to run it \"until unit dries out completely\", which is a condition-based instruction rather than a time-based one.\n\nSince the sources don't contain a specific time duration, I should indicate that this information is not available in the provided sources.The provided sources do not specify a specific time duration for running the 45MBCAQ in FAN function before a long period of non-use. Source [2] and [8] state to \"Turn on FAN function until unit dries out completely\" as part of the maintenance procedure, but no time duration is given.",
+  "retrieve_ms": 42.17120000976138,
+  "llm_ms": 2414.82370000449,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.15",
+   "[2] 45MBCAQ-01OM.pdf p.16",
+   "[3] 45MBCAQ-01OM.pdf p.12",
+   "[4] 45MBCAQ-01OM.pdf p.13",
+   "[5] 45MBCAQ-01OM.pdf p.10",
+   "[6] 45MBCAQ-01OM.pdf p.14",
+   "[7] 45MBCAQ-01OM.pdf p.14",
+   "[8] 45MBCAQ-01OM.pdf p.16"
+  ]
+ },
+ "caption_baseline|q36": {
+  "system": "caption_baseline",
+  "qid": "q36",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user asks: \"What should be done with the remote control batteries before a long period of non-use of the 45MBAAQ?\" We need to answer based on the provided sources. The sources include multiple pages from manuals. We need to find the specific instruction about remote control batteries before a long period of non-use.\n\nFrom the sources:\n\n- [1] page 13 includes battery installation instructions and notes: \"If the remote is not going to be used for several weeks, remove the batteries. Otherwise, battery leakage may damage the remote control.\"\n\n- [2] page 13 also includes similar notes: \"If the remote is not going to be used for several weeks, remove the batteries.\"\n\n- [3] page 10 also includes similar notes.\n\n- [7] page 16 includes a figure titled \"Maintenance - Long Periods of Non-Use\" with icons and text: \"Remove batteries from remote control.\"\n\nThus, the answer: Remove the batteries from the remote control before a long period of non-use.\n\nWe need to cite the source(s). The question is about the 45MBAAQ. The relevant source is [1] or [7] or [2] or [3]. The most direct is [7] page 16, which explicitly mentions \"Remove batteries from remote control\" under \"Maintenance - Long Periods of Non-Use\". Also [1] page 13 notes: \"If the remote is not going to be used for several weeks, remove the batteries.\"\n\nThus answer: Remove the batteries from the remote control. Cite [7] and optionally [1].\n\nWe need to be brief and cite sources as [n]. Provide answer only from numbered sources. So answer: Remove the batteries from the remote control before a long period of non-use. Cite [7] (and maybe [1]).\n\nThus final answer: Remove the batteries from the remote control. [7] (also [1] notes the same).Remove the batteries from the remote control before a long period of non‑use. [7] (also noted in [1])",
+  "retrieve_ms": 36.6436999902362,
+  "llm_ms": 3004.52819999191,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.13",
+   "[2] 45MBAAQ-01OM.pdf p.13",
+   "[3] 45MBCAQ-01OM.pdf p.10",
+   "[4] 45MBAAQ-01OM.pdf p.16",
+   "[5] 45MBAAQ-01OM.pdf p.15",
+   "[6] 45MBAAQ-01OM.pdf p.24",
+   "[7] 45MBCAQ-01OM.pdf p.16",
+   "[8] 45MBAAQ-01OM.pdf p.7"
+  ]
+ },
+ "caption_baseline|q37": {
+  "system": "caption_baseline",
+  "qid": "q37",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user asks: \"What three checks does the 45MBCAQ owner's manual list in its pre-season maintenance steps?\" We need to answer based on the provided sources. The relevant source is page 16 of 45MBCAQ-01OM.pdf, which shows Fig. 16 titled \"Maintenance – Pre-Season Inspection\". The description says it lists eight icons: Check for damaged wires, Clean all filters, Check for leaks, Make sure nothing is blocking all air inlets and outlets, Replace batteries. However, the question asks for three checks. Possibly the manual lists three specific checks among those eight. Let's examine the text: The page description says \"Fig. 16 —Maintenance – Pre-Season Inspection lists eight icons: Check for damaged wires, Clean all filters, Check for leaks, Make sure nothing is blocking all air inlets and outlets, Replace batteries.\" Actually, that's five items, not eight. The description might be incomplete. Let's read the actual page content from the source. The source text provided is a summary, not the full page. It says: \"Fig. 16 —Maintenance – Pre-Season Inspection lists eight icons: Check for damaged wires, Clean all filters, Check for leaks, Make sure nothing is blocking all air inlets and outlets, Replace batteries.\" That's five items. Possibly the other three are not checks but actions like \"Replace batteries\" and maybe \"Clean all filters\" is a check? But the question specifically asks for three checks. Perhaps the manual lists three checks: Check for damaged wires, Check for leaks, and Make sure nothing is blocking all air inlets and outlets. Those are indeed checks. Clean all filters is an action, not a check. Replace batteries is also an action. So the three checks are: Check for damaged wires, Check for leaks, and Ensure nothing blocks air inlets and outlets. That seems plausible.\n\nWe need to cite the source. The source is [2] 45MBCAQ-01OM.pdf p.16. So we can answer: The manual lists three checks: Check for damaged wires, Check for leaks, and Ensure nothing blocks air inlets and outlets. Cite [2].\n\nWe should be brief and answer only from the numbered sources. So answer: Check for damaged wires, Check for leaks, and Ensure nothing blocks air inlets and outlets [2].The manual lists three checks in the pre‑season maintenance steps: Check for damaged wires, Check for leaks, and Make sure nothing is blocking all air inlets and outlets [2].",
+  "retrieve_ms": 38.59359999478329,
+  "llm_ms": 3596.1768999986816,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.16",
+   "[2] 45MBCAQ-01OM.pdf p.16",
+   "[3] 45MBAAQ-01OM.pdf p.7",
+   "[4] 45MBCAQ-01OM.pdf p.12",
+   "[5] 45MBCAQ-01OM.pdf p.14",
+   "[6] 45MBCAQ-01OM.pdf p.10",
+   "[7] 45MBCAQ-01OM.pdf p.20",
+   "[8] 45MBCAQ-01OM.pdf p.15"
+  ]
+ },
+ "caption_baseline|q38": {
+  "system": "caption_baseline",
+  "qid": "q38",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user asks: \"In the maintenance checklist of the Infinity Variable Speed Air Conditioner owner's manual, which indoor item is due monthly?\" We need to answer based on the provided sources. The sources include pages from the Infinity Variable Speed Air Conditioner Owner's Manual (OMVSAC-C454-01.pdf). Page 3 shows a Maintenance Checklist table with sections \"Outdoor unit specific:\" and \"Indoor specific: (and fossil fuel furnaces and accessories, refer to unit specific literature).\" The table lists tasks with X under Monthly or Annual. The user asks specifically about indoor items due monthly. We need to identify which indoor item(s) are marked with X under Monthly column.\n\nFrom the description of page 3 (source [1] and [2]), the table includes tasks. However, the description does not explicitly separate indoor vs outdoor tasks in the text. It mentions \"Outdoor unit specific:\" and \"Indoor specific:\" sections. The tasks listed include \"Clear away debris and vegetation near unit,\" \"Inspect cabinet for damage,\" \"Inspect electrical disconnect,\" \"Inspect electrical wiring and connections,\" etc. But we need to know which are indoor items. The description does not specify which tasks are indoor. However, we can infer that indoor items would be tasks related to indoor components, such as filter cleaning, vent checks, condensate drain, etc. But those are described on page 2 (source [5]) under \"ROUTINE MAINTENANCE\" and include \"Keep Filter Clean,\" \"Do Not Block Floor, Wall or Ceiling Vents,\" \"Do Not Cover or Block Outdoor Unit,\" \"Check Condensate Drain.\" However, page 2 does not show a checklist with intervals. The Maintenance Checklist on page 3 might include indoor tasks. The description of page 3 mentions tasks such as \"Clear away debris and vegetation near unit,\" \"Inspect cabinet for damage,\" \"Inspect electrical disconnect,\" \"Inspect electrical wiring and connections,\" \"Check refrigerant system subcooling and/or superheat,\" \"Inspect condenser coil,\" \"Inspect fan motor,\" \"Inspect leak dissipation system.\" These seem to be outdoor unit specific tasks. The indoor specific section might be on a different page or not shown. The user asks specifically about indoor item due monthly. We need to find if any indoor item is listed with X under Monthly.\n\nLooking at the provided sources, page 3 includes both outdoor and indoor sections, but the text description does not list indoor tasks explicitly. However, the table might have indoor tasks listed under \"Indoor specific:\" but the description does not show them. Possibly the indoor tasks are not shown in the image description. The user might be expecting us to read from the image. Since we cannot see the image directly, we rely on the description. The description says: \"The table lists maintenance tasks in rows under sections “Outdoor unit specific:” and “Indoor specific: (and fossil fuel furnaces and accessories, refer to unit specific literature).” Each task row has an “X” under Monthly or Annual indicating frequency.\" So there are indoor tasks. But the description does not list them. However, we might infer from typical HVAC maintenance that indoor tasks include cleaning air filter, checking condensate drain, etc. But we need to answer based on the source. If the source does not provide the indoor tasks list, we should say so.\n\nWe need to answer: \"In the maintenance checklist of the Infinity Variable Speed Air Conditioner owner's manual, which indoor item is due monthly?\" We need to find the indoor item(s) marked with",
+  "retrieve_ms": 40.70879999198951,
+  "llm_ms": 4665.1572999981,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.3",
+   "[2] OMVSAC-C454-01.pdf p.3",
+   "[3] OMVSAC-C454-01.pdf p.4",
+   "[4] OMVSAC-C454-01.pdf p.4",
+   "[5] OMVSAC-C454-01.pdf p.2",
+   "[6] 01-811-20530-01.pdf p.7",
+   "[7] OM9GFRC-02.pdf p.12",
+   "[8] OMVSAC-C454-01.pdf p.1"
+  ]
+ },
+ "caption_baseline|q39": {
+  "system": "caption_baseline",
+  "qid": "q39",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user asks: \"What does the transmission indicator on the 45MBAAQ remote control display show?\" We need to answer based only on the numbered sources. The sources are PDFs of manuals for 45MBAAQ and 45MBCAQ. The question is about the transmission indicator on the 45MBAAQ remote control. We need to find what it shows. The sources include diagrams and descriptions of the remote control LCD screen. Let's examine the relevant sources.\n\nSource [1] is a description of page 12 of 45MBAAQ-01OM.pdf, showing a diagram of the wireless remote control LCD screen. It mentions a transmission indicator that lights when the remote sends a signal. It says: \"Transmission Indicator Lights up when remote sends signal to indoor unit mode, MODE display\". Actually, the text in [1] says: \"Transmission Indicator Lights up when remote sends signal to indoor unit mode, MODE display\". But that seems garbled. Let's read carefully.\n\nFrom [1]: \"Transmission Indicator Lights up when remote sends signal to indoor unit mode, MODE display\". That might be a misformatting. But earlier in [1], it says: \"Below, a transmission indicator lights when the remote sends a signal.\" So the transmission indicator shows that the remote is sending a signal. It likely lights up to indicate transmission.\n\nSource [2] is the same page but with a list of indicators. It includes \"Transmission Indicator Lights up when remote sends signal to indoor unit mode, MODE display\". That seems to be a copy-paste error. But the key is that the transmission indicator lights up when the remote sends a signal.\n\nSource [3] is for 45MBCAQ, not relevant.\n\nSource [4] is also for 45MBAAQ, page 14, showing operation diagrams, but not about the transmission indicator.\n\nSource [5] is for 45MBCAQ, not relevant.\n\nSource [6] is for 45MBCAQ, not relevant.\n\nSource [7] is a line drawing of a remote control, but not the 45MBAAQ? It might be a different model.\n\nSource [8] is a wiring diagram, not relevant.\n\nThus, the only relevant source for the transmission indicator on the 45MBAAQ remote is [1] and [2]. They both say the transmission indicator lights up when the remote sends a signal. So the answer: It shows that the remote is transmitting a signal to the indoor unit. It lights up when the remote sends a signal.\n\nWe need to answer only from the numbered sources, be brief, and cite sources as [n]. So we can say: The transmission indicator lights up when the remote sends a signal to the indoor unit. Cite [1] and [2] perhaps. But we need to be concise. We can say: It lights up to indicate the remote is transmitting a signal. Cite [1] and [2].\n\nThus answer: The transmission indicator lights up when the remote sends a signal to the indoor unit. [1][2]The transmission indicator lights up to show the remote is sending a signal to the indoor unit. [1][2]",
+  "retrieve_ms": 37.55690000252798,
+  "llm_ms": 2696.2103999976534,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.12",
+   "[2] 45MBAAQ-01OM.pdf p.12",
+   "[3] 45MBCAQ-01OM.pdf p.9",
+   "[4] 45MBAAQ-01OM.pdf p.14",
+   "[5] 45MBCAQ-01OM.pdf p.9",
+   "[6] 45MBCAQ-01OM.pdf p.11",
+   "[7] 45MBAAQ-01OM.pdf p.17",
+   "[8] 45MBAAQ-01OM.pdf p.10"
+  ]
+ },
+ "caption_baseline|q40": {
+  "system": "caption_baseline",
+  "qid": "q40",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user asks: \"How many flare nuts are included in the accessories supplied with the 45MBAAQ?\" We need to answer based on the provided sources. The sources include multiple pages from the 45MBAAQ Owner's Manual, specifically Table 4 listing accessories. In the description of Table 4, it lists \"Flare Nut (18K-60K)\" with quantity 2. Also in the earlier text: \"Flare Nut (18K-60K) 2\". So the answer is 2 flare nuts.\n\nWe need to cite the source as [n] where n is the relevant source number. The relevant source is [1] or [2] or [5] which all refer to Table 4 on page 8. The most direct is [5] which is the image of Table 4. But [1] also mentions the same. We can cite [5] as it explicitly shows the table. Or we can cite [1] and [5] both. The instruction: \"Answer ONLY from the numbered sources. Read values directly from charts, tables and diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\" So we should answer: \"2 flare nuts are included.\" And cite the source: [5] (or [1] and [5]). Probably best to cite [5] because it's the table image. But we can also include [1] as it mentions the same. However, we should be concise. We can say: \"2 flare nuts are included in the accessories [5].\" That satisfies the requirement.\n\nThus final answer: \"2 flare nuts are included in the accessories supplied with the 45MBAAQ [5].\"2 flare nuts are included in the accessories supplied with the 45MBAAQ [5].",
+  "retrieve_ms": 34.103500001947396,
+  "llm_ms": 3006.0855000047013,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.8",
+   "[2] 45MBAAQ-01OM.pdf p.8",
+   "[3] 45MBAAQ-01OM.pdf p.7",
+   "[4] 45MBAAQ-01OM.pdf p.4",
+   "[5] 45MBAAQ-01OM.pdf p.8",
+   "[6] 45MBAAQ-01OM.pdf p.14",
+   "[7] 45MBAAQ-01OM.pdf p.1",
+   "[8] 01-DLS-059-CA-01.pdf p.4"
+  ]
+ },
+ "fieldnote_routed|q01": {
+  "system": "fieldnote_routed",
+  "qid": "q01",
+  "type": "audio",
+  "answer": "Based on the provided sources, I need to find the specific information about how long a frozen indoor coil should thaw with the compressor off.\n\nLooking at the sources:\n\n[1] call_01_ac_frozen_coil.mp3 contains a technical support call about a frozen indoor coil. The technician says: \"Replace the filter, then shut the compressor off and let the coil fog completely. That usually takes about 4 hours.\"\n\nThis directly answers the question - the technician states it \"usually takes about 4 hours\" for the coil to fog (thaw) completely with the compressor off.\n\nThe other sources contain information about heat pump defrost cycles, auto defrost operation, and general unit operation, but don't provide specific timing for indoor coil thawing with compressor off.\n\nTherefore, the answer is 4 hours according to source [1].According to the technical support call in [1], a frozen indoor coil should thaw with the compressor off for about 4 hours. The technician states: \"Replace the filter, then shut the compressor off and let the coil fog completely. That usually takes about 4 hours.\" [1]",
+  "retrieve_ms": 147.4342000001343,
+  "llm_ms": 4305.484800002887,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_01_ac_frozen_coil.mp3 @0s",
+   "[2] photo_038.jpg",
+   "[3] call_03_heat_pump_defrost.mp3 @0s",
+   "[4] photo_024.jpg",
+   "[5] 45MBCAQ-01OM.pdf p.13",
+   "[6] photo_061.jpg",
+   "[7] 45MBAAQ-01OM.pdf p.16",
+   "[8] photo_026.jpg"
+  ]
+ },
+ "fieldnote_routed|q02": {
+  "system": "fieldnote_routed",
+  "qid": "q02",
+  "type": "audio",
+  "answer": "The source [1] provides guidance on capacitor testing. It states: \"If the measured value is more than 6% below rated, replace it.\" This applies to dual-run capacitors. However, the question specifically asks about run capacitors. The source doesn't explicitly differentiate between run and start capacitors in this tolerance, but the general rule of 6% below rating is mentioned. Without specific information about run capacitors in the sources, I cannot provide a different tolerance. Based on the available information, the answer is that a run capacitor should be replaced if its measured value is more than 6% below its rated value.Based on source [1], a capacitor should be replaced if its measured value is more than 6% below its rated value. This applies to dual-run capacitors, and without specific information differentiating run capacitors, this tolerance is used as the guideline.",
+  "retrieve_ms": 151.2944999994943,
+  "llm_ms": 3029.9516999948537,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_02_ac_capacitor.mp3 @0s",
+   "[2] photo_076.jpg",
+   "[3] 45MBAAQ-01OM.pdf p.5",
+   "[4] 45MBCAQ-01OM.pdf p.7",
+   "[5] 45MBCAQ-01OM.pdf p.3",
+   "[6] photo_067.png",
+   "[7] 45MBCAQ-01OM.pdf p.3",
+   "[8] photo_069.jpg"
+  ]
+ },
+ "fieldnote_routed|q03": {
+  "system": "fieldnote_routed",
+  "qid": "q03",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>1.  **Analyze the Request:**\n    *   **Question:** How often should a heat pump enter defrost?\n    *   **Constraint:** Answer *ONLY* from the numbered sources. Cite sources as [n]. Be brief. If sources don't contain the answer, say so.\n    *   **Sources provided:**\n        *   [1] call_03_heat_pump_defrost.mp3 @0s (Transcript provided in the text).\n        *   [2] photo_024.jpg (Image of a frozen unit).\n        *   [3] 01-825-118-01.pdf p.2 (Warranty and testing document).\n        *   [4] photo_038.jpg (Image of a unit).\n        *   [5] 45MBCAQ-01OM.pdf p.17 (Manual excerpt).\n        *   [6] photo_061.jpg (Image of ice dripping).\n        *   [7] call_08_air_purifier_service.mp3 @0s (Transcript about air purifier).\n        *   [8] photo_027.jpg (Image).\n\n2.  **Scan Sources for Keywords:**\n    *   Keywords: \"defrost\", \"frequency\", \"often\", \"90 minutes\", \"runtime\", \"cycle\".\n\n3.  **Evaluate Each Source:**\n\n    *   **Source [1]:** `call_03_heat_pump_defrost.mp3 @0s`\n        *   Content: \"The control board should start a defrost cycle about every 90 minutes of runtime when the coil sensor is below 32 degrees.\"\n        *   Match: Yes. This directly answers the question.\n\n    *   **Source [2]:** `photo_024.jpg`\n        *   Content: Image of a frozen heat pump.\n        *   Match: No text.\n\n    *   **Source [3]:** `01-825-118-01.pdf p.2`\n        *   Content: Warranty info, testing conditions, model descriptions.\n        *   Match: No mention of defrost frequency.\n\n    *   **Source [4]:** `photo_038.jpg`\n        *   Content: Image of a unit.\n        *   Match: No text.\n\n    *   **Source [5]:** `45MBCAQ-01OM.pdf p.17`\n        *   Content: 3-minute protection, anti-cold wind indicators, anti-freeze protection, white mist.\n        *   Match: Mentions \"anti-freeze protection\" and \"defrost the unit\" but doesn't specify the *frequency* of the defrost cycle initiation (e.g., every X minutes). It describes the *condition* (too cold) and the *result* (change to fan mode).\n\n    *   **Source [6]:** `photo_061.jpg`\n        *   Content: Image of ice dripping.\n        *   Match: No text.\n\n    *   **Source [7]:** `call_08_air_purifier_service.mp3 @0s`\n        *   Content: Air purifier filter replacement.\n        *   Match: Irrelevant.\n\n    *   **Source [8]:** `photo_027.jpg`\n        *   Content: Image of a Sanyo unit.\n        *   Match: No text.\n\n4.  **Synthesize the Answer:**\n    *   The only source containing the specific answer is Source [1].\n    *   The answer is: \"about",
+  "retrieve_ms": 144.72090000344906,
+  "llm_ms": 7912.264400001732,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_03_heat_pump_defrost.mp3 @0s",
+   "[2] photo_024.jpg",
+   "[3] 01-825-118-01.pdf p.2",
+   "[4] photo_038.jpg",
+   "[5] 45MBCAQ-01OM.pdf p.17",
+   "[6] photo_061.jpg",
+   "[7] call_08_air_purifier_service.mp3 @0s",
+   "[8] photo_027.jpg"
+  ]
+ },
+ "fieldnote_routed|q04": {
+  "system": "fieldnote_routed",
+  "qid": "q04",
+  "type": "audio",
+  "answer": "[1] call_04_heat_pump_thermostat_ob.mp3 @0s states: \"If the valve energizes in cooling, set the thermostat to go. If it energizes in heating, set it to be. The label says energized in cooling. Then set O.\" This indicates that when the reversing valve energizes in cooling, the thermostat should be set to \"O\" (which stands for \"Off\" or \"Cooling\" mode for the reversing valve). Therefore, the reversing valve setting used is \"O\".If the reversing valve energizes in cooling, set the thermostat to \"O\" [1].",
+  "retrieve_ms": 143.9027000014903,
+  "llm_ms": 4956.854299991392,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_04_heat_pump_thermostat_ob.mp3 @0s",
+   "[2] photo_053.jpg",
+   "[3] 01-811-20530-01.pdf p.9",
+   "[4] photo_023.jpg",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] photo_049.jpg",
+   "[7] 45MBCAQ-01OM.pdf p.14",
+   "[8] 01-811-20530-01.pdf p.9"
+  ]
+ },
+ "fieldnote_routed|q05": {
+  "system": "fieldnote_routed",
+  "qid": "q05",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user is asking: \"What should you clean a furnace flame sensor with?\" They provided a set of sources [1] through [8] (though only [1] through [8] are visible in the prompt, with some being PDFs and some being audio transcripts). I need to answer based *only* on the numbered sources provided. I should read the sources to find the answer.\n\n**Source Analysis:**\n\n*   **Source [1]:** `call_05_furnace_flame_sensor.mp3 @0s`. This is a transcript of a technical support call.\n    *   Content: \"Technical support, this is Dana. Dana, a gas furnace lights the burners for a few seconds and then shuts down. The board is flashing a fault code. Burners lighting then dropping out is almost always a dirty flame sensor. Turn off power and gas, remove the sensor, and clean it. Should I use sandpaper? No. Use a fine abrasive pad with a light touch. Then check the flame signal. You want at least one microamp, and below 0.5 microamps the board will lock out. Fine pad, no sandpaper, and at least one microamp.\"\n    *   Relevance: This source explicitly answers the question. It says \"Use a fine abrasive pad with a light touch.\" It explicitly says \"No\" to sandpaper.\n\n*   **Source [2]:** `45MBAAQ-01OM.pdf p.21`. This appears to be a page from a manual.\n    *   Content: The text provided is a \"CAUTION\" section about turning off power, using authorized technicians, not substituting fuses, drain hose setup, and wire connections. It does *not* mention flame sensor cleaning methods.\n\n*   **Source [3]:** `OM9GFRC-02.pdf p.4`. This is a page showing burner flame adjustment and safety instructions.\n    *   Content: Mentions \"burner flames are in good adjustment,\" \"hot surface ignition system,\" \"never attempt to manually light burners,\" and safety procedures for gas leaks. No mention of cleaning the flame sensor.\n\n*   **Source [4]:** `OM9GFRC-02.pdf p.9`. This is a page showing a diagram of the furnace interior.\n    *   Content: Labels parts like \"Burner Flame,\" \"Burner,\" \"Manifold,\" \"Hot Surface Ignitor,\" \"Flame Sensor,\" \"Gas Valve,\" etc. It shows the components but doesn't provide instructions on *how* to clean them.\n\n*   **Source [5]:** `OM9GFRC-02.pdf p.12`. This is a maintenance checklist.\n    *   Content: Lists inspection and cleaning tasks (blower assembly, gas valve, ignition system, etc.). It mentions \"Inspect ignition system and safety controls. Clean and adjust as needed.\" This implies the flame sensor might be part of the ignition system, but it doesn't specify the *material* to use for cleaning.\n\n*   **Source [6]:** `OM9GFRC-02.pdf p.4`. This is a duplicate of Source [3] (or another page with similar content). It shows a diagram of burners. No cleaning instructions.\n\n*   **Source [7]:** `OM9GFRC-02.pdf p.7`. This is a page about basic maintenance and safety.\n    *   Content: Mentions checking filters, safety precautions. No mention of",
+  "retrieve_ms": 153.74880000308622,
+  "llm_ms": 7519.002899993211,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_05_furnace_flame_sensor.mp3 @0s",
+   "[2] 45MBAAQ-01OM.pdf p.21",
+   "[3] OM9GFRC-02.pdf p.4",
+   "[4] OM9GFRC-02.pdf p.9",
+   "[5] OM9GFRC-02.pdf p.12",
+   "[6] OM9GFRC-02.pdf p.4",
+   "[7] OM9GFRC-02.pdf p.7",
+   "[8] OM9GFRC-02.pdf p.9"
+  ]
+ },
+ "fieldnote_routed|q06": {
+  "system": "fieldnote_routed",
+  "qid": "q06",
+  "type": "audio",
+  "answer": "Never jump the pressure switch to get the furnace running. Clear the tubing, check the trap and never jump or the switch. [5]",
+  "retrieve_ms": 146.82969999557827,
+  "llm_ms": 2912.766900000861,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.11",
+   "[2] OM9GFRC-02.pdf p.6",
+   "[3] OM9GFRC-02.pdf p.4",
+   "[4] OM9GFRC-02.pdf p.5",
+   "[5] call_06_furnace_pressure_switch.mp3 @0s",
+   "[6] OM9GFRC-02.pdf p.5",
+   "[7] OM9GFRC-02.pdf p.11",
+   "[8] OM9GFRC-02.pdf p.9"
+  ]
+ },
+ "fieldnote_routed|q07": {
+  "system": "fieldnote_routed",
+  "qid": "q07",
+  "type": "audio",
+  "answer": "Based on the provided sources, specifically [1] call_07_thermostat_no_c_wire.mp3, the recommended action for a thermostat with no spare wire for the C (common) wire is:\n\n- If the cable has four wires and all four are already in use, then use the add a wire adapter kit or run a new cable.\n- Do not jump or connect R to C because that can blow the transformer fuse.\n- An adapter kit should be used instead of a jumper from R to C.\n\nTherefore, the answer is to use an add a wire adapter kit or run a new cable, and avoid jumping R to C.Use an add a wire adapter kit or run a new cable. Do not jump R to C as it can blow the transformer fuse. [1]",
+  "retrieve_ms": 141.96479998645373,
+  "llm_ms": 2264.3930000049295,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_07_thermostat_no_c_wire.mp3 @0s",
+   "[2] OM9GFRC-02.pdf p.6",
+   "[3] 45MBAAQ-01OM.pdf p.19",
+   "[4] OM9GFRC-02.pdf p.4",
+   "[5] OMVSAC-C454-01.pdf p.3",
+   "[6] photo_094.jpg",
+   "[7] OMVSAC-C454-01.pdf p.3",
+   "[8] photo_096.jpg"
+  ]
+ },
+ "fieldnote_routed|q08": {
+  "system": "fieldnote_routed",
+  "qid": "q08",
+  "type": "audio",
+  "answer": "Based on the provided sources, the answer is:\n\n- Replace the filter cartridge every 12 months [1].\n\nThe source [1] is a transcript of a technical support call where a customer asks how often to service their whole home air purifier. The support agent states: \"Replace the filter cartridge every 12 months and the ultraviolet lamp every 24 months.\"\n\nOther sources discuss furnace filters and general maintenance, but they do not contradict or provide a different replacement interval for the specific air purifier filter cartridge mentioned in source [1].Replace the filter cartridge every 12 months [1].",
+  "retrieve_ms": 143.37750000413507,
+  "llm_ms": 4998.412400003872,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_08_air_purifier_service.mp3 @0s",
+   "[2] photo_116.jpg",
+   "[3] OM9GFRC-02.pdf p.7",
+   "[4] photo_113.jpg",
+   "[5] 45MBCAQ-01OM.pdf p.15",
+   "[6] photo_117.jpg",
+   "[7] 45MBAAQ-01OM.pdf p.22",
+   "[8] photo_114.jpg"
+  ]
+ },
+ "fieldnote_routed|q09": {
+  "system": "fieldnote_routed",
+  "qid": "q09",
+  "type": "audio",
+  "answer": "From the audio transcript in source [1], the technician states: \"At 20 degrees outdoors, keep indoor humidity near 30%.\" This directly answers the question. The target is 30% indoor humidity when outdoor temperature is 20 degrees.30% indoor humidity when outdoor temperature is 20 degrees. [1]",
+  "retrieve_ms": 143.00140000705142,
+  "llm_ms": 5468.233799998416,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_09_iaq_humidifier_setpoint.mp3 @0s",
+   "[2] 45MBAAQ-01OM.pdf p.9",
+   "[3] OMVSAC-C454-01.pdf p.2",
+   "[4] 01-825-118-01.pdf p.3",
+   "[5] 45MBAAQ-01OM.pdf p.9",
+   "[6] photo_031.jpg",
+   "[7] 01-811-20530-01.pdf p.5",
+   "[8] 01-811-20530-01.pdf p.13"
+  ]
+ },
+ "fieldnote_routed|q10": {
+  "system": "fieldnote_routed",
+  "qid": "q10",
+  "type": "audio",
+  "answer": "The sources provided do not contain specific information about recommended carbon dioxide levels for indoor air. The document mentions carbon dioxide as an indoor air issue and its symptoms (drowsiness, poor concentration), but does not provide a threshold level. Therefore, I cannot answer this question based on the given sources.The provided sources do not contain the specific carbon dioxide level threshold for indoor air.",
+  "retrieve_ms": 146.4432999928249,
+  "llm_ms": 5462.624000007054,
+  "cited": false,
+  "abstained": true,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.7",
+   "[2] 01-IAQ-122-01.pdf p.2",
+   "[3] 45MBAAQ-01OM.pdf p.9",
+   "[4] 01-825-118-01.pdf p.3",
+   "[5] 01-IAQ-122-01.pdf p.3",
+   "[6] 01-IAQ-087-03.pdf p.4",
+   "[7] call_09_iaq_humidifier_setpoint.mp3 @0s",
+   "[8] 01-IAQ-087-03.pdf p.3"
+  ]
+ },
+ "fieldnote_routed|q16": {
+  "system": "fieldnote_routed",
+  "qid": "q16",
+  "type": "text",
+  "answer": "According to source [1] and [3], a Carrier Fan Coil can improve SEER2 ratings by up to two full points. This is stated in the text: \"Improve SEER2 Ratings by up to Two Full Points with a Carrier Fan Coil.\" and \"Maximum energy efficiency enhances cooling efficiency up to two SEER2 points.\" Therefore, the answer is up to two SEER2 points.A Carrier Fan Coil can improve system efficiency by up to two SEER2 points. [1][3]",
+  "retrieve_ms": 142.27369999571238,
+  "llm_ms": 5367.595200004871,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.9",
+   "[2] 01-811-20530-01.pdf p.9",
+   "[3] 01-811-20530-01.pdf p.9",
+   "[4] 01-811-20530-01.pdf p.9",
+   "[5] 01-811-20530-01.pdf p.8",
+   "[6] 01-811-20530-01.pdf p.3",
+   "[7] 01-811-20530-01.pdf p.8",
+   "[8] 01-811-20530-01.pdf p.9"
+  ]
+ },
+ "fieldnote_routed|q17": {
+  "system": "fieldnote_routed",
+  "qid": "q17",
+  "type": "text",
+  "answer": "[1] 01-IAQ-122-01.pdf p.3\n...trapping 95% of particles (1.0-3.0 microns)1... \n[7] 01-IAQ-122-01.pdf p.8\n...The Infinity air purifier achieves a MERV 15 rating based on third-party testing (2012) showing 95% of particles size 1.0 to 3.0 microns captured...\n\nBoth sources confirm the Infinity air purifier traps 95% of particles in the 1.0-3.0 micron range.The Infinity air purifier traps 95% of particles in the 1.0-3.0 micron range. [1][7]",
+  "retrieve_ms": 147.3048000043491,
+  "llm_ms": 4066.8047000071965,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-IAQ-122-01.pdf p.3",
+   "[2] 01-811-20530-01.pdf p.5",
+   "[3] 01-811-20530-01.pdf p.3",
+   "[4] 01-IAQ-122-01.pdf p.3",
+   "[5] 01-811-20530-01.pdf p.13",
+   "[6] photo_114.jpg",
+   "[7] 01-IAQ-122-01.pdf p.8",
+   "[8] 01-IAQ-122-01.pdf p.6"
+  ]
+ },
+ "fieldnote_routed|q18": {
+  "system": "fieldnote_routed",
+  "qid": "q18",
+  "type": "text",
+  "answer": "[3] OMVSAC-C454-01.pdf p.3 lists \"Clear away debris and vegetation near unit\" under \"Monthly\" maintenance items. Therefore, the recommended interval is monthly. [3]",
+  "retrieve_ms": 152.70690000033937,
+  "llm_ms": 2263.4309999994002,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.2",
+   "[2] OMVSAC-C454-01.pdf p.1",
+   "[3] OMVSAC-C454-01.pdf p.3",
+   "[4] 01-811-20530-01.pdf p.5",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] 01-811-20530-01.pdf p.10",
+   "[7] OMVSAC-C454-01.pdf p.1",
+   "[8] photo_049.jpg"
+  ]
+ },
+ "fieldnote_routed|q19": {
+  "system": "fieldnote_routed",
+  "qid": "q19",
+  "type": "text",
+  "answer": "The provided sources do not contain information about the 45MPHA indoor unit or its compatibility with specific Infinity heat pumps. The sources include product brochures, specifications, and diagrams for various Carrier Infinity heat pump models (25VNA4, 25VNA8, 24VNA6, 37MPRAQ, etc.) and indoor units (like 24V interface compatibility), but there is no mention of a 45MPHA indoor unit. Therefore, I cannot answer this question based on the given sources.",
+  "retrieve_ms": 142.91229999798816,
+  "llm_ms": 8684.899499989115,
+  "cited": false,
+  "abstained": true,
+  "top_sources": [
+   "[1] 01-DLS-059-CA-01.pdf p.1",
+   "[2] 01-811-20530-01.pdf p.6",
+   "[3] 01-811-20530-01.pdf p.10",
+   "[4] 01-811-20530-01.pdf p.8",
+   "[5] 01-DLS-059-CA-01.pdf p.2",
+   "[6] 01-DLS-059-CA-01.pdf p.1",
+   "[7] 01-DLS-059-CA-01.pdf p.3",
+   "[8] 01-811-20530-01.pdf p.10"
+  ]
+ },
+ "fieldnote_routed|q20": {
+  "system": "fieldnote_routed",
+  "qid": "q20",
+  "type": "text",
+  "answer": "<EOS_TOKEN>1.  **Analyze the Request:**\n    *   **Question:** What minimum clearance should be maintained between the outdoor unit of the Infinity® Variable Speed Air Conditioner and tall grass, vines, shrubs, etc.?\n    *   **Constraint:** Answer *only* from the numbered sources. Cite sources as [n]. Be brief. If sources don't contain the answer, say so.\n\n2.  **Scan the Sources for Keywords:**\n    *   Keywords: \"clearance\", \"minimum\", \"tall grass\", \"vines\", \"shrubs\", \"outdoor unit\", \"Infinity\", \"Variable Speed\".\n\n3.  **Evaluate Source [1]:**\n    *   *Content:* OMVSAC-C454-01.pdf p.2. Owner's Manual. Routine maintenance section.\n    *   *Relevant Text:* \"Maintain a 12” (305 mm) minimum clearance between the outdoor unit and tall grass, vines, shrubs, etc.\"\n    *   *Match:* Yes, this directly answers the question.\n\n4.  **Evaluate Source [3]:**\n    *   *Content:* OMVSAC-C454-01.pdf p.2. (Same document, different page).\n    *   *Relevant Text:* \"And, maintain a 12” (304.8 mm) minimum clearance between the outdoor unit and tall grass, vines, shrubs, etc.\"\n    *   *Match:* Yes, this also answers the question (though the unit is slightly different, the clearance is the same).\n\n5.  **Evaluate Source [5]:**\n    *   *Content:* OG-ACR454GEN-02.pdf p.1. Owner's Manual.\n    *   *Relevant Text:* \"And, maintain a 12” (304.8 mm) minimum clearance between the outdoor unit and tall grass, vines, shrubs, etc.\"\n    *   *Match:* Yes, this also answers the question.\n\n6.  **Synthesize the Answer:**\n    *   The question asks for the *minimum clearance*.\n    *   Source [1] says: 12” (305 mm).\n    *   Source [3] says: 12” (304.8 mm).\n    *   Source [5] says: 12” (304.8 mm).\n    *   The core value is 12 inches. The metric equivalents vary slightly (305 mm vs 304.8 mm), likely due to rounding. I should state the primary value clearly and cite the source(s).\n\n7.  **Draft the Response:**\n    *   *Draft:* According to the Owner's Manual (OMVSAC-C454-01.pdf, p.2), a 12” (305 mm) minimum clearance should be maintained. [1]\n    *   *Refinement:* The prompt asks to answer *only* from the numbered sources. I found the answer in [1], [3], and [5]. I should probably cite the most direct or primary source, or list them if necessary. Usually, citing one is sufficient if it's accurate, but since multiple sources confirm it, citing one is best. Let's look at [1] again. It explicitly says \"Maintain a 12” (305 mm) minimum clearance\". This is the most direct phrasing.\n\n8.  **Final Polish:**\n    *   Question: What minimum clearance...\n    *   Answer: 12 inches (305 mm).\n    *   Source: [1].\n\n    *Self",
+  "retrieve_ms": 128.5485999978846,
+  "llm_ms": 4981.43989998789,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.2",
+   "[2] OMVSAC-C454-01.pdf p.1",
+   "[3] OMVSAC-C454-01.pdf p.2",
+   "[4] 01-811-20530-01.pdf p.5",
+   "[5] OG-ACR454GEN-02.pdf p.1",
+   "[6] photo_049.jpg",
+   "[7] OMVSAC-C454-01.pdf p.3",
+   "[8] 01-811-20530-01.pdf p.6"
+  ]
+ },
+ "fieldnote_routed|q21": {
+  "system": "fieldnote_routed",
+  "qid": "q21",
+  "type": "text",
+  "answer": "The service life of the refrigerant sensor is 15 years. This information is found in the source text at [1] and [3] which both state: \"The service life of the refrigerant sensor is 15 years.\" [1] p.23, [3] p.17.The service life of the refrigerant sensor is 15 years. [1][3]",
+  "retrieve_ms": 149.84140000888146,
+  "llm_ms": 2576.188600010937,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.23",
+   "[2] photo_149.jpg",
+   "[3] 45MBCAQ-01OM.pdf p.17",
+   "[4] photo_053.jpg",
+   "[5] 45MBCAQ-01OM.pdf p.3",
+   "[6] 45MBCAQ-01OM.pdf p.15",
+   "[7] 45MBAAQ-01OM.pdf p.6",
+   "[8] photo_063.jpg"
+  ]
+ },
+ "fieldnote_routed|q22": {
+  "system": "fieldnote_routed",
+  "qid": "q22",
+  "type": "text",
+  "answer": "The provided sources do not contain the specific maximum heat recovery efficiency for the ERVCRNVA model. Source [1] describes general ERV efficiency (up to 70% heat transfer) but not model-specific data. Source [3] lists ERV models but no efficiency percentages. Source [4] is a selection guide without technical specs. Source [5] covers other products. Source [6] is an Infinity system diagram. Source [7] details heat pumps. Source [8] is a general brochure. No source provides the exact efficiency rating for ERVCRNVA.The sources do not provide the maximum heat recovery efficiency for the ERVCRNVA Carrier whole-home ventilator.",
+  "retrieve_ms": 135.2352000103565,
+  "llm_ms": 6379.371499991976,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] 01-IAQ-122-01.pdf p.4",
+   "[2] 01-811-20530-01.pdf p.13",
+   "[3] 01-IAQ-122-01.pdf p.4",
+   "[4] 01-IAQ-122-01.pdf p.4",
+   "[5] 01-811-20530-01.pdf p.13",
+   "[6] 01-811-20530-01.pdf p.9",
+   "[7] 01-811-20530-01.pdf p.8",
+   "[8] 01-811-20530-01.pdf p.3"
+  ]
+ },
+ "fieldnote_routed|q23": {
+  "system": "fieldnote_routed",
+  "qid": "q23",
+  "type": "text",
+  "answer": "[3] p.7 states: \"Two heat exchangers – are vital to your comfort and the efficiency of your furnace because they extract heat from the gas used. The Infinity® 98 uses two heat exchangers to optimize efficiency.\"\n\n[5] p.11 also states: \"Two heat exchangers – are vital to your comfort and the efficiency of your furnace because they extract heat from the gas used. The Infinity 98 uses two heat exchangers to optimize efficiency.\"\n\nThus, the Infinity 98 furnace uses two heat exchangers.The Infinity 98 furnace uses two heat exchangers. [3][5]",
+  "retrieve_ms": 131.921299995156,
+  "llm_ms": 5986.385099997278,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.11",
+   "[2] 01-811-20530-01.pdf p.9",
+   "[3] 01-811-20530-01.pdf p.7",
+   "[4] 01-811-20530-01.pdf p.9",
+   "[5] 01-811-20530-01.pdf p.11",
+   "[6] 01-811-20530-01.pdf p.6",
+   "[7] 01-811-20530-01.pdf p.4",
+   "[8] 01-811-20530-01.pdf p.7"
+  ]
+ },
+ "fieldnote_routed|q24": {
+  "system": "fieldnote_routed",
+  "qid": "q24",
+  "type": "text",
+  "answer": "[1] p.7 states: \"Infinity® 98 high energy efficiency – up to 98.5% AFUE\". Also [3] p.4 states: \"The Infinity® 98 gas furnace receives up to 98.5% AFUE.\" So answer: up to 98.5% AFUE.The Infinity® 98 gas furnace has an AFUE rating of up to 98.5% [1][3].",
+  "retrieve_ms": 139.51940000697505,
+  "llm_ms": 7202.970300000743,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.7",
+   "[2] OM9GFRC-02.pdf p.2",
+   "[3] 01-811-20530-01.pdf p.4",
+   "[4] 01-811-20530-01.pdf p.7",
+   "[5] 01-811-20530-01.pdf p.11",
+   "[6] 01-811-20530-01.pdf p.7",
+   "[7] 01-811-20530-01.pdf p.7",
+   "[8] 01-811-20530-01.pdf p.9"
+  ]
+ },
+ "fieldnote_routed|q25": {
+  "system": "fieldnote_routed",
+  "qid": "q25",
+  "type": "text",
+  "answer": "The 45MBAAQ does not have a FORCED COOL mode. The 45MBCAQ model has a FORCED COOL mode that runs for 30 minutes before switching to AUTO. The 45MBAAQ model has COOL, HEAT, AUTO, DRY, and FAN modes, but not FORCED COOL. Therefore, the question about the 45MBAAQ running in FORCED COOL mode is not applicable to this model.",
+  "retrieve_ms": 142.86510000238195,
+  "llm_ms": 2713.023999996949,
+  "cited": false,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.14",
+   "[2] 01-811-20530-01.pdf p.13",
+   "[3] 45MBAAQ-01OM.pdf p.16",
+   "[4] 45MBCAQ-01OM.pdf p.8",
+   "[5] 45MBAAQ-01OM.pdf p.14",
+   "[6] OG-ACR454GEN-02.pdf p.1",
+   "[7] 45MBCAQ-01OM.pdf p.11",
+   "[8] OMVSAC-C454-01.pdf p.1"
+  ]
+ },
+ "fieldnote_routed|q26": {
+  "system": "fieldnote_routed",
+  "qid": "q26",
+  "type": "text",
+  "answer": "The minimum time before the 45MBCAQ can be restarted after being turned off is 3 minutes. This is stated in the troubleshooting section on page 17 of the 45MBCAQ-01OM.pdf manual: \"The Unit has a 3-minutes protection feature that prevents the unit from overloading. The unit cannot be restarted within three minutes of being turned off.\" [5]",
+  "retrieve_ms": 141.11130000674166,
+  "llm_ms": 2283.9169000071706,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.13",
+   "[2] 45MBCAQ-01OM.pdf p.8",
+   "[3] 45MBCAQ-01OM.pdf p.14",
+   "[4] 45MBAAQ-01OM.pdf p.21",
+   "[5] 45MBCAQ-01OM.pdf p.17",
+   "[6] OM9GFRC-02.pdf p.4",
+   "[7] 45MBAAQ-01OM.pdf p.16",
+   "[8] OM9GFRC-02.pdf p.6"
+  ]
+ },
+ "fieldnote_routed|q27": {
+  "system": "fieldnote_routed",
+  "qid": "q27",
+  "type": "text",
+  "answer": "The maximum SEER2 rating for the Carrier Infinity® Heat Pumps is 22.0 SEER2, as stated in source [3] on page 10.The maximum SEER2 rating for the Carrier Infinity® Heat Pumps is 22.0 SEER2 [3].",
+  "retrieve_ms": 140.43520000996068,
+  "llm_ms": 2966.887199989287,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-DLS-059-CA-01.pdf p.2",
+   "[2] 01-811-20530-01.pdf p.10",
+   "[3] 01-811-20530-01.pdf p.10",
+   "[4] 01-811-20530-01.pdf p.8",
+   "[5] 01-811-20530-01.pdf p.8",
+   "[6] 01-811-20530-01.pdf p.10",
+   "[7] 01-DLS-059-CA-01.pdf p.2",
+   "[8] 01-811-20530-01.pdf p.8"
+  ]
+ },
+ "fieldnote_routed|q28": {
+  "system": "fieldnote_routed",
+  "qid": "q28",
+  "type": "text",
+  "answer": "The Carrier Infinity 24VNA6 air conditioner achieves up to 24.0 SEER2. This information is found in source [3] on page 6 and also in source [4] on page 10. Both sources list the same efficiency rating for the 24VNA6 model.The Carrier Infinity 24VNA6 air conditioner achieves up to 24.0 SEER2. This is confirmed in source [3] on page 6 and source [4] on page 10.",
+  "retrieve_ms": 141.73040000605397,
+  "llm_ms": 4281.154099997366,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.6",
+   "[2] 01-811-20530-01.pdf p.10",
+   "[3] 01-811-20530-01.pdf p.6",
+   "[4] 01-811-20530-01.pdf p.6",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] 01-811-20530-01.pdf p.10",
+   "[7] 01-811-20530-01.pdf p.11",
+   "[8] 01-811-20530-01.pdf p.8"
+  ]
+ },
+ "fieldnote_routed|q29": {
+  "system": "fieldnote_routed",
+  "qid": "q29",
+  "type": "text",
+  "answer": "The 45MBCAQ complies with FCC Part 15 of the FCC Rules. This is stated in the Owner's Manual on page 6 (source [3]) and also referenced in the Supplier's Declaration of Conformity (source [2]). The FCC compliance statement indicates that the device complies with Part 15 of the FCC Rules, which is a regulatory standard for radio frequency devices in the United States.The 45MBCAQ complies with FCC Part 15 of the FCC Rules. This is stated in the Owner's Manual on page 6 (source [3]) and also referenced in the Supplier's Declaration of Conformity (source [2]). The FCC compliance statement indicates that the device complies with Part 15 of the FCC Rules, which is a regulatory standard for radio frequency devices in the United States.",
+  "retrieve_ms": 139.21680000203196,
+  "llm_ms": 5070.349000001443,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.20",
+   "[2] 45MBAAQ-01OM.pdf p.10",
+   "[3] 45MBCAQ-01OM.pdf p.6",
+   "[4] 01-825-118-01.pdf p.2",
+   "[5] 45MBCAQ-01OM.pdf p.7",
+   "[6] 45MBAAQ-01OM.pdf p.25",
+   "[7] 45MBAAQ-01OM.pdf p.3",
+   "[8] 45MBAAQ-01OM.pdf p.23"
+  ]
+ },
+ "fieldnote_routed|q30": {
+  "system": "fieldnote_routed",
+  "qid": "q30",
+  "type": "text",
+  "answer": "The maximum operating distance of the remote control for the 45MBAAQ unit is up to 26 ft. (8 m) as long as there are no obstructions. This information is found in the \"REMOTE CONTROL\" section on page 13 of the 45MBAAQ-01OM.pdf manual [7]. The text states: \"The remote control can operate the unit from a distance of up to 26 ft. (8 m) as long as there are no obstructions.\" [7]The maximum operating distance of the remote control for the 45MBAAQ unit is up to 26 ft. (8 m) as long as there are no obstructions. [7]",
+  "retrieve_ms": 145.02460000221618,
+  "llm_ms": 4551.537399995141,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.13",
+   "[2] 45MBAAQ-01OM.pdf p.11",
+   "[3] 45MBCAQ-01OM.pdf p.10",
+   "[4] 45MBCAQ-01OM.pdf p.8",
+   "[5] 45MBCAQ-01OM.pdf p.7",
+   "[6] 45MBAAQ-01OM.pdf p.14",
+   "[7] 45MBAAQ-01OM.pdf p.11",
+   "[8] 45MBAAQ-01OM.pdf p.13"
+  ]
+ },
+ "fieldnote_routed|q31": {
+  "system": "fieldnote_routed",
+  "qid": "q31",
+  "type": "visual",
+  "answer": "The rating plate is located on the blower door of the Carrier OM9GFRC condensing gas furnace. This information is indicated in the exploded view diagram on page 2 of the OM9GFRC-02.pdf manual, which shows a label pointing to the rating plate with the note \"RATING PLATE NOT SHOWN (LOCATED ON BLOWER DOOR)\".The rating plate is located on the blower door of the Carrier OM9GFRC condensing gas furnace. This is indicated in the exploded view diagram on page 2 of the OM9GFRC-02.pdf manual, which shows a label pointing to the rating plate with the note \"RATING PLATE NOT SHOWN (LOCATED ON BLOWER DOOR)\".",
+  "retrieve_ms": 146.0650000080932,
+  "llm_ms": 7817.211300003692,
+  "cited": false,
+  "abstained": false,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.12",
+   "[2] OM9GFRC-02.pdf p.1",
+   "[3] 01-811-20530-01.pdf p.5",
+   "[4] 01-811-20530-01.pdf p.7",
+   "[5] OM9GFRC-02.pdf p.2",
+   "[6] 01-811-20530-01.pdf p.7",
+   "[7] 01-811-20530-01.pdf p.7",
+   "[8] OM9GFRC-02.pdf p.2"
+  ]
+ },
+ "fieldnote_routed|q32": {
+  "system": "fieldnote_routed",
+  "qid": "q32",
+  "type": "visual",
+  "answer": "[4] OM9GFRC-02.pdf p.2 shows a diagram of the furnace with labeled parts. The diagram includes a section labeled \"BLOWER AND MOTOR\" and next to it, there is a component labeled \"CAPACITOR/POWER CHOKE (IF USED)\". This component is positioned adjacent to the blower and motor assembly in the diagram. Therefore, the part next to the blower and motor that is labeled '(if used)' is the CAPACITOR/POWER CHOKE.The part next to the blower and motor labeled \"(if used)\" is the **CAPACITOR/POWER CHOKE**. This is shown in the exploded diagram on page 2 of the OM9GFRC-02.pdf manual, where it is positioned adjacent to the blower and motor assembly and includes the \"(IF USED)\" notation.",
+  "retrieve_ms": 138.84899999538902,
+  "llm_ms": 5178.025300003355,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.12",
+   "[2] OM9GFRC-02.pdf p.1",
+   "[3] OM9GFRC-02.pdf p.2",
+   "[4] OM9GFRC-02.pdf p.2",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] OM9GFRC-02.pdf p.1",
+   "[7] OM9GFRC-02.pdf p.10",
+   "[8] 01-811-20530-01.pdf p.7"
+  ]
+ },
+ "fieldnote_routed|q33": {
+  "system": "fieldnote_routed",
+  "qid": "q33",
+  "type": "visual",
+  "answer": "To determine the filter size for a Carrier OM9GFRC condensing gas furnace with a 20 inch (508 mm) filter cabinet height, I need to look at the relevant source material.\n\nLooking at the provided sources:\n\n[1] OM9GFRC-02.pdf p.8 shows Table 1 – Air Filter Located in Filter Cabinet, which lists filter sizes for different cabinet heights. For a 20 inch (508 mm) cabinet height, it shows:\n- (1) 20 x 25 x 3/4\" (508 x 635 x 19) or\n- (1) 20 x 25 x 4-5/16 (508 x 635 x 110)\n\n[8] OM9GFRC-02.pdf p.8 shows a more detailed table with the same information for a 20 inch (508 mm) cabinet height:\n- (1) 20 x 25 x 3/4\" (508 x 635 x 19) or\n- (1) 20 x 25 x 4-5/16 (508 x 635 x 110)\n\nBoth sources confirm the same filter sizes for a 20 inch cabinet height. The filter type is listed as \"Washable\" in both tables.\n\nTherefore, the Carrier OM9GFRC condensing gas furnace with a 20 inch (508 mm) filter cabinet height uses either:\n- 20 x 25 x 3/4 inch (508 x 635 x 19 mm) filter, OR\n- 20 x 25 x 4-5/16 inch (508 x 635 x 110 mm) filter\n\nBoth are washable filters.Based on the Carrier OM9GFRC condensing gas furnace manual [1][8], for a 20 inch (508 mm) filter cabinet height, the furnace uses one of two filter sizes:\n\n- 20 x 25 x 3/4 inch (508 x 635 x 19 mm) filter, OR\n- 20 x 25 x 4-5/16 inch (508 x 635 x 110 mm) filter\n\nBoth are washable filters. [1][8]",
+  "retrieve_ms": 144.1255999961868,
+  "llm_ms": 7393.587700003991,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.8",
+   "[2] 01-811-20530-01.pdf p.7",
+   "[3] OM9GFRC-02.pdf p.12",
+   "[4] 01-811-20530-01.pdf p.7",
+   "[5] OM9GFRC-02.pdf p.7",
+   "[6] OM9GFRC-02.pdf p.1",
+   "[7] OM9GFRC-02.pdf p.2",
+   "[8] OM9GFRC-02.pdf p.8"
+  ]
+ },
+ "fieldnote_routed|q34": {
+  "system": "fieldnote_routed",
+  "qid": "q34",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>Looking at the provided sources, I need to find information about cable ties included with the 45MBAAQ model.\n\nFrom source [1], I can see Table 4 - Accessories which lists various items and their quantities. Looking at the table, I can see:\n\n- \"Cable Ties\" with a quantity of 4\n\nThis table appears to be from the 45MBAAQ-01OM.pdf document (page 8), which matches the model number in question.\n\nThe question asks specifically about cable ties included in the accessories supplied with the 45MBAAQ. Based on the table in source [1], the answer is 4 cable ties.\n\nI should cite this source as [1] since that's where the information comes from.Based on Table 4 in the 45MBAAQ-01OM.pdf (page 8), the accessories include 4 cable ties [1].",
+  "retrieve_ms": 145.3302000008989,
+  "llm_ms": 2402.781500000856,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.8",
+   "[2] 45MBAAQ-01OM.pdf p.8",
+   "[3] 45MBAAQ-01OM.pdf p.26",
+   "[4] 01-IAQ-087-03.pdf p.10",
+   "[5] 45MBCAQ-01OM.pdf p.7",
+   "[6] 01-IAQ-087-03.pdf p.2",
+   "[7] 45MBAAQ-01OM.pdf p.18",
+   "[8] 01-IAQ-087-03.pdf p.6"
+  ]
+ },
+ "fieldnote_routed|q35": {
+  "system": "fieldnote_routed",
+  "qid": "q35",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>1.  **Analyze the Request:**\n    *   **Question:** Before a long period of non-use, how long should the 45MBCAQ be run in FAN function?\n    *   **Constraint:** Answer *only* from the numbered sources. Cite sources as [n]. Be brief. If sources don't contain the answer, say so.\n\n2.  **Scan the Sources for Keywords:**\n    *   Keywords: \"long period of non-use\", \"FAN function\", \"run\", \"duration\", \"time\".\n\n3.  **Evaluate Source [1]:**\n    *   *Content:* Page 16 of 45MBCAQ-01OM.pdf. Fig. 15 — Maintenance - Long Periods of Non-Use.\n    *   *Text:* \"After long periods of non-use, or before periods of frequent use, do the following: Clean all filters. Turn on FAN function until unit dries out completely. Disconnect the power. Remove batteries from remote control. Check for damaged wires. Clean all filters. Check for leaks. Replace batteries. Make sure nothing is blocking all air inlets and outlets.\"\n    *   *Analysis:* The text says \"Turn on FAN function until unit dries out completely.\" It does *not* specify a specific time duration (e.g., 30 minutes, 1 hour). It implies a duration based on the condition \"until unit dries out completely.\"\n\n4.  **Evaluate Source [2]:**\n    *   *Content:* Table 3 — Model Numbers.\n    *   *Analysis:* Irrelevant to the question.\n\n5.  **Evaluate Source [3]:**\n    *   *Content:* Page 13 of 45MBCAQ-01OM.pdf. Timer/Sleep functions.\n    *   *Analysis:* Irrelevant.\n\n6.  **Evaluate Source [4]:**\n    *   *Content:* Single-phase induction motor diagram.\n    *   *Analysis:* Irrelevant.\n\n7.  **Evaluate Source [5]:**\n    *   *Content:* Page 14 of 45MBCAQ-01OM.pdf. FORCED COOL mode, OFF mode, Default Setting.\n    *   *Analysis:* Irrelevant.\n\n8.  **Evaluate Source [6]:**\n    *   *Content:* Remote control diagram.\n    *   *Analysis:* Irrelevant.\n\n9.  **Evaluate Source [7]:**\n    *   *Content:* Page 14 of 45MBCAQ-01OM.pdf. Sleep operation, outdoor fan reverse rotation.\n    *   *Analysis:* Mentions \"When the unit is turned off, a 10 seconds delay occurs and the outdoor fan runs in reverse rotation for 70 seconds...\" This is about shutdown, not pre-non-use preparation. Irrelevant to the specific question about FAN function duration before non-use.\n\n10. **Evaluate Source [8]:**\n    *   *Content:* Remote control diagram (duplicate of 6 essentially).\n    *   *Analysis:* Irrelevant.\n\n11. **Synthesize Findings:**\n    *   Source [1] is the only relevant source.\n    *   Source [1] explicitly lists the steps for \"Long Periods of Non-Use\".\n    *   Step 2 says: \"Turn on FAN function until unit dries out completely.\"\n    *   The question asks \"how long should the 45MBCAQ be run in FAN function?\"\n    *   The source provides a conditional answer (\"until unit dries out completely",
+  "retrieve_ms": 145.74649999849498,
+  "llm_ms": 4721.407999997609,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.16",
+   "[2] 45MBCAQ-01OM.pdf p.7",
+   "[3] 45MBCAQ-01OM.pdf p.13",
+   "[4] photo_067.png",
+   "[5] 45MBCAQ-01OM.pdf p.14",
+   "[6] 45MBAAQ-01OM.pdf p.15",
+   "[7] 45MBCAQ-01OM.pdf p.14",
+   "[8] 45MBCAQ-01OM.pdf p.8"
+  ]
+ },
+ "fieldnote_routed|q36": {
+  "system": "fieldnote_routed",
+  "qid": "q36",
+  "type": "visual",
+  "answer": "According to source [5] on page 16, before a long period of non-use, the batteries should be removed from the remote control. This is listed under \"Maintenance – Pre-Season Inspection\" as one of the steps to take after long periods of non-use or before periods of frequent use. The specific instruction is \"Remove batteries from remote control\".Remove the batteries from the remote control before a long period of non-use. [5]",
+  "retrieve_ms": 147.57570000074338,
+  "llm_ms": 3533.2545999990543,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.13",
+   "[2] 45MBAAQ-01OM.pdf p.14",
+   "[3] 45MBCAQ-01OM.pdf p.10",
+   "[4] 45MBAAQ-01OM.pdf p.13",
+   "[5] 45MBCAQ-01OM.pdf p.16",
+   "[6] 45MBCAQ-01OM.pdf p.8",
+   "[7] 45MBAAQ-01OM.pdf p.13",
+   "[8] 45MBCAQ-01OM.pdf p.11"
+  ]
+ },
+ "fieldnote_routed|q37": {
+  "system": "fieldnote_routed",
+  "qid": "q37",
+  "type": "visual",
+  "answer": "Looking at the provided sources, I can see the 45MBCAQ owner's manual on page 16 (source [1]) contains the pre-season maintenance instructions. \n\nFrom Fig. 16 — Maintenance – Pre-Season Inspection, I can see the following checks listed:\n\n1. Clean all filters\n2. Check for damaged wires  \n3. Check for leaks\n\nThese are the three specific checks mentioned in the pre-season maintenance steps according to the manual. The other items in the figure are additional maintenance tasks like turning off power, removing batteries, etc., but the question specifically asks for the three checks, which are clearly listed as \"Clean all filters\", \"Check for damaged wires\", and \"Check for leaks\".Based on the 45MBCAQ owner's manual page 16 (source [1]), the three checks listed in the pre-season maintenance steps are:\n\n1. Clean all filters\n2. Check for damaged wires  \n3. Check for leaks\n\nThese are explicitly shown in Fig. 16 — Maintenance – Pre-Season Inspection as the three inspection items to perform after long periods of non-use or before frequent use.",
+  "retrieve_ms": 139.86329999170266,
+  "llm_ms": 5268.248399996082,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.16",
+   "[2] 45MBCAQ-01OM.pdf p.16",
+   "[3] 45MBCAQ-01OM.pdf p.20",
+   "[4] 01-IAQ-087-03.pdf p.3",
+   "[5] OM9GFRC-02.pdf p.12",
+   "[6] OM9GFRC-02.pdf p.12",
+   "[7] 45MBCAQ-01OM.pdf p.18",
+   "[8] OG-ACR454GEN-02.pdf p.1"
+  ]
+ },
+ "fieldnote_routed|q38": {
+  "system": "fieldnote_routed",
+  "qid": "q38",
+  "type": "visual",
+  "answer": "To answer the question, I need to find the maintenance checklist in the Infinity Variable Speed Air Conditioner owner's manual and identify which indoor item is due monthly.\n\nFrom the provided sources, I can see that source [1] is the owner's manual for the Infinity Variable Speed Air Conditioner. On page 3, there's a \"Maintenance Checklist\" section. Let me examine this section carefully.\n\nThe checklist shows:\n- Monthly items\n- Annual items\n\nFor monthly items, it lists:\n- Clear away debris and vegetation near unit\n- Inspect cabinet for damage. Replace components that are damaged or severely rusted\n- Inspect electrical disconnect for proper function. Repair or replace as necessary\n- Inspect electrical wiring and connections. Tighten loose connections. Inspect and perform functional test of equipment as needed to ensure proper function\n\nHowever, these are all outdoor unit specific items. The question asks about an \"indoor item\" that is due monthly.\n\nLooking at the other sources, I see source [5] which is page 2 of the owner's manual and contains \"ROUTINE MAINTENANCE\" information. This section lists:\n- Keep Filter Clean\n- Do Not Block Floor, Wall or Ceiling Vents\n- Do Not Cover or Block Outdoor Unit\n- Check Condensate Drain\n\nThe \"Keep Filter Clean\" item is clearly an indoor item (the air filter is inside the indoor unit). This would be a monthly maintenance task for the indoor component.\n\nSo, based on the owner's manual, the indoor item due monthly is the air filter, which needs to be kept clean.Based on the Infinity Variable Speed Air Conditioner owner's manual, the indoor item due monthly is the **air filter**.\n\nFrom page 2 of the manual (source [5]), under \"ROUTINE MAINTENANCE,\" it states: \"Keep Filter Clean - A clogged or improperly installed air filter on your indoor unit will increase operating costs and shorten the life of the unit. For detailed filter cleaning information refer to your indoor unit literature.\"\n\nThis is the only indoor maintenance item listed in the routine maintenance section, and it's recommended to be performed monthly to maintain system efficiency and longevity.",
+  "retrieve_ms": 147.92200000374578,
+  "llm_ms": 6801.299200000358,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.3",
+   "[2] OMVSAC-C454-01.pdf p.1",
+   "[3] OMVSAC-C454-01.pdf p.4",
+   "[4] 01-DLS-059-CA-01.pdf p.4",
+   "[5] OMVSAC-C454-01.pdf p.2",
+   "[6] OM9GFRC-02.pdf p.12",
+   "[7] 01-811-20530-01.pdf p.7",
+   "[8] 01-811-20530-01.pdf p.13"
+  ]
+ },
+ "fieldnote_routed|q39": {
+  "system": "fieldnote_routed",
+  "qid": "q39",
+  "type": "visual",
+  "answer": "The transmission indicator on the 45MBAAQ remote control lights up when the remote sends a signal to the indoor unit. This is indicated in source [1] on page 12, which lists \"Transmission Indicator\" under the wireless remote control LCD screen indicators and describes it as \"Lights up when remote sends signal to indoor unit mode\". Additionally, source [2] (which is a diagram of the remote control) shows the transmission indicator as one of the display elements. Therefore, the transmission indicator shows that a signal has been transmitted from the remote to the indoor unit.",
+  "retrieve_ms": 149.00170000328217,
+  "llm_ms": 3829.084699988016,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.12",
+   "[2] 45MBAAQ-01OM.pdf p.11",
+   "[3] 45MBCAQ-01OM.pdf p.9",
+   "[4] 45MBCAQ-01OM.pdf p.8",
+   "[5] 45MBCAQ-01OM.pdf p.14",
+   "[6] 45MBAAQ-01OM.pdf p.20",
+   "[7] 45MBCAQ-01OM.pdf p.12",
+   "[8] 45MBAAQ-01OM.pdf p.15"
+  ]
+ },
+ "fieldnote_routed|q40": {
+  "system": "fieldnote_routed",
+  "qid": "q40",
+  "type": "visual",
+  "answer": "Looking at the sources, I can see in source [1] (45MBAAQ-01OM.pdf p.8) there's a list of accessories included with the outdoor unit. The list shows:\n\n\"Flare Nut (18K-60K)\n2\"\n\nThis indicates that 2 flare nuts are included in the accessories supplied with the 45MBAAQ unit.\n\nThe question asks specifically about flare nuts included in the accessories for the 45MBAAQ, and source [1] provides this information directly on page 8 of the installation manual.\n\nTherefore, the answer is 2 flare nuts.Based on source [1] (45MBAAQ-01OM.pdf p.8), the accessories list shows \"Flare Nut (18K-60K) 2\". Therefore, 2 flare nuts are included in the accessories supplied with the 45MBAAQ.",
+  "retrieve_ms": 145.7784999947762,
+  "llm_ms": 3610.0103999924613,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.8",
+   "[2] photo_101.jpg",
+   "[3] 45MBAAQ-01OM.pdf p.26",
+   "[4] OM9GFRC-02.pdf p.4",
+   "[5] 01-811-20530-01.pdf p.10",
+   "[6] OM9GFRC-02.pdf p.9",
+   "[7] 45MBAAQ-01OM.pdf p.1",
+   "[8] OM9GFRC-02.pdf p.9"
+  ]
+ },
+ "fieldnote_lean|q01": {
+  "system": "fieldnote_lean",
+  "qid": "q01",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>[1] call_01_ac_frozen_coil.mp3 @0s\nTechnical support, this is Dana. How can I help? Hi Dana. I'm at a house with a central air conditioner where the indoor coil keeps freezing over. Check airflow first. When was the filter last changed, and is the blower running? The filter is clogged solid. The blower is running fine. Replace the filter, then shut the compressor off and let the coil fog completely. That usually takes about 4 hours. And once it's running again, what should I verify? The temperature drop across the coil should be between 16 and 20 degrees. Under 16 with good airflow points to low charge. Got it! Faw 4 hours, new filter, then check the 16 to 20 degree drop.[2] photo_038.jpgThe coil should thaw for about 4 hours with the compressor off. [1]",
+  "retrieve_ms": 145.44209999439772,
+  "llm_ms": 2738.844000006793,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_01_ac_frozen_coil.mp3 @0s",
+   "[2] photo_038.jpg",
+   "[3] call_03_heat_pump_defrost.mp3 @0s",
+   "[4] photo_024.jpg",
+   "[5] 45MBCAQ-01OM.pdf p.13",
+   "[6] photo_061.jpg",
+   "[7] 45MBAAQ-01OM.pdf p.16",
+   "[8] photo_026.jpg"
+  ]
+ },
+ "fieldnote_lean|q02": {
+  "system": "fieldnote_lean",
+  "qid": "q02",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"How far below its rating can a run capacitor measure before replacement?\" They provided sources. We need to answer only from numbered sources, reading values directly from charts, tables, diagrams when relevant. Cite sources as [n]. Be brief. If sources don't contain answer, say so.\n\nWe need to find the answer in the provided sources. The question is about run capacitor tolerance: how far below its rating can a run capacitor measure before replacement? The sources include:\n\n[1] call_02_ac_capacitor.mp3 @0s: Technical support, Marcus speaking. He says: \"If the measured value is more than 6% below rated, replace it.\" That's about a dual-run capacitor? He says \"If the measured value is more than 6% below rated, replace it.\" So that suggests that if the measured capacitance is more than 6% below the rated value, replace it. So the answer: more than 6% below rating.\n\nBut the question: \"How far below its rating can a run capacitor measure before replacement?\" The answer: if more than 6% below rated, replace it. So the threshold is 6% below rating. So the run capacitor can be up to 6% below rating and still be acceptable; beyond that, replace.\n\nBut we need to confirm if this applies to run capacitor specifically. The source mentions \"dual-run capacitor\". The question is about run capacitor. The source says \"If the measured value is more than 6% below rated, replace it.\" That seems to be the rule.\n\nWe need to check other sources for any other info. [2] photo_076.jpg is just an image of a capacitor, no text. [3] and [4] are about pressure testing, not relevant. [5] is about sensor replacement and flammable refrigerant, not relevant.\n\nThus the answer is from [1]. So we answer: If measured value is more than 6% below rated, replace it. So the run capacitor can be up to 6% below rating before replacement is required. So answer: up to 6% below rating is acceptable; beyond that, replace.\n\nWe need to cite source [1]. The answer should be brief. So we can say: A run capacitor can be up to 6% below its rated value; if measured more than 6% below, replace it [1].\n\nWe need to ensure we answer only from numbered sources. So we can say: According to [1], if the measured capacitance is more than 6% below the rated value, replace the capacitor. So the acceptable deviation is up to 6% below rating.\n\nThus final answer: Up to 6% below rating; beyond that, replace [1].\n\nWe should not add any extra info. So final answer: Up to 6% below rating; if more than 6% below, replace [1].A run capacitor can be up to 6% below its rated value; if measured more than 6% below rating, replace it [1].",
+  "retrieve_ms": 149.3962999957148,
+  "llm_ms": 3130.4631999955745,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_02_ac_capacitor.mp3 @0s",
+   "[2] photo_076.jpg",
+   "[3] 45MBAAQ-01OM.pdf p.5",
+   "[4] 45MBCAQ-01OM.pdf p.7",
+   "[5] 45MBCAQ-01OM.pdf p.3",
+   "[6] photo_067.png",
+   "[7] 45MBCAQ-01OM.pdf p.3",
+   "[8] photo_069.jpg"
+  ]
+ },
+ "fieldnote_lean|q03": {
+  "system": "fieldnote_lean",
+  "qid": "q03",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>[1] call_03_heat_pump_defrost.mp3 @0s\nTechnical support, this is Dana. Dana, the outdoor unit of a heat pump is covered in ice this morning. Is that normal? Frost is normal. A solid block of ice is not. The control board should start a defrost cycle about every 90 minutes of runtime when the coil sensor is below 32 degrees. How long should a defrost cycle last? Up to 10 minutes. Steam rising off the unit during defrost is normal. And if it never goes into defrost? Check the defrost sensor first, then the control board.[2] photo_024.jpgThe control board should start a defrost cycle about every 90 minutes of runtime when the coil sensor is below 32°F. [1]",
+  "retrieve_ms": 155.13250000367407,
+  "llm_ms": 2330.64519999607,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_03_heat_pump_defrost.mp3 @0s",
+   "[2] photo_024.jpg",
+   "[3] 01-825-118-01.pdf p.2",
+   "[4] photo_038.jpg",
+   "[5] 45MBCAQ-01OM.pdf p.17",
+   "[6] photo_061.jpg",
+   "[7] call_08_air_purifier_service.mp3 @0s",
+   "[8] photo_027.jpg"
+  ]
+ },
+ "fieldnote_lean|q04": {
+  "system": "fieldnote_lean",
+  "qid": "q04",
+  "type": "audio",
+  "answer": "Based on source [1], if the reversing valve energizes in cooling, set the thermostat to \"O\". This corresponds to the valve being energized in cooling mode, so the thermostat should be set to O (off/cooling) to ensure proper operation. [1]",
+  "retrieve_ms": 160.09810000832658,
+  "llm_ms": 2460.525400005281,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_04_heat_pump_thermostat_ob.mp3 @0s",
+   "[2] photo_053.jpg",
+   "[3] 01-811-20530-01.pdf p.9",
+   "[4] photo_023.jpg",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] photo_049.jpg",
+   "[7] 45MBCAQ-01OM.pdf p.14",
+   "[8] 01-811-20530-01.pdf p.9"
+  ]
+ },
+ "fieldnote_lean|q05": {
+  "system": "fieldnote_lean",
+  "qid": "q05",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user is asking: \"What should you clean a furnace flame sensor with?\" I need to answer based ONLY on the provided numbered sources. Let me look through the sources to find information about cleaning a furnace flame sensor.\n\nLooking at source [1]: This is a transcript of a technical support call about a furnace flame sensor. The speaker (Dana) specifically says: \"Use a fine abrasive pad with a light touch. Then check the flame signal. You want at least one microamp, and below 0.5 microamps the board will lock out. Fine pad, no sandpaper, and at least one microamp.\"\n\nThis directly answers the question - the source explicitly states to use a fine abrasive pad, not sandpaper.\n\nLooking at the other sources:\n- [2] is a PDF page 21, but I don't have the content of this page.\n- [3] and [4] are OM9GFRC-02.pdf pages 4 and 9, but these seem to be about general furnace operation and safety, not specifically about flame sensor cleaning.\n- [5] is OM9GFRC-02.pdf page 12, which is a checklist for furnace maintenance, but doesn't specifically mention flame sensor cleaning.\n\nBased on source [1], which is a direct technical support call about flame sensor issues, the answer is clear: use a fine abrasive pad with a light touch, not sandpaper.\n\nI should cite source [1] as requested.Use a fine abrasive pad with a light touch. Do not use sandpaper. [1]",
+  "retrieve_ms": 163.30919999745674,
+  "llm_ms": 2540.5845000059344,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_05_furnace_flame_sensor.mp3 @0s",
+   "[2] 45MBAAQ-01OM.pdf p.21",
+   "[3] OM9GFRC-02.pdf p.4",
+   "[4] OM9GFRC-02.pdf p.9",
+   "[5] OM9GFRC-02.pdf p.12",
+   "[6] OM9GFRC-02.pdf p.4",
+   "[7] OM9GFRC-02.pdf p.7",
+   "[8] OM9GFRC-02.pdf p.9"
+  ]
+ },
+ "fieldnote_lean|q06": {
+  "system": "fieldnote_lean",
+  "qid": "q06",
+  "type": "audio",
+  "answer": "Never jump the pressure switch to get the furnace running. [5]",
+  "retrieve_ms": 144.85620000050403,
+  "llm_ms": 2829.623500001617,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.11",
+   "[2] OM9GFRC-02.pdf p.6",
+   "[3] OM9GFRC-02.pdf p.4",
+   "[4] OM9GFRC-02.pdf p.5",
+   "[5] call_06_furnace_pressure_switch.mp3 @0s",
+   "[6] OM9GFRC-02.pdf p.5",
+   "[7] OM9GFRC-02.pdf p.11",
+   "[8] OM9GFRC-02.pdf p.9"
+  ]
+ },
+ "fieldnote_lean|q07": {
+  "system": "fieldnote_lean",
+  "qid": "q07",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user is asking what to do for a thermostat with no spare wire for C. I need to look at the provided sources to find the answer.\n\nLooking at the sources:\n\n[1] call_07_thermostat_no_c_wire.mp3 @0s - This appears to be a transcript of a technical support call about a thermostat with no C wire. The transcript says: \"Most likely there is no common wire. Look for a spare conductor in the cable and connect it to see at both the thermostat and the furnace control board. The cable has four wires and all four are already in use. Then use the add a wire adapter kit or run a new cable. Do not jump or R to C because that can blow the transformer fuse. Adapter kit, no jumper from R to C.\"\n\nThis source directly addresses the question of what to do when there's no spare wire for C. It suggests using an add a wire adapter kit or running a new cable.\n\n[2] OM9GFRC-02.pdf p.6 - This appears to be a PDF document, but I don't have the content to read.\n\n[3] 45MBAAQ-01OM.pdf p.19 - This appears to be a manual with various technical details, but I don't see anything specifically about thermostat wiring or C wire issues.\n\n[4] OM9GFRC-02.pdf p.4 - This is the same document as [2], just a different page.\n\n[5] OMVSAC-C454-01.pdf p.3 - This appears to be about HVAC system inspection, not specifically about thermostat wiring.\n\nBased on source [1], which directly addresses the issue of a thermostat with no spare wire for C, the answer is to use an add a wire adapter kit or run a new cable. The source specifically mentions not to jump R to C as it can blow the transformer fuse.\n\nTherefore, the answer should be based on source [1].For a thermostat with no spare wire for C, use an add a wire adapter kit or run a new cable. Do not jump R to C as this can blow the transformer fuse. [1]",
+  "retrieve_ms": 137.96360000560526,
+  "llm_ms": 2510.1916000130586,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_07_thermostat_no_c_wire.mp3 @0s",
+   "[2] OM9GFRC-02.pdf p.6",
+   "[3] 45MBAAQ-01OM.pdf p.19",
+   "[4] OM9GFRC-02.pdf p.4",
+   "[5] OMVSAC-C454-01.pdf p.3",
+   "[6] photo_094.jpg",
+   "[7] OMVSAC-C454-01.pdf p.3",
+   "[8] photo_096.jpg"
+  ]
+ },
+ "fieldnote_lean|q08": {
+  "system": "fieldnote_lean",
+  "qid": "q08",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>[6] photo_115.jpg\n[7] photo_114.jpg\n[8] photo_112.jpg\n[9] photo_111.jpg\n[10] photo_110.jpg\n[11] photo_109.jpg\n[12] photo_108.jpg\n[13] photo_107.jpg\n[14] photo_106.jpg\n[15] photo_105.jpg\n[16] photo_104.jpg\n[17] photo_103.jpg\n[18] photo_102.jpg\n[19] photo_101.jpg\n[20] photo_100.jpg\n[21] photo_099.jpg\n[22] photo_098.jpg\n[23] photo_097.jpg\n[24] photo_096.jpg\n[25] photo_095.jpg\n[26] photo_094.jpg\n[27] photo_093.jpg\n[28] photo_092.jpg\n[29] photo_091.jpg\n[30] photo_090.jpg\n[31] photo_089.jpg\n[32] photo_088.jpg\n[33] photo_087.jpg\n[34] photo_086.jpg\n[35] photo_085.jpg\n[36] photo_084.jpg\n[37] photo_083.jpg\n[38] photo_082.jpg\n[39] photo_081.jpg\n[40] photo_080.jpg\n[41] photo_079.jpg\n[42] photo_078.jpg\n[43] photo_077.jpg\n[44] photo_076.jpg\n[45] photo_075.jpg\n[46] photo_074.jpg\n[47] photo_073.jpg\n[48] photo_072.jpg\n[49] photo_071.jpg\n[50] photo_070.jpg\n[51] photo_069.jpg\n[52] photo_068.jpg\n[53] photo_067.jpg\n[54] photo_066.jpg\n[55] photo_065.jpg\n[56] photo_064.jpg\n[57] photo_063.jpg\n[58] photo_062.jpg\n[59] photo_061.jpg\n[60] photo_060.jpg\n[61] photo_059.jpg\n[62] photo_058.jpg\n[63] photo_057.jpg\n[64] photo_056.jpg\n[65] photo_055.jpg\n[66] photo_054.jpg\n[67] photo_053.jpg\n[68] photo_052.jpg\n[69] photo_051.jpg\n[70] photo_050.jpg\n[71] photo_049.jpg\n[72] photo_048.jpg\n[73] photo_047.jpg\n[74] photo_046.jpg\n[75] photo_045.jpg\n[76] photo_044.jpg\n[77] photo_043.jpg\n[78] photo_042.jpg\n[79] photo_041.jpg\n[80] photo_040.jpg\n[81] photo_039.jpg\n[82] photo_038.jpg\n[83] photo_037.jpg\n[84] photo_036.jpg\n[85] photo_035.jpg\n[86] photo_034.jpg\n[87] photo_033.jpg\n[88] photo_032.jpg\n[89] photo_031.jpg\n[90] photo_030.jpg\n[91] photo_029.jpg\n[92] photo_028.jpg\n[93]",
+  "retrieve_ms": 150.12719998776447,
+  "llm_ms": 4020.1346000103513,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_08_air_purifier_service.mp3 @0s",
+   "[2] photo_116.jpg",
+   "[3] OM9GFRC-02.pdf p.7",
+   "[4] photo_113.jpg",
+   "[5] 45MBCAQ-01OM.pdf p.15",
+   "[6] photo_117.jpg",
+   "[7] 45MBAAQ-01OM.pdf p.22",
+   "[8] photo_114.jpg"
+  ]
+ },
+ "fieldnote_lean|q09": {
+  "system": "fieldnote_lean",
+  "qid": "q09",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>1.  **Analyze the Request:**\n    *   **Question:** What indoor humidity target is right when it is twenty degrees outdoors?\n    *   **Constraint:** Answer *only* from the numbered sources. Cite sources as [n]. Be brief. If sources don't contain the answer, say so.\n    *   **Sources provided:**\n        *   [1] call_09_iaq_humidifier_setpoint.mp3 @0s (Audio transcript)\n        *   [2] 45MBAAQ-01OM.pdf p.9 (Table 3 - Inverter Split Type)\n        *   [3] OMVSAC-C454-01.pdf p.2 (General AC maintenance text)\n        *   [4] 01-825-118-01.pdf p.3 (Image of a sofa, irrelevant to the question)\n        *   [5] 45MBAAQ-01OM.pdf p.9 (Same as [2], likely a duplicate or different page reference in the prompt text, but the content is the same table).\n\n2.  **Scan Sources for Keywords:**\n    *   Keywords: \"humidity\", \"indoor\", \"target\", \"20 degrees\", \"outdoor\", \"twenty degrees\".\n\n3.  **Evaluate Each Source:**\n\n    *   **Source [1]:** `call_09_iaq_humidifier_setpoint.mp3 @0s`\n        *   Content: \"Technical support, this is Dana... customer has condensation on all the windows... whole home humidifier... Set the humidity target by outdoor temperature. At 20 degrees outdoors, keep indoor humidity near 30%. Above freezing you can go up to 40%.\"\n        *   Match: Yes. This directly answers the question. It specifies \"20 degrees outdoors\" and \"30% indoor humidity\".\n\n    *   **Source [2]:** `45MBAAQ-01OM.pdf p.9`\n        *   Content: Table 3 - Inverter Split Type. Lists temperature ranges for Cool, Heat, Dry modes (Room and Outdoor). No mention of humidity targets or percentages.\n        *   Match: No.\n\n    *   **Source [3]:** `OMVSAC-C454-01.pdf p.2`\n        *   Content: \"Your air conditioner removes humidity from your home during the cooling season.\" Mentions condensate drain. No specific humidity target percentages.\n        *   Match: No.\n\n    *   **Source [4]:** `01-825-118-01.pdf p.3`\n        *   Content: Image of a sofa. No text relevant to HVAC or humidity.\n        *   Match: No.\n\n    *   **Source [5]:** `45MBAAQ-01OM.pdf p.9`\n        *   Content: Same as [2]. No humidity info.\n        *   Match: No.\n\n4.  **Synthesize the Answer:**\n    *   The only source containing the answer is [1].\n    *   The answer is: 30% indoor humidity.\n    *   The citation is [1].\n\n5.  **Draft the Response:**\n    *   *Draft 1:* According to source [1], at 20 degrees outdoors, keep indoor humidity near 30%.\n    *   *Refining for \"Answer ONLY from numbered sources\":* The user wants the answer *from* the sources. I should quote or paraphrase the specific value found in",
+  "retrieve_ms": 144.18509999813978,
+  "llm_ms": 5886.12280000234,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] call_09_iaq_humidifier_setpoint.mp3 @0s",
+   "[2] 45MBAAQ-01OM.pdf p.9",
+   "[3] OMVSAC-C454-01.pdf p.2",
+   "[4] 01-825-118-01.pdf p.3",
+   "[5] 45MBAAQ-01OM.pdf p.9",
+   "[6] photo_031.jpg",
+   "[7] 01-811-20530-01.pdf p.5",
+   "[8] 01-811-20530-01.pdf p.13"
+  ]
+ },
+ "fieldnote_lean|q10": {
+  "system": "fieldnote_lean",
+  "qid": "q10",
+  "type": "audio",
+  "answer": "<EOS_TOKEN>The user asks: \"What carbon dioxide level should indoor air stay under?\" They provided multiple source documents. We need to answer only from the numbered sources, reading values directly from charts, tables, diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\n\nWe need to find the answer in the provided sources. Let's examine each source:\n\n[1] 45MBCAQ-01OM.pdf p.7: This page mentions room height and area, but not CO2 levels.\n\n[2] 01-IAQ-122-01.pdf p.2: This is the image of the table \"Make the Invisible Visible: Common Indoor Air Issues\". It lists issues, symptoms, solutions. It mentions Carbon Dioxide: \"Simple breathing. Burning candles, gas, wood and other combustibles\" and symptom \"Drowsiness, poor concentration\". But it does not give a specific CO2 level threshold.\n\n[3] 45MBAAQ-01OM.pdf p.9: This page has operating temperature ranges, not CO2.\n\n[4] 01-825-118-01.pdf p.3: This is the Comfort Series comparison table. No CO2.\n\n[5] 01-IAQ-122-01.pdf p.3: This page describes the Infinity air purifier and mentions ozone emissions, but not CO2 levels.\n\nThus, none of the provided sources contain a specific CO2 level threshold. The table in [2] mentions CO2 as an issue but does not give a numeric limit. The question asks: \"What carbon dioxide level should indoor air stay under?\" We need to answer based on the sources. Since the sources do not contain the answer, we should say so.\n\nBut we must be careful: The user might expect a typical indoor CO2 guideline (e.g., below 1000 ppm). However, the instruction says: \"Answer ONLY from the numbered sources. Read values directly from charts, tables and diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\"\n\nThus, we must respond that the sources do not contain the answer. We should cite that none of the provided sources contain the specific CO2 level threshold.\n\nWe should not provide external knowledge. So answer: \"The provided sources do not contain the specific CO2 level threshold.\" Cite that we checked [1]-[5] and none contain it.\n\nWe need to be brief. Possibly: \"None of the provided sources specify a CO2 level threshold for indoor air.\" Cite sources? We can say \"Sources [1]-[5] do not contain this information.\"\n\nThus final answer: \"The provided sources do not contain the specific CO2 level threshold.\"None of the provided sources contain a specific CO₂ level threshold for indoor air. [1]–[5] do not include this information.",
+  "retrieve_ms": 148.78870001120958,
+  "llm_ms": 6595.040500003961,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.7",
+   "[2] 01-IAQ-122-01.pdf p.2",
+   "[3] 45MBAAQ-01OM.pdf p.9",
+   "[4] 01-825-118-01.pdf p.3",
+   "[5] 01-IAQ-122-01.pdf p.3",
+   "[6] 01-IAQ-087-03.pdf p.4",
+   "[7] call_09_iaq_humidifier_setpoint.mp3 @0s",
+   "[8] 01-IAQ-087-03.pdf p.3"
+  ]
+ },
+ "fieldnote_lean|q16": {
+  "system": "fieldnote_lean",
+  "qid": "q16",
+  "type": "text",
+  "answer": "<EOS_TOKEN>1.  **Analyze the Request:**\n    *   **Source Material:** The user provided multiple image snippets and text from a PDF (01-811-20530-01.pdf), specifically pages 8 and 9.\n    *   **Question:** \"By how many SEER2 points can a Carrier Fan Coil improve system efficiency?\"\n    *   **Constraint:** Answer *only* from the numbered sources. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\n\n2.  **Scan the Sources for Keywords:**\n    *   Keywords: \"SEER2\", \"points\", \"improve\", \"efficiency\", \"Carrier Fan Coil\".\n\n3.  **Evaluate Source [1]:**\n    *   Content: \"Improve SEER2 Ratings by up to Two Full Points with a Carrier Fan Coil.\"\n    *   Match: Yes. The text explicitly states \"up to Two Full Points\".\n    *   Citation: [1].\n\n4.  **Evaluate Source [2]:**\n    *   Content: \"Variable-speed model offers: Maximum energy efficiency enhances cooling efficiency up to two SEER2 points\".\n    *   Match: Yes. Confirms \"up to two SEER2 points\".\n    *   Citation: [2].\n\n5.  **Evaluate Source [3]:**\n    *   Content: \"Variable-speed model offers: Maximum energy efficiency enhances cooling efficiency up to two SEER2 points\".\n    *   Match: Yes. Confirms \"up to two SEER2 points\".\n    *   Citation: [3].\n\n6.  **Evaluate Source [4]:**\n    *   Content: \"Variable-speed model offers: Maximum energy efficiency enhances cooling efficiency up to two SEER2 points\".\n    *   Match: Yes. Confirms \"up to two SEER2 points\".\n    *   Citation: [4].\n\n7.  **Evaluate Source [5]:**\n    *   Content: Mentions \"Inverter-driven variable-speed operation – delivers unprecedented heat pump efficiency of up to 22.0 SEER2\". This is about the heat pump itself, not the fan coil's improvement *over* a standard system. It doesn't answer \"By how many points can a fan coil improve...\". It just states the max rating of the heat pump.\n    *   Match: No direct answer to the specific question about the *improvement* provided by the fan coil.\n\n8.  **Synthesize the Answer:**\n    *   The question asks \"By how many SEER2 points...\".\n    *   Sources [1], [2], [3], and [4] all contain the phrase \"up to two SEER2 points\" or \"Two Full Points\".\n    *   Source [1] is the most direct headline: \"Improve SEER2 Ratings by up to Two Full Points with a Carrier Fan Coil.\"\n    *   The answer is \"Two\" or \"up to two\".\n\n9.  **Draft the Response:**\n    *   State the answer clearly.\n    *   Cite the sources.\n    *   Keep it brief.\n\n    *Draft:* A Carrier Fan Coil can improve SEER2 ratings by up to two full points. [1][2][3][4]\n\n10. **Final Review against Constraints:**\n    *   *Answer only from numbered sources?* Yes, used [1][2][3][4].\n    *   *Cite sources as [n]?*",
+  "retrieve_ms": 142.34040000883397,
+  "llm_ms": 6088.445999994292,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.9",
+   "[2] 01-811-20530-01.pdf p.9",
+   "[3] 01-811-20530-01.pdf p.9",
+   "[4] 01-811-20530-01.pdf p.9",
+   "[5] 01-811-20530-01.pdf p.8",
+   "[6] 01-811-20530-01.pdf p.3",
+   "[7] 01-811-20530-01.pdf p.8",
+   "[8] 01-811-20530-01.pdf p.9"
+  ]
+ },
+ "fieldnote_lean|q17": {
+  "system": "fieldnote_lean",
+  "qid": "q17",
+  "type": "text",
+  "answer": "The Infinity air purifier traps 95% of particles (1.0-3.0 microns) [1].",
+  "retrieve_ms": 143.03340000333264,
+  "llm_ms": 3737.042399996426,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-IAQ-122-01.pdf p.3",
+   "[2] 01-811-20530-01.pdf p.5",
+   "[3] 01-811-20530-01.pdf p.3",
+   "[4] 01-IAQ-122-01.pdf p.3",
+   "[5] 01-811-20530-01.pdf p.13",
+   "[6] photo_114.jpg",
+   "[7] 01-IAQ-122-01.pdf p.8",
+   "[8] 01-IAQ-122-01.pdf p.6"
+  ]
+ },
+ "fieldnote_lean|q18": {
+  "system": "fieldnote_lean",
+  "qid": "q18",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user is asking for the recommended interval for clearing debris and vegetation near the Infinity® Variable Speed Air Conditioner. I need to look at the provided sources to find this information.\n\nLooking at the sources:\n- [1] OMVSAC-C454-01.pdf p.2 - Owner's Manual for Infinity Variable Speed Air Conditioner\n- [3] OMVSAC-C454-01.pdf p.3 - Maintenance Checklist\n- [5] 01-811-20530-01.pdf p.7 - Information about furnace, not directly relevant to the air conditioner\n\nFrom source [3], I can see a Maintenance Checklist that includes:\n\"Clear away debris and vegetation near unit. X\" under \"Outdoor unit specific\" with \"Monthly\" and \"Annual\" columns. The \"X\" is under the \"Monthly\" column, indicating this should be done monthly.\n\nSo the answer is that debris and vegetation should be cleared away near the unit monthly.Based on the Maintenance Checklist in source [3], the recommended interval for clearing debris and vegetation near the Infinity® Variable Speed Air Conditioner is **monthly**.",
+  "retrieve_ms": 142.8944999934174,
+  "llm_ms": 2614.8035999940475,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.2",
+   "[2] OMVSAC-C454-01.pdf p.1",
+   "[3] OMVSAC-C454-01.pdf p.3",
+   "[4] 01-811-20530-01.pdf p.5",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] 01-811-20530-01.pdf p.10",
+   "[7] OMVSAC-C454-01.pdf p.1",
+   "[8] photo_049.jpg"
+  ]
+ },
+ "fieldnote_lean|q19": {
+  "system": "fieldnote_lean",
+  "qid": "q19",
+  "type": "text",
+  "answer": "Based on the provided sources, I cannot find specific information about which Infinity heat pumps are compatible with the 45MPHA indoor unit. The sources mention various Infinity models (37MPRAQ, 37MAHAQ, 37MBHAQ, 37MGHAQ, 24VN A6, 25VN A4, 25VN A8) but do not list compatibility with the 45MPHA indoor unit.",
+  "retrieve_ms": 139.2312999960268,
+  "llm_ms": 3411.742000011145,
+  "cited": false,
+  "abstained": true,
+  "top_sources": [
+   "[1] 01-DLS-059-CA-01.pdf p.1",
+   "[2] 01-811-20530-01.pdf p.6",
+   "[3] 01-811-20530-01.pdf p.10",
+   "[4] 01-811-20530-01.pdf p.8",
+   "[5] 01-DLS-059-CA-01.pdf p.2",
+   "[6] 01-DLS-059-CA-01.pdf p.1",
+   "[7] 01-DLS-059-CA-01.pdf p.3",
+   "[8] 01-811-20530-01.pdf p.10"
+  ]
+ },
+ "fieldnote_lean|q20": {
+  "system": "fieldnote_lean",
+  "qid": "q20",
+  "type": "text",
+  "answer": "<EOS_TOKEN>We need to answer: \"What minimum clearance should be maintained between the outdoor unit of the Infinity® Variable Speed Air Conditioner and tall grass, vines, shrubs, etc.?\" We must answer only from numbered sources. The user provided multiple source excerpts. We need to find the answer in the sources. The question is about minimum clearance between outdoor unit and tall grass, vines, shrubs, etc.\n\nWe have source [1] OMVSAC-C454-01.pdf p.2: It says \"Maintain a 12” (305 mm) minimum clearance between the outdoor unit and tall grass, vines, shrubs, etc.\"\n\nSource [5] OG-ACR454GEN-02.pdf p.1: It says \"And, maintain a 12” (304.8 mm) minimum clearance between the outdoor unit and tall grass, vines, shrubs, etc.\"\n\nBoth sources give the same clearance: 12 inches (approx 305 mm or 304.8 mm). The question asks for the minimum clearance. The answer is 12 inches (305 mm). We should cite the source(s). Since both sources contain the answer, we can cite either or both. The instruction: \"Answer ONLY from the numbered sources. Read values directly from charts, tables and diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\"\n\nThus we can answer: \"12 inches (305 mm) [1]\" or include both sources. The question is singular: \"What minimum clearance should be maintained...?\" So we can give the answer and cite the source(s). We can cite [1] and [5] if we want to show both. But we need to be brief. Possibly we can say: \"12 inches (305 mm) [1]\" or \"12 inches (304.8 mm) [5]\". Since both are essentially the same, we can pick one. However, to be thorough, we can mention both. But the instruction says \"Cite sources as [n].\" It doesn't say we can't cite multiple. We can say \"12 inches (305 mm) [1]\" and also note that [5] gives 12 inches (304.8 mm). But we need to be brief. Maybe we can say: \"12 inches (305 mm) [1]\". That is sufficient.\n\nThus answer: \"12 inches (305 mm) [1]\".12 inches (305 mm) [1]",
+  "retrieve_ms": 137.11049999983516,
+  "llm_ms": 2929.9200999957975,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.2",
+   "[2] OMVSAC-C454-01.pdf p.1",
+   "[3] OMVSAC-C454-01.pdf p.2",
+   "[4] 01-811-20530-01.pdf p.5",
+   "[5] OG-ACR454GEN-02.pdf p.1",
+   "[6] photo_049.jpg",
+   "[7] OMVSAC-C454-01.pdf p.3",
+   "[8] 01-811-20530-01.pdf p.6"
+  ]
+ },
+ "fieldnote_lean|q21": {
+  "system": "fieldnote_lean",
+  "qid": "q21",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What is the service life of the refrigerant sensor in the LEAK DETECTION SYSTEM?\" We need to answer based on the provided sources. The sources include:\n\n[1] 45MBAAQ-01OM.pdf p.23: mentions \"The service life of the refrigerant sensor is 15 years.\"\n[3] 45MBCAQ-01OM.pdf p.17: also mentions \"The service life of the refrigerant sensor is 15 years.\"\n[5] 45MBCAQ-01OM.pdf p.3: also mentions \"The service life of the refrigerant sensor is 15 years.\"\n\nThus, the answer is 15 years. We should cite the source(s). The user wants a brief answer, citing sources as [n]. We can cite any of the sources that contain the information. Since multiple sources contain the same info, we can cite one or all. The instruction: \"Answer ONLY from the numbered sources. Read values directly from charts, tables and diagrams when relevant. Cite sources as [n]. Be brief. If the sources don't contain the answer, say so.\" So we should answer: \"15 years [1]\" or \"15 years [3]\" or \"15 years [5]\". Probably best to cite one source, but we can also cite multiple. The instruction says \"Cite sources as [n].\" It doesn't specify how many. We can include multiple citations. But to be safe, we can cite one source that contains the answer. However, the user might want to see that multiple sources confirm it. But the instruction says \"Answer ONLY from the numbered sources.\" So we can include multiple citations. But we should be brief. So answer: \"15 years [1,3,5]\". That is brief and cites all sources. Or we can just say \"15 years [1]\". I think it's fine to include multiple citations. The user didn't ask for multiple citations, but it's okay. I'll answer: \"15 years [1,3,5]\".15 years [1,3,5]",
+  "retrieve_ms": 144.24369999323972,
+  "llm_ms": 3721.685200012871,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.23",
+   "[2] photo_149.jpg",
+   "[3] 45MBCAQ-01OM.pdf p.17",
+   "[4] photo_053.jpg",
+   "[5] 45MBCAQ-01OM.pdf p.3",
+   "[6] 45MBCAQ-01OM.pdf p.15",
+   "[7] 45MBAAQ-01OM.pdf p.6",
+   "[8] photo_063.jpg"
+  ]
+ },
+ "fieldnote_lean|q22": {
+  "system": "fieldnote_lean",
+  "qid": "q22",
+  "type": "text",
+  "answer": "The provided sources do not contain the maximum heat recovery efficiency specification for the ERVCRNVA model. Sources include product descriptions, selection guidance, and general ventilation information, but no technical performance data for this specific model.",
+  "retrieve_ms": 136.43860000593122,
+  "llm_ms": 2619.521000000532,
+  "cited": false,
+  "abstained": true,
+  "top_sources": [
+   "[1] 01-IAQ-122-01.pdf p.4",
+   "[2] 01-811-20530-01.pdf p.13",
+   "[3] 01-IAQ-122-01.pdf p.4",
+   "[4] 01-IAQ-122-01.pdf p.4",
+   "[5] 01-811-20530-01.pdf p.13",
+   "[6] 01-811-20530-01.pdf p.9",
+   "[7] 01-811-20530-01.pdf p.8",
+   "[8] 01-811-20530-01.pdf p.3"
+  ]
+ },
+ "fieldnote_lean|q23": {
+  "system": "fieldnote_lean",
+  "qid": "q23",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"How many heat exchangers does the Infinity 98 furnace use?\" We need to answer based only on the numbered sources provided. The sources are:\n\n[1] 01-811-20530-01.pdf p.11\n[2] 01-811-20530-01.pdf p.9\n[3] 01-811-20530-01.pdf p.7\n[4] 01-811-20530-01.pdf p.9\n[5] 01-811-20530-01.pdf p.11\n\nWe need to extract the answer directly from these sources. The question is about the number of heat exchangers used by the Infinity 98 furnace.\n\nLooking at the sources:\n\n[1] p.11: \"The Infinity 98 uses two heat exchangers to optimize efficiency. Our primary heat exchanger does most of the work. Then, our secondary heat exchanger pulls additional heating energy from operation to maximize efficiency and provide soothing comfort.\"\n\n[3] p.7: \"Two heat exchangers – are vital to your comfort and the efficiency of your furnace because they extract heat from the gas used. The Infinity 98 uses two heat exchangers to optimize efficiency. Our primary heat exchanger does most of the work. Then, our secondary heat exchanger pulls additional heating energy from operation to maximize efficiency and provide soothing comfort.\"\n\n[5] p.11: \"Two heat exchangers – are vital to your comfort and the efficiency of your furnace because they extract heat from the gas used. The Infinity 98 uses two heat exchangers to optimize efficiency. Our primary heat exchanger does most of the work.\"\n\nAll three sources explicitly state that the Infinity 98 uses two heat exchangers. Therefore, the answer is two.\n\nWe need to cite the source(s) as [n]. Since multiple sources contain the same information, we can cite any of them. For brevity, we can cite [1] or [3] or [5]. The instruction says \"Cite sources as [n].\" It doesn't specify how many citations to include, but we should include at least one relevant citation.\n\nThus, the answer is: The Infinity 98 furnace uses two heat exchangers. [1] (or [3] or [5]).\n\nWe should be brief and answer directly from the sources.The Infinity 98 furnace uses two heat exchangers. [1]",
+  "retrieve_ms": 140.78760000120383,
+  "llm_ms": 4742.286699998658,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.11",
+   "[2] 01-811-20530-01.pdf p.9",
+   "[3] 01-811-20530-01.pdf p.7",
+   "[4] 01-811-20530-01.pdf p.9",
+   "[5] 01-811-20530-01.pdf p.11",
+   "[6] 01-811-20530-01.pdf p.6",
+   "[7] 01-811-20530-01.pdf p.4",
+   "[8] 01-811-20530-01.pdf p.7"
+  ]
+ },
+ "fieldnote_lean|q24": {
+  "system": "fieldnote_lean",
+  "qid": "q24",
+  "type": "text",
+  "answer": "The Infinity® 98 gas furnace has an AFUE rating of up to 98.5%. This information is found in multiple sources:\n\n- Source [1] (01-811-20530-01.pdf p.7) states: \"Infinity® 98 high energy efficiency – up to 98.5% AFUE\"\n- Source [3] (01-811-20530-01.pdf p.4) states: \"The Infinity® 98 gas furnace receives up to 98.5% AFUE\"\n- Source [4] (01-811-20530-01.pdf p.7) shows the Infinity 98 with \"Infinity® 98 high energy efficiency – up to 98.5% AFUE\"\n- Source [5] (01-811-20530-01.pdf p.11) also states: \"Infinity® 98 high energy efficiency – up to 98.5% AFUE\"\n\nAll these sources consistently report the same AFUE rating for the Infinity® 98 gas furnace.The Infinity® 98 gas furnace has an AFUE rating of up to 98.5% [1][3][4][5].",
+  "retrieve_ms": 143.21879998897202,
+  "llm_ms": 4967.631599996821,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.7",
+   "[2] OM9GFRC-02.pdf p.2",
+   "[3] 01-811-20530-01.pdf p.4",
+   "[4] 01-811-20530-01.pdf p.7",
+   "[5] 01-811-20530-01.pdf p.11",
+   "[6] 01-811-20530-01.pdf p.7",
+   "[7] 01-811-20530-01.pdf p.7",
+   "[8] 01-811-20530-01.pdf p.9"
+  ]
+ },
+ "fieldnote_lean|q25": {
+  "system": "fieldnote_lean",
+  "qid": "q25",
+  "type": "text",
+  "answer": "<EOS_TOKEN>We need to answer: \"How long does the 45MBAAQ run in FORCED COOL mode before switching to AUTO?\" We must answer ONLY from the numbered sources. The sources are:\n\n[1] 45MBCAQ-01OM.pdf p.14\n[2] 01-811-20530-01.pdf p.13\n[3] 45MBAAQ-01OM.pdf p.16\n[4] 45MBCAQ-01OM.pdf p.8\n[5] 45MBAAQ-01OM.pdf p.14\n\nWe need to find information about FORCED COOL mode duration for 45MBAAQ. The question is about 45MBAAQ, not 45MBCAQ. So we need to check if any source mentions FORCED COOL mode for 45MBAAQ. Let's examine each source.\n\n[1] 45MBCAQ-01OM.pdf p.14: This is for 45MBCAQ, not 45MBAAQ. It mentions FORCED COOL mode: \"In FORCED COOL mode, the Operation light flashes. The system will then turn to AUTO after it has cooled with a high wind speed for 30 minutes.\" This is for 45MBCAQ, not 45MBAAQ. But maybe the same behavior applies? However, the instruction says answer ONLY from the numbered sources. We can only use the provided sources. If the source doesn't contain the answer, we should say so. So we need to check if any source explicitly states the duration for 45MBAAQ.\n\n[2] 01-811-20530-01.pdf p.13: This appears to be a different document, possibly a humidifier manual. It mentions humidifiers and dehumidifiers, not relevant to FORCED COOL mode.\n\n[3] 45MBAAQ-01OM.pdf p.16: This is the 45MBAAQ Owner's Manual, page 16. It contains information about TIMER, SLEEP mode, COOL mode, HEAT mode, TURBO mode. It does not mention FORCED COOL mode. So no answer here.\n\n[4] 45MBCAQ-01OM.pdf p.8: This is the 45MBCAQ manual, page 8. It shows a remote control diagram and button functions. It does not mention FORCED COOL mode.\n\n[5] 45MBAAQ-01OM.pdf p.14: This is the 45MBAAQ manual, page 14. It contains basic remote control operation, COOL mode, HEAT mode, AUTO mode. It does not mention FORCED COOL mode.\n\nThus, none of the sources explicitly state the duration for 45MBAAQ in FORCED COOL mode. The only source that mentions FORCED COOL mode is [1] for 45MBCAQ, which says 30 minutes. But that is for a different model. The question specifically asks about 45MBAAQ. Since the sources do not contain the answer for 45MBAAQ, we should say so.\n\nTherefore, the answer is: The sources do not contain information about how long the 45MBAAQ runs in FORCED COOL mode before switching to AUTO.The sources do not contain information about how long the 45MBAAQ runs in FORCED COOL mode before switching to AUTO.",
+  "retrieve_ms": 145.23619999818038,
+  "llm_ms": 4402.327300005709,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.14",
+   "[2] 01-811-20530-01.pdf p.13",
+   "[3] 45MBAAQ-01OM.pdf p.16",
+   "[4] 45MBCAQ-01OM.pdf p.8",
+   "[5] 45MBAAQ-01OM.pdf p.14",
+   "[6] OG-ACR454GEN-02.pdf p.1",
+   "[7] 45MBCAQ-01OM.pdf p.11",
+   "[8] OMVSAC-C454-01.pdf p.1"
+  ]
+ },
+ "fieldnote_lean|q26": {
+  "system": "fieldnote_lean",
+  "qid": "q26",
+  "type": "text",
+  "answer": "<EOS_TOKEN>The user asks: \"What is the minimum time before the 45MBCAQ can be restarted after being turned off?\" They provided sources. We need to answer based on the numbered sources. The relevant source is [5] page 17, which mentions a 3-minutes protection feature that prevents the unit from overloading. The unit cannot be restarted within three minutes of being turned off. So the minimum time is 3 minutes.\n\nWe need to cite the source as [5]. The answer should be brief. Also note that the question is about the minimum time before the unit can be restarted after being turned off. The answer: 3 minutes. Cite [5].\n\nWe should not add extra info beyond the source. So answer: The minimum time is 3 minutes. [5].The minimum time before the 45MBCAQ can be restarted after being turned off is 3 minutes. [5]",
+  "retrieve_ms": 136.0629999981029,
+  "llm_ms": 2566.147700010333,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.13",
+   "[2] 45MBCAQ-01OM.pdf p.8",
+   "[3] 45MBCAQ-01OM.pdf p.14",
+   "[4] 45MBAAQ-01OM.pdf p.21",
+   "[5] 45MBCAQ-01OM.pdf p.17",
+   "[6] OM9GFRC-02.pdf p.4",
+   "[7] 45MBAAQ-01OM.pdf p.16",
+   "[8] OM9GFRC-02.pdf p.6"
+  ]
+ },
+ "fieldnote_lean|q27": {
+  "system": "fieldnote_lean",
+  "qid": "q27",
+  "type": "text",
+  "answer": "<EOS_TOKEN>We need to answer: \"What is the maximum SEER2 rating for the Carrier Infinity® Heat Pumps?\" We must answer ONLY from the numbered sources, citing as [n]. We can read values directly from charts, tables, diagrams when relevant. The sources provided are:\n\n[1] 01-DLS-059-CA-01.pdf p.2 - mentions Infinity ductless heat pumps have SEER2 ratings up to 35.1 (in the text). But that is for ductless heat pumps, not necessarily the same as Carrier Infinity Heat Pumps (which might be a different product line). However, the question is about \"Carrier Infinity® Heat Pumps\". We need to find the maximum SEER2 rating for that specific product line.\n\n[3] 01-811-20530-01.pdf p.10 - mentions \"Carrier Infinity® Heat Pumps Designed for Tomorrow’s Needs Today. ... Inverter-driven variable-speed operation – delivers unprecedented heat pump efficiency of up to 22.0 SEER2 and 10.5 HSPF2.\" So this source gives a maximum SEER2 of 22.0 for Carrier Infinity Heat Pumps.\n\n[4] 01-811-20530-01.pdf p.8 - appears to be the same page as [5] but maybe a different page? Actually [4] is p.8, [5] is also p.8? The user provided [4] and [5] both referencing p.8. Possibly [4] is a duplicate or a different page. But both contain the same text about Carrier Infinity Heat Pumps. Let's examine [4] and [5] content.\n\n[4] 01-811-20530-01.pdf p.8 - The content is similar to [5] but maybe truncated. It says \"Carrier Infinity® Heat Pumps Designed for Tomorrow’s Needs Today. Puron® refrigerant – chlorine-free and non-ozone depleting. Compressor – the heart of the heat pump, the compressor pumps refrigerant through the system. Inverter-driven variable-speed operation – delivers unprecedented heat pump efficiency of up to 22.0 SEER2 and 10.5 HSPF2. Filter drier – constantly filters the refrigerant to remove moisture or contaminants that can damage your system. WeatherArmor™ Ultra protection – combines three design elements that protect your comfort. a. Galvanized steel cabinet b. Louvered coil guard c. Baked-on powder paint Copper Microtube™/aluminum fin coil – transfers heat outside to maximize indoor cooling while resisting corrosion. Infinity® control board – allows the unit to connect to the Infinity® system control for the ultimate comfort control. You control comfort schedules, heating, cooling, humidification, dehumidification, fan speed and much more all from one easy-to-use control on the wall in your home. Carrier’s exclusive Silencer System ll™ – helps deliver quieter operation by optimizing airflow, minimizing vibration, and using sound-absorbing materials. The five key components include: a. Silencer top b.\"\n\n[5] 01-811-20530-01.pdf p.8 - The content is similar but includes \"coil guard\" and \"Sound ratings as low as 69 dB\" and \"Comfort™ 25SCA5\". Actually [5] seems to be a different page (maybe p.8 of a different document?). It includes \"Comfort™ 25SCA5\" and \"CARRIER HEAT PUMPS\". It also mentions \"",
+  "retrieve_ms": 131.09160000749398,
+  "llm_ms": 4720.332999990205,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-DLS-059-CA-01.pdf p.2",
+   "[2] 01-811-20530-01.pdf p.10",
+   "[3] 01-811-20530-01.pdf p.10",
+   "[4] 01-811-20530-01.pdf p.8",
+   "[5] 01-811-20530-01.pdf p.8",
+   "[6] 01-811-20530-01.pdf p.10",
+   "[7] 01-DLS-059-CA-01.pdf p.2",
+   "[8] 01-811-20530-01.pdf p.8"
+  ]
+ },
+ "fieldnote_lean|q28": {
+  "system": "fieldnote_lean",
+  "qid": "q28",
+  "type": "text",
+  "answer": "The Carrier Infinity 24VNA6 air conditioner achieves up to 24.0 SEER2. [3]",
+  "retrieve_ms": 138.60040000872687,
+  "llm_ms": 2289.7446999995736,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 01-811-20530-01.pdf p.6",
+   "[2] 01-811-20530-01.pdf p.10",
+   "[3] 01-811-20530-01.pdf p.6",
+   "[4] 01-811-20530-01.pdf p.6",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] 01-811-20530-01.pdf p.10",
+   "[7] 01-811-20530-01.pdf p.11",
+   "[8] 01-811-20530-01.pdf p.8"
+  ]
+ },
+ "fieldnote_lean|q29": {
+  "system": "fieldnote_lean",
+  "qid": "q29",
+  "type": "text",
+  "answer": "<EOS_TOKEN>[3] shows the FCC compliance statement for the device. It states: \"This device complies with part 15 of the FCC Rules.\" This is the regulatory standard the 45MBCAQ complies with.The 45MBCAQ complies with FCC Part 15. [3]",
+  "retrieve_ms": 147.13779999874532,
+  "llm_ms": 2373.838200001046,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.20",
+   "[2] 45MBAAQ-01OM.pdf p.10",
+   "[3] 45MBCAQ-01OM.pdf p.6",
+   "[4] 01-825-118-01.pdf p.2",
+   "[5] 45MBCAQ-01OM.pdf p.7",
+   "[6] 45MBAAQ-01OM.pdf p.25",
+   "[7] 45MBAAQ-01OM.pdf p.3",
+   "[8] 45MBAAQ-01OM.pdf p.23"
+  ]
+ },
+ "fieldnote_lean|q30": {
+  "system": "fieldnote_lean",
+  "qid": "q30",
+  "type": "text",
+  "answer": "<EOS_TOKEN>1.  **Analyze the Request:**\n    *   **Source Material:** The user provided several snippets of PDFs (45MBAAQ-01OM.pdf, 45MBCAQ-01OM.pdf) and a diagram of a remote control.\n    *   **Question:** \"What is the maximum operating distance of the remote control for the 45MBAAQ unit?\"\n    *   **Constraint:** Answer *only* from the numbered sources. Cite sources as [n]. Be brief. If sources don't contain the answer, say so.\n\n2.  **Scan the Sources for Keywords:**\n    *   Keywords: \"45MBAAQ\", \"remote control\", \"operating distance\", \"distance\", \"ft\", \"m\".\n\n3.  **Evaluate Source [1] (45MBAAQ-01OM.pdf p.13):**\n    *   Content: Owner's Manual, Remote Control section.\n    *   Text: \"IMPORTANT: The remote control can operate the unit from a distance of up to 26 ft. (8 m) as long as there are no obstructions.\"\n    *   Match: This source explicitly mentions the 45MBAAQ unit (since the filename matches the question) and provides the distance.\n    *   Result: Found the answer.\n\n4.  **Evaluate Source [2] (45MBAAQ-01OM.pdf p.11):**\n    *   Content: Diagram of remote control buttons.\n    *   Text: Labels for buttons (ON/OFF, TEMP, SET, etc.).\n    *   Match: No mention of operating distance.\n    *   Result: Irrelevant.\n\n5.  **Evaluate Source [3] (45MBCAQ-01OM.pdf p.10):**\n    *   Content: Owner's Manual for 45MBCAQ.\n    *   Text: \"IMPORTANT: The remote control can operate the unit from a distance of up to 26 ft. (8 m)...\"\n    *   Match: This is for the *45MBCAQ* unit, not the 45MBAAQ unit requested in the question. While the distance is the same, the question specifically asks about the 45MBAAQ unit. I should stick to the specific source for 45MBAAQ to be precise, or at least note the distinction. However, Source [1] is the definitive source for 45MBAAQ.\n\n6.  **Evaluate Source [4] (45MBCAQ-01OM.pdf p.8):**\n    *   Content: Wireless Remote Control manual reference.\n    *   Match: No specific distance mentioned here.\n\n7.  **Evaluate Source [5] (45MBCAQ-01OM.pdf p.7):**\n    *   Content: Refrigerant charge and room area info.\n    *   Match: Irrelevant.\n\n8.  **Synthesize the Answer:**\n    *   The question asks for the maximum operating distance of the remote control for the **45MBAAQ** unit.\n    *   Source [1] (45MBAAQ-01OM.pdf p.13) states: \"The remote control can operate the unit from a distance of up to 26 ft. (8 m)...\"\n    *   Source [3] (45MBCAQ-01OM.pdf p.10) mentions the same distance for a different unit, but the question is specific to 45MBAAQ.",
+  "retrieve_ms": 141.84820000082254,
+  "llm_ms": 4704.179399996065,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.13",
+   "[2] 45MBAAQ-01OM.pdf p.11",
+   "[3] 45MBCAQ-01OM.pdf p.10",
+   "[4] 45MBCAQ-01OM.pdf p.8",
+   "[5] 45MBCAQ-01OM.pdf p.7",
+   "[6] 45MBAAQ-01OM.pdf p.14",
+   "[7] 45MBAAQ-01OM.pdf p.11",
+   "[8] 45MBAAQ-01OM.pdf p.13"
+  ]
+ },
+ "fieldnote_lean|q31": {
+  "system": "fieldnote_lean",
+  "qid": "q31",
+  "type": "visual",
+  "answer": "The provided sources do not contain the specific location of the rating plate on the Carrier OM9GFRC condensing gas furnace. The sources include maintenance checklists, safety warnings, product specifications, and general information, but none explicitly state where the rating plate is located. Therefore, I cannot answer this question based on the given sources.",
+  "retrieve_ms": 136.85909999185242,
+  "llm_ms": 5489.336899991031,
+  "cited": false,
+  "abstained": true,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.12",
+   "[2] OM9GFRC-02.pdf p.1",
+   "[3] 01-811-20530-01.pdf p.5",
+   "[4] 01-811-20530-01.pdf p.7",
+   "[5] OM9GFRC-02.pdf p.2",
+   "[6] 01-811-20530-01.pdf p.7",
+   "[7] 01-811-20530-01.pdf p.7",
+   "[8] OM9GFRC-02.pdf p.2"
+  ]
+ },
+ "fieldnote_lean|q32": {
+  "system": "fieldnote_lean",
+  "qid": "q32",
+  "type": "visual",
+  "answer": "Based on the provided sources, specifically the exploded diagram on page 2 of OM9GFRC-02.pdf ([4]), the part located next to the blower and motor is labeled \"CAPACITOR/POWER CHOKE (IF USED)\". This component is positioned to the right of the blower and motor assembly in the diagram. The \"(IF USED)\" designation indicates that this part may not be present on all furnace models, depending on the specific configuration.",
+  "retrieve_ms": 142.9576999944402,
+  "llm_ms": 4056.3542999880156,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.12",
+   "[2] OM9GFRC-02.pdf p.1",
+   "[3] OM9GFRC-02.pdf p.2",
+   "[4] OM9GFRC-02.pdf p.2",
+   "[5] 01-811-20530-01.pdf p.7",
+   "[6] OM9GFRC-02.pdf p.1",
+   "[7] OM9GFRC-02.pdf p.10",
+   "[8] 01-811-20530-01.pdf p.7"
+  ]
+ },
+ "fieldnote_lean|q33": {
+  "system": "fieldnote_lean",
+  "qid": "q33",
+  "type": "visual",
+  "answer": "Based on the provided sources, I need to find the filter size for a Carrier OM9GFRC condensing gas furnace with a 20 inch (508 mm) filter cabinet height.\n\nLooking at source [1] (OM9GFRC-02.pdf p.8), I can see Table 1 - Air Filter Located in Filter Cabinet. This table shows:\n- FILTER CABINET HEIGHT - IN (MM)\n- FILTER SIZE - IN (MM)\n- FILTER TYPE\n\nFor a 20 inch (508 mm) filter cabinet height, I need to find the corresponding filter size. However, the table only shows one entry:\n- 16 (406) height with filter size 16 x 25 x 3/4* or 16 x 25 x 4-5/16\n\nThis doesn't directly answer the question for a 20 inch height. Let me check the other sources to see if there's more information.\n\nSource [3] (OM9GFRC-02.pdf p.12) shows a maintenance checklist but doesn't contain filter size information.\n\nSource [5] (OM9GFRC-02.pdf p.7) shows minimum/maximum temperature settings but doesn't contain filter size information.\n\nNone of the provided sources contain the specific filter size for a 20 inch (508 mm) filter cabinet height. The only filter size information is for a 16 inch (406 mm) cabinet.\n\nSince the sources don't contain the answer to this specific question, I should indicate that the information is not available in the provided sources.The provided sources do not contain the filter size for a 20 inch (508 mm) filter cabinet height. Source [1] Table 1 only shows filter specifications for a 16 inch (406 mm) cabinet height, listing sizes of 16 x 25 x 3/4\" or 16 x 25 x 4-5/16\". No information is available for a 20 inch cabinet configuration.",
+  "retrieve_ms": 147.83479999459814,
+  "llm_ms": 6871.7843999911565,
+  "cited": true,
+  "abstained": true,
+  "top_sources": [
+   "[1] OM9GFRC-02.pdf p.8",
+   "[2] 01-811-20530-01.pdf p.7",
+   "[3] OM9GFRC-02.pdf p.12",
+   "[4] 01-811-20530-01.pdf p.7",
+   "[5] OM9GFRC-02.pdf p.7",
+   "[6] OM9GFRC-02.pdf p.1",
+   "[7] OM9GFRC-02.pdf p.2",
+   "[8] OM9GFRC-02.pdf p.8"
+  ]
+ },
+ "fieldnote_lean|q34": {
+  "system": "fieldnote_lean",
+  "qid": "q34",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>[1] 45MBAAQ-01OM.pdf p.8\nto the installation manual. CAUTION\nCAUTION\nThis symbol shows that information is available such as the operating manual or \ninstallation manual.\n\nName\nImage\nQuantity\nOwner’s and Installation Manual\n2\nRemote Controller\n1\nBatteries\n2\nLiquid Line Flare to Weld Adapter; 3/8” (All Sizes)\n1\nCable Ties\n4\nSponge\n4\nFlare Nut (18K-60K)\n2\nAccessories included with the outdoor unit\nDrain Joint\n1\nSeal\n1\nSuction Line Flare to Weld Adapter; 3/4” (18K-48K); 7/8” (60K)\n1\nLiquid Line Flare to Weld Adapter; 3/8” (All Sizes)\n1\nSuction Line Reducer\n1[2] 45MBAAQ-01OM.pdf p.84 cable ties are included in the accessories supplied with the 45MBAAQ [1].",
+  "retrieve_ms": 144.8062999988906,
+  "llm_ms": 1793.3929999999236,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.8",
+   "[2] 45MBAAQ-01OM.pdf p.8",
+   "[3] 45MBAAQ-01OM.pdf p.26",
+   "[4] 01-IAQ-087-03.pdf p.10",
+   "[5] 45MBCAQ-01OM.pdf p.7",
+   "[6] 01-IAQ-087-03.pdf p.2",
+   "[7] 45MBAAQ-01OM.pdf p.18",
+   "[8] 01-IAQ-087-03.pdf p.6"
+  ]
+ },
+ "fieldnote_lean|q35": {
+  "system": "fieldnote_lean",
+  "qid": "q35",
+  "type": "visual",
+  "answer": "The manual does not specify a duration for running the FAN function before a long period of non-use. It only states to \"Turn on FAN function until unit dries out completely\" [1].",
+  "retrieve_ms": 138.93820000521373,
+  "llm_ms": 1045.9141000028467,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.16",
+   "[2] 45MBCAQ-01OM.pdf p.7",
+   "[3] 45MBCAQ-01OM.pdf p.13",
+   "[4] photo_067.png",
+   "[5] 45MBCAQ-01OM.pdf p.14",
+   "[6] 45MBAAQ-01OM.pdf p.15",
+   "[7] 45MBCAQ-01OM.pdf p.14",
+   "[8] 45MBCAQ-01OM.pdf p.8"
+  ]
+ },
+ "fieldnote_lean|q36": {
+  "system": "fieldnote_lean",
+  "qid": "q36",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user asks: \"What should be done with the remote control batteries before a long period of non-use of the 45MBAAQ?\" They want answer from numbered sources. We have sources [1], [2], [3], [4], [5]. We need to find the answer in those sources. The question is about remote control batteries before a long period of non-use of the 45MBAAQ. The 45MBAAQ is the model of the unit? The remote control is likely shared across units. The source [5] is 45MBCAQ-01OM.pdf p.16, which is a different model (45MBCAQ). But maybe the remote control instructions are similar. However, the question specifically mentions 45MBAAQ. The sources include [1] 45MBAAQ-01OM.pdf p.13, [2] 45MBAAQ-01OM.pdf p.14, [3] 45MBCAQ-01OM.pdf p.10, [4] 45MBAAQ-01OM.pdf p.13, and [5] 45MBCAQ-01OM.pdf p.16. The relevant source for 45MBAAQ is [1], [2], [4]. [3] and [5] are for 45MBCAQ, which is a different model. However, the remote control instructions might be the same across models, but we should stick to the 45MBAAQ sources if possible.\n\nLet's examine [1] 45MBAAQ-01OM.pdf p.13. It contains battery installation instructions and notes. The notes include: \"If the remote is not going to be used for several weeks, remove the batteries. Otherwise, battery leakage may damage the remote control.\" That's exactly what we need: remove the batteries before a long period of non-use. Also, note 5 says: \"When batteries are removed, the remote control erases all programmed settings. The control must be reprogrammed after the insertion of new batteries.\" But the question is specifically: \"What should be done with the remote control batteries before a long period of non-use of the 45MBAAQ?\" The answer is: remove the batteries. Possibly also replace them with new ones after the period? But the question is about what to do before a long period of non-use. So the answer is: remove the batteries. Also, maybe store them separately? The note says: \"If the remote is not going to be used for several weeks, remove the batteries.\" So that's the answer.\n\nWe should cite the source. The note is in [1] p.13. Also, [3] p.10 has similar note: \"If the remote is not going to be used for several weeks, remove the batteries.\" But [3] is for 45MBCAQ, not 45MBAAQ. However, the question is about 45MBAAQ, so we should use [1] or [4] which are for 45MBAAQ. [4] is also 45MBAAQ-01OM.pdf p.13, same as [1] but maybe a different page? Actually [4] is 45MBAAQ-01OM.pdf p.13, same as [1]. So both [1] and [4] contain the same content. We can cite [1",
+  "retrieve_ms": 140.35890001105145,
+  "llm_ms": 4508.148400011123,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.13",
+   "[2] 45MBAAQ-01OM.pdf p.14",
+   "[3] 45MBCAQ-01OM.pdf p.10",
+   "[4] 45MBAAQ-01OM.pdf p.13",
+   "[5] 45MBCAQ-01OM.pdf p.16",
+   "[6] 45MBCAQ-01OM.pdf p.8",
+   "[7] 45MBAAQ-01OM.pdf p.13",
+   "[8] 45MBCAQ-01OM.pdf p.11"
+  ]
+ },
+ "fieldnote_lean|q37": {
+  "system": "fieldnote_lean",
+  "qid": "q37",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user is asking for three specific checks listed in the 45MBCAQ owner's manual for pre-season maintenance. I need to look at the provided sources to find this information.\n\nLooking at the sources:\n- [1] 45MBCAQ-01OM.pdf p.16 - This contains the pre-season inspection steps (Fig. 16)\n- [2] 45MBCAQ-01OM.pdf p.16 - This is the same page as [1]\n- [3] 45MBCAQ-01OM.pdf p.20 - This is a different page, likely about air monitor setup\n- [4] 01-IAQ-087-03.pdf p.3 - This is about air monitor setup\n- [5] OM9GFRC-02.pdf p.12 - This is about a gas furnace, not the 45MBCAQ\n\nFrom source [1] and [2], I can see Fig. 16 \"Maintenance – Pre-Season Inspection\" which lists the steps. Let me extract the three checks from this figure.\n\nLooking at the figure, I can see the following checks:\n1. Clean all filters\n2. Check for damaged wires\n3. Check for leaks\n\nThese are the three specific checks listed in the pre-season maintenance section of the 45MBCAQ owner's manual.Based on the 45MBCAQ owner's manual (Fig. 16 on page 16), the three checks listed in the pre-season maintenance steps are:\n\n1. Clean all filters\n2. Check for damaged wires  \n3. Check for leaks\n\nThese are the specific inspection items shown in the pre-season maintenance checklist [1][2].",
+  "retrieve_ms": 142.27460000256542,
+  "llm_ms": 3861.44670000067,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBCAQ-01OM.pdf p.16",
+   "[2] 45MBCAQ-01OM.pdf p.16",
+   "[3] 45MBCAQ-01OM.pdf p.20",
+   "[4] 01-IAQ-087-03.pdf p.3",
+   "[5] OM9GFRC-02.pdf p.12",
+   "[6] OM9GFRC-02.pdf p.12",
+   "[7] 45MBCAQ-01OM.pdf p.18",
+   "[8] OG-ACR454GEN-02.pdf p.1"
+  ]
+ },
+ "fieldnote_lean|q38": {
+  "system": "fieldnote_lean",
+  "qid": "q38",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user is asking a specific question about the Infinity Variable Speed Air Conditioner owner's manual. They want to know which indoor item is due monthly according to the maintenance checklist.\n\nFrom the provided sources, I can see:\n\n[1] OMVSAC-C454-01.pdf p.3 contains the Maintenance Checklist with intervals. It lists \"Outdoor unit specific\" items with Monthly and Annual intervals.\n\n[5] OMVSAC-C454-01.pdf p.2 contains \"ROUTINE MAINTENANCE\" which mentions keeping the filter clean, but doesn't specify the interval.\n\nLooking at the Maintenance Checklist on page 3 of the PDF (source [1]), under \"Outdoor unit specific:\", there are items listed for Monthly and Annual intervals. However, the question specifically asks about an \"indoor item\" that is due monthly.\n\nThe Monthly items listed are:\n- Clear away debris and vegetation near unit. X\n- Inspect cabinet for damage. Replace components that are damaged or severely rusted. X\n- Inspect electrical disconnect for proper function. Repair or replace as necessary. X\n- Inspect electrical wiring and connections. Tighten loose connections. Inspect and perform functional test of equipment as needed to ensure proper function.\n\nThese are all outdoor unit specific items. The question asks about an indoor item.\n\nLooking at the Routine Maintenance section on page 2 (source [5]), it mentions:\n- Keep Filter Clean\n- Do Not Block Floor, Wall or Ceiling Vents\n- Do Not Cover or Block Outdoor Unit\n- Check Condensate Drain\n\nThe filter cleaning is mentioned as important, and typically filters need monthly cleaning. However, the exact interval isn't specified in the text provided.\n\nThe question asks specifically about the \"maintenance checklist\" and which \"indoor item\" is due monthly. The maintenance checklist on page 3 doesn't list any indoor items with monthly intervals - it only lists outdoor unit specific items.\n\nHowever, in HVAC practice, air filters are typically cleaned monthly. The Routine Maintenance section emphasizes keeping the filter clean, and it's an indoor item.\n\nBased on the provided sources, I can see that the maintenance checklist on page 3 doesn't explicitly list indoor items with monthly intervals, but the Routine Maintenance section on page 2 emphasizes filter cleaning. Given that filters are indoor components and the manual emphasizes their importance, and considering standard HVAC practice, the filter is likely the indoor item that should be maintained monthly.\n\nBut I need to be careful here - the sources don't explicitly state \"monthly filter cleaning\" in the maintenance checklist. The question is asking for a specific answer based on the provided text.\n\nLooking more carefully at the sources:\n\n[1] Page 3 shows the Maintenance Checklist with Monthly and Annual intervals for outdoor unit specific items only.\n[5] Page 2 shows Routine Maintenance that includes \"Keep Filter Clean\" but doesn't specify the interval.\n\nThe question asks: \"In the maintenance checklist of the Infinity Variable Speed Air Conditioner owner's manual, which indoor item is due monthly?\"\n\nThe phrase \"maintenance checklist\" specifically refers to the checklist on page 3. However, that checklist only lists outdoor items. There are no indoor items listed with monthly intervals in that checklist.\n\nThe Routine Maintenance section on page 2 is not the same as the maintenance checklist, though it contains maintenance tasks.\n\nGiven the strict instruction to answer ONLY from the numbered sources and read values directly from charts, tables, and diagrams when relevant, I need to be precise.\n\nThe maintenance checklist (page 3) does not list any indoor items with monthly",
+  "retrieve_ms": 137.6235999923665,
+  "llm_ms": 4856.882499996573,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] OMVSAC-C454-01.pdf p.3",
+   "[2] OMVSAC-C454-01.pdf p.1",
+   "[3] OMVSAC-C454-01.pdf p.4",
+   "[4] 01-DLS-059-CA-01.pdf p.4",
+   "[5] OMVSAC-C454-01.pdf p.2",
+   "[6] OM9GFRC-02.pdf p.12",
+   "[7] 01-811-20530-01.pdf p.7",
+   "[8] 01-811-20530-01.pdf p.13"
+  ]
+ },
+ "fieldnote_lean|q39": {
+  "system": "fieldnote_lean",
+  "qid": "q39",
+  "type": "visual",
+  "answer": "The transmission indicator on the 45MBAAQ remote control lights up when the remote sends a signal to the indoor unit. This is described in source [1] on page 12 under the \"Wireless Remote Control LCD Screen Indicators\" section. The indicator is listed as \"Transmission Indicator\" with the description \"Lights up when remote sends signal to indoor unit mode\". This information is also present in source [3] for the 45MBCAQ model, which appears to be a similar remote control design. The transmission indicator is a visual confirmation that the remote command has been transmitted to the air conditioning unit.",
+  "retrieve_ms": 140.79320000018924,
+  "llm_ms": 2921.438899997156,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.12",
+   "[2] 45MBAAQ-01OM.pdf p.11",
+   "[3] 45MBCAQ-01OM.pdf p.9",
+   "[4] 45MBCAQ-01OM.pdf p.8",
+   "[5] 45MBCAQ-01OM.pdf p.14",
+   "[6] 45MBAAQ-01OM.pdf p.20",
+   "[7] 45MBCAQ-01OM.pdf p.12",
+   "[8] 45MBAAQ-01OM.pdf p.15"
+  ]
+ },
+ "fieldnote_lean|q40": {
+  "system": "fieldnote_lean",
+  "qid": "q40",
+  "type": "visual",
+  "answer": "<EOS_TOKEN>The user is asking about the number of flare nuts included in the accessories supplied with the 45MBAAQ unit. I need to look at the provided sources to find this information.\n\nLooking at the first source [1], which is page 8 of the 45MBAAQ-01OM.pdf, I can see a list of accessories included with the outdoor unit. The list includes:\n\n- Drain Joint: 1\n- Seal: 1\n- Suction Line Flare to Weld Adapter; 3/4” (18K-48K); 7/8” (60K): 1\n- Liquid Line Flare to Weld Adapter; 3/8” (All Sizes): 1\n- Suction Line Reducer: 1\n\nHowever, I don't see \"Flare Nut\" explicitly listed in this source. But I do see \"Flare Nut (18K-60K)\" listed earlier in the document with a quantity of 2. Let me check if this is part of the accessories or if it's a separate item.\n\nLooking more carefully at the source, it seems like the list is showing \"Accessories included with the outdoor unit\" and then lists specific items. The \"Flare Nut (18K-60K)\" with quantity 2 appears to be part of this list, as it's listed right before the \"Accessories included with the outdoor unit\" heading and has a quantity of 2.\n\nSo based on source [1], there are 2 flare nuts (18K-60K) included in the accessories supplied with the 45MBAAQ.\n\nThe other sources don't seem to contain information about the 45MBAAQ accessories, so I can rely on source [1] for this answer.\n\nTherefore, the answer is: 2 flare nuts are included in the accessories supplied with the 45MBAAQ.Based on source [1], the 45MBAAQ includes 2 flare nuts (18K-60K) in the accessories supplied with the outdoor unit.",
+  "retrieve_ms": 142.84980000229552,
+  "llm_ms": 2694.9625999986893,
+  "cited": true,
+  "abstained": false,
+  "top_sources": [
+   "[1] 45MBAAQ-01OM.pdf p.8",
+   "[2] photo_101.jpg",
+   "[3] 45MBAAQ-01OM.pdf p.26",
+   "[4] OM9GFRC-02.pdf p.4",
+   "[5] 01-811-20530-01.pdf p.10",
+   "[6] OM9GFRC-02.pdf p.9",
+   "[7] 45MBAAQ-01OM.pdf p.1",
+   "[8] OM9GFRC-02.pdf p.9"
+  ]
+ }
+}

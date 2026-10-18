@@ -1,0 +1,122 @@
+[
+  {
+    "source": "call_01_ac_frozen_coil.mp3",
+    "modality": "audio",
+    "question": "How long should a frozen indoor coil thaw with the compressor off?",
+    "gold_answer": "About four hours."
+  },
+  {
+    "source": "call_01_ac_frozen_coil.mp3",
+    "modality": "audio",
+    "question": "What temperature drop across the coil is expected on an air conditioner?",
+    "gold_answer": "Between sixteen and twenty degrees."
+  },
+  {
+    "source": "call_02_ac_capacitor.mp3",
+    "modality": "audio",
+    "question": "How far below its rating can a run capacitor measure before replacement?",
+    "gold_answer": "More than six percent below rated means replace it."
+  },
+  {
+    "source": "call_02_ac_capacitor.mp3",
+    "modality": "audio",
+    "question": "What voltage rating should the replacement dual run capacitor have?",
+    "gold_answer": "Four hundred forty volts, same rating as the original."
+  },
+  {
+    "source": "call_03_heat_pump_defrost.mp3",
+    "modality": "audio",
+    "question": "How often should a heat pump enter defrost?",
+    "gold_answer": "About every ninety minutes of runtime."
+  },
+  {
+    "source": "call_03_heat_pump_defrost.mp3",
+    "modality": "audio",
+    "question": "How long should a defrost cycle last?",
+    "gold_answer": "Up to ten minutes."
+  },
+  {
+    "source": "call_04_heat_pump_thermostat_ob.mp3",
+    "modality": "audio",
+    "question": "Which reversing valve setting is used if the valve energizes in cooling?",
+    "gold_answer": "Set the thermostat to O."
+  },
+  {
+    "source": "call_04_heat_pump_thermostat_ob.mp3",
+    "modality": "audio",
+    "question": "What outdoor temperature should the auxiliary heat lockout be set to?",
+    "gold_answer": "Forty degrees."
+  },
+  {
+    "source": "call_05_furnace_flame_sensor.mp3",
+    "modality": "audio",
+    "question": "What should you clean a furnace flame sensor with?",
+    "gold_answer": "A fine abrasive pad with a light touch, not sandpaper."
+  },
+  {
+    "source": "call_05_furnace_flame_sensor.mp3",
+    "modality": "audio",
+    "question": "What flame signal is needed for a healthy flame sensor?",
+    "gold_answer": "At least one microamp; below zero point five microamps the board locks out."
+  },
+  {
+    "source": "call_06_furnace_pressure_switch.mp3",
+    "modality": "audio",
+    "question": "What should you never do when a furnace pressure switch will not close?",
+    "gold_answer": "Never jumper the pressure switch."
+  },
+  {
+    "source": "call_06_furnace_pressure_switch.mp3",
+    "modality": "audio",
+    "question": "What three things should be checked when the pressure switch does not close?",
+    "gold_answer": "The vent for blockage, the tubing for water or cracks, and the condensate drain."
+  },
+  {
+    "source": "call_07_thermostat_no_c_wire.mp3",
+    "modality": "audio",
+    "question": "What should you do for a thermostat with no spare wire for C?",
+    "gold_answer": "Use an add-a-wire adapter kit or run a new cable."
+  },
+  {
+    "source": "call_07_thermostat_no_c_wire.mp3",
+    "modality": "audio",
+    "question": "Why should you not jumper R to C?",
+    "gold_answer": "It can blow the transformer fuse."
+  },
+  {
+    "source": "call_08_air_purifier_service.mp3",
+    "modality": "audio",
+    "question": "How often should the air purifier filter cartridge be replaced?",
+    "gold_answer": "Every twelve months."
+  },
+  {
+    "source": "call_08_air_purifier_service.mp3",
+    "modality": "audio",
+    "question": "How often should the ultraviolet lamp be replaced?",
+    "gold_answer": "Every twenty-four months."
+  },
+  {
+    "source": "call_09_iaq_humidifier_setpoint.mp3",
+    "modality": "audio",
+    "question": "What indoor humidity target is right when it is twenty degrees outdoors?",
+    "gold_answer": "About thirty percent."
+  },
+  {
+    "source": "call_09_iaq_humidifier_setpoint.mp3",
+    "modality": "audio",
+    "question": "What is the maximum indoor humidity target when the outdoor temperature is above freezing?",
+    "gold_answer": "Forty percent."
+  },
+  {
+    "source": "call_10_iaq_erv_ventilation.mp3",
+    "modality": "audio",
+    "question": "What carbon dioxide level should indoor air stay under?",
+    "gold_answer": "Under one thousand parts per million."
+  },
+  {
+    "source": "call_10_iaq_erv_ventilation.mp3",
+    "modality": "audio",
+    "question": "Where should an energy recovery ventilator's fresh air duct connect?",
+    "gold_answer": "To the return plenum, ahead of the air filter."
+  }
+]
