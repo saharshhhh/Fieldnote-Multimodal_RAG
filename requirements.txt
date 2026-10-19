@@ -24,3 +24,6 @@ qdrant-client>=1.10           # local mode, query_points API
 
 # --- answer synthesis, captions, drafting, judging ---
 cohere>=5.11                  # ClientV2 chat API with image input
+
+# --- demo app ---
+streamlit>=1.40               # app/main.py

@@ -1,66 +1,127 @@
 # app/answer.py
+"""Answer synthesis: numbered sources (text + page/figure images) -> a short cited answer."""
 import base64
+import io
 import mimetypes
 import os
+import re
+import time
+from pathlib import Path
 
-import cohere
-
-co = cohere.ClientV2(api_key=os.environ["COHERE_API_KEY"])
-
-# Model ID reported by third-party listings; confirm it in your Cohere dashboard / models page.
-MODEL = os.environ.get("COHERE_MODEL", "command-a-plus-05-2026")
+from PIL import Image
 
 SYSTEM_PROMPT = (
     "You assist HVAC field technicians. Answer ONLY from the numbered sources. "
-    "Read values directly from charts/diagrams when relevant. Cite as [n]. "
-    "If the sources don't contain the answer, say so."
+    "Read values directly from charts, tables and diagrams when relevant. "
+    "Think silently. Output ONLY your final answer inside <answer></answer> tags: one or two sentences, "
+    "citing sources like [2]. If the sources don't contain the answer, say so inside the tags."
 )
 
-
-def image_to_data_url(path: str) -> str:
-    """Build a data URL with the CORRECT mime type (photos are .jpg, rendered pages are .png)."""
-    mime, _ = mimetypes.guess_type(path)
-    mime = mime or "image/png"
-    with open(path, "rb") as f:
-        b64 = base64.standard_b64encode(f.read()).decode()
-    return f"data:{mime};base64,{b64}"
+_client = None
 
 
-def answer(question: str, hits: list[dict], max_images: int = 4, max_sources: int = 8):
-    content: list[dict] = []
-    sources: list[dict] = []
-    n_images = 0
+def _co():
+    """Created lazily so the app runs in retrieval-only mode without an API key."""
+    global _client
+    if _client is None:
+        import cohere
 
-    for n, h in enumerate(hits[:max_sources], start=1):
-        label = f"[{n}] {h['source']}" + (f" p.{h['page']}" if h.get("page") else "")
-        if h.get("t_start") is not None:
-            label += f" @{h['t_start']:.0f}s"  # audio citations point at a timestamp
+        _client = cohere.ClientV2(api_key=os.environ["COHERE_API_KEY"])
+    return _client
 
-        if h.get("image_path") and n_images < max_images:
-            content.append({"type": "text", "text": label})
-            content.append({
-                "type": "image_url",
-                "image_url": {"url": image_to_data_url(h["image_path"]), "detail": "high"},
-            })
-            n_images += 1
+
+def model_name():
+    return os.environ.get("COHERE_MODEL", "command-a-plus-05-2026")
+
+
+def data_url(path, max_side=None):
+    if max_side:                                   # downscale: fewer image tokens, faster calls
+        im = Image.open(path).convert("RGB")
+        im.thumbnail((max_side, max_side))
+        buf = io.BytesIO()
+        im.save(buf, format="JPEG", quality=85)
+        return "data:image/jpeg;base64," + base64.standard_b64encode(buf.getvalue()).decode()
+    mime = mimetypes.guess_type(str(path))[0] or "image/png"
+    return f"data:{mime};base64," + base64.standard_b64encode(Path(path).read_bytes()).decode()
+
+
+def label(n, h):
+    s = f"[{n}] {h['source']}"
+    if h.get("page"):
+        s += f" p.{h['page']}"
+    if h.get("t_start") is not None:
+        s += f" @{h['t_start']:.0f}s"
+    return s
+
+
+def build_content(question, hits, max_images=4, max_side=None):
+    """Returns (content blocks, set of source numbers whose IMAGE is attached)."""
+    content, seen = [], set()
+    for n, h in enumerate(hits, 1):
+        path = h.get("image_path")
+        if path and len(seen) < max_images and Path(path).exists():
+            content.append({"type": "text", "text": label(n, h)})
+            content.append({"type": "image_url",
+                            "image_url": {"url": data_url(path, max_side), "detail": "high"}})
+            seen.add(n)
         else:
-            content.append({"type": "text", "text": f"{label}\n{h.get('content') or ''}"})
-        sources.append(h)
-
+            content.append({"type": "text", "text": f"{label(n, h)}\n{h.get('content') or ''}"})
     content.append({"type": "text", "text": f"Question: {question}"})
+    return content, seen
 
-    resp = co.chat(
-        model=MODEL,
-        max_tokens=1000,
-        temperature=0.1,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": content},
-        ],
-    )
 
-    # v2 responses are a list of content blocks (may include reasoning blocks); keep only text
-    text = "".join(
-        block.text for block in resp.message.content if getattr(block, "type", None) == "text"
+def split_answer(raw):
+    """Pull the final answer out of the model output.
+    Returns (text, followed_format). Falls back to the last paragraph when the model
+    wrote its reasoning aloud and skipped the <answer> tags."""
+    t = raw.replace("<EOS_TOKEN>", "").strip()
+    found = re.findall(r"<answer>(.*?)</answer>", t, re.S | re.I)
+    if found and found[-1].strip():
+        return found[-1].strip(), True
+    paras = [p.strip() for p in re.split(r"\n\s*\n", t) if p.strip()]
+    if len(t) > 500 and paras:
+        return paras[-1], False
+    return t, False
+
+
+def cited_numbers(text):
+    """Source numbers cited in the answer, for [2], [2][3] and [2, 3] styles."""
+    nums = set()
+    for group in re.findall(r"\[([\d,\s]+)\]", text or ""):
+        nums.update(int(x) for x in re.findall(r"\d+", group))
+    return nums
+
+
+def _chat(kwargs):
+    co = _co()
+    try:
+        return co.chat(thinking={"type": "disabled"}, **kwargs)
+    except TypeError:                              # older SDK without the `thinking` argument
+        return co.chat(**kwargs)
+    except Exception as e:
+        if "thinking" in str(e).lower():
+            return co.chat(**kwargs)
+        raise
+
+
+def answer(question, hits, max_images=4, max_side=None, max_tokens=1500):
+    content, seen = build_content(question, hits, max_images, max_side)
+    kwargs = dict(
+        model=model_name(), max_tokens=max_tokens, temperature=0.1,
+        messages=[{"role": "system", "content": SYSTEM_PROMPT},
+                  {"role": "user", "content": content}],
     )
-    return text.strip(), sources
+    t0 = time.perf_counter()
+    resp = _chat(kwargs)
+    ms = (time.perf_counter() - t0) * 1000
+    raw = "".join(b.text for b in resp.message.content if getattr(b, "type", None) == "text")
+    text, tagged = split_answer(raw)
+    try:
+        out_tokens = int(resp.usage.tokens.output_tokens)
+    except Exception:
+        out_tokens = None
+    fr = str(getattr(resp, "finish_reason", "")).upper()
+    return {
+        "text": text, "raw": raw, "tagged": tagged, "ms": ms, "out_tokens": out_tokens,
+        "seen": seen, "cited": cited_numbers(text), "truncated": "MAX_TOKENS" in fr or "LENGTH" in fr,
+    }

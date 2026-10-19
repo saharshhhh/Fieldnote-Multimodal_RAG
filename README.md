@@ -169,7 +169,7 @@ Where captions lost information: the location of a rating plate drawn inside an 
 |---|---|
 | 40-question eval, 15 not answerable from text alone | Done |
 | Beat the caption-only baseline on the hard questions by a margin shown in a table | Directional: better hard-Q MRR (0.77 vs 0.58) and visual answers (10/10 vs 7/10); not significant |
-| Every answer carries a citation with page number and a cropped image | Retrieval stores page/crop paths and the answer cites `[n]`; the demo UI is not built yet |
+| Every answer carries a citation with page number and a cropped image | Done in the demo app: each `[n]` maps to a source card with the page number and the figure crop, full page, photo, or call timestamp |
 | p95 < 6 s at k=20 | Retrieval yes; end-to-end not demonstrated |
 
 ## Quickstart (Windows PowerShell)
@@ -196,6 +196,24 @@ python -m retrieval.try_search "why does the indoor coil keep freezing"
 `run_all` transcribes calls first and then loads the image/text encoders, which keeps peak memory
 down on small machines. Run `python -m ingest.run_all --only photos` (or `manuals`, `calls`) to add one
 modality without `--reset`; there is no de-duplication.
+
+## Demo app
+
+```powershell
+streamlit run app/main.py
+```
+
+Ask a question and get a short answer with numbered citations. Every `[n]` maps to a source card showing
+the evidence itself: the figure crop or full manual page, the photo (with its license and author), or the
+support call with an audio player that starts at the cited timestamp. Cards are tagged when they were cited
+in the answer and when the model actually saw their image.
+
+- A sidebar preset menu switches between the `fast`, `balanced`, and `high_recall` rerankers and the
+  no-reranker path, so the latency/recall tradeoff can be felt directly.
+- Photo requests ("show me a photo of ...") skip the language model and return a photo grid.
+- Without `COHERE_API_KEY` the app runs in retrieval-only mode, and a model-API failure never hides the
+  retrieved sources.
+- Local Qdrant allows one open client, so close eval scripts while the app is running.
 
 ## Reproducing the evaluation
 
@@ -226,14 +244,13 @@ python -m eval.compare                   # paired sign test on the answer verdic
 ingest/       PDF/audio/photo ingestion, encoders, Qdrant wrapper, photo curation tools
 retrieval/    parallel search, RRF fusion, photo router, cross-encoder reranker + presets
 eval/         question building, caption baseline, retrieval scorer, answer eval, comparison scripts
-app/          answer synthesis (vision LLM call with numbered sources)
+app/          Streamlit demo (main.py), answer synthesis (answer.py), shared index handle (runtime.py)
 docs/         photo_credits.csv
 data/         (git-ignored) manuals, photos, calls, rendered pages, Qdrant index
 ```
 
 ## Roadmap
 
-- Demo UI: question in, answer out, with cited page images (cropped to the figure when a bounding box exists).
 - Re-run the answer eval with reranked retrieval and a production API key; measure end-to-end p95.
 - A held-out question set, and a corpus that includes real charts and performance curves.
 - Caption-as-extra-retrieval-channel ablation (captions found one question that pixels alone missed).
