@@ -5,6 +5,12 @@ grounded in the *actual page, diagram, or photo* it came from, across product li
 job-site photos, and manufacturer support calls, each indexed with its own encoder instead of
 being flattened into captions.
 
+
+https://github.com/user-attachments/assets/5be09f21-3007-458e-87ef-e4725913cccc
+
+
+
+
 > A technician asks why a unit keeps tripping. The answer lives in a figure, a label inside a
 > drawing, or a recorded support call, not always in a paragraph of text.
 
